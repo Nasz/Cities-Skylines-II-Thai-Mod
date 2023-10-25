@@ -1,0 +1,555 @@
+{
+    "TOP_MENU": {
+        "BROWSE_ALL": "검색",
+        "INSTALLED_MODS": "설치된 모드",
+        "IMPORTED_MODS": "가져온 모드",
+        "PLAYSETS": "플레이 세트",
+        "PUBLISH": "내 창작물",
+        "LIBRARY": "내 라이브러리"
+    },
+    "PLAYSET_SELECTOR": {
+        "CREATE_NEW_PLAYSET": "새 플레이 세트 생성",
+        "PLAYSET": "현재 플레이 세트",
+        "DROPDOWN_LABEL": "활성화된 플레이 세트 선택",
+        "DEACTIVATED_PLAYSETS": "활성화된 플레이 세트 없음",
+        "DEACTIVATE_PLAYSET": "활성화된 플레이 세트 없음"
+    },
+    "FILTER": {
+        "HEADING": "필터",
+        "CLEAR_ALL": "모두 지우기",
+        "TAGS": "태그"
+    },
+    "LIST": {
+        "ENABLED": "활성화됨",
+        "DISABLED": "비활성화됨",
+        "EMPTY_STATE": {
+            "TITLE": "설치된 모드 없음",
+            "TEXT": "모드를 설치해 게임을 더욱 재밌게 즐기세요! 아래 버튼을 눌러 모든 모드를 둘러보고 하나 이상 설치한 뒤 돌아오세요.",
+            "BUTTON": "모든 모드 둘러보기"
+        },
+        "RESET_ACTIVATION_ORDER": "로드 순서 초기화",
+        "BANNED_MOD": "이 모드는 차단되었습니다",
+        "OFFLINE": "오프라인",
+        "ADD_TO_PLAYSET": "플레이 세트에 추가",
+        "REMOVE_FROM_PLAYSET": "플레이 세트에서 제거",
+        "SUBSCRIBERS": "구독자 {{formattedCount}}명",
+        "SUBSCRIBERS_plural": "구독자 {{formattedCount}}명"
+    },
+    "SORT_BY_MENU": {
+        "AZ": "A~Z",
+        "ZA": "Z~A",
+        "OLDEST": "오래된 항목순",
+        "MOST_RECENT": "최신순",
+        "MOST_SUBSCRIBERS": "구독자순",
+        "HIGHEST_RATED": "평점순",
+        "SORT_BY": "정렬 기준"
+    },
+    "ERROR": {
+        "PARADOX_SERVICES_DOWN": "죄송합니다. Paradox Mods 서비스가 요청을 완료하지 못했습니다.",
+        "BUTTONS": {
+            "CLOSE": "닫기"
+        },
+        "SET_USER_RATING": {
+            "TITLE": "모드의 사용자 평가 설정 실패",
+            "MESSAGE": "이 모드의 새 사용자 평가를 설정할 수 없습니다."
+        },
+        "GET_USER_RATING": {
+            "TITLE": "모드의 사용자 평가 가져오기 실패",
+            "MESSAGE": "이 모드의 사용자 평가를 가져올 수 없습니다."
+        },
+        "LOAD_MORE": {
+            "TITLE": "더 많은 모드 불러오기 실패",
+            "MESSAGE": "지금 스크롤 중 더 많은 모드를 더 불러올 수 없습니다."
+        },
+        "SEARCH": {
+            "TITLE": "모드 검색 실패",
+            "MESSAGE": "지금 모드를 검색할 수 없습니다."
+        },
+        "SUBSCRIBE": {
+            "TITLE": "모드 추가 실패",
+            "MESSAGE": "지금 모드를 추가할 수 없습니다."
+        },
+        "UNSUBSCRIBE": {
+            "TITLE": "모드 제거 실패",
+            "MESSAGE": "지금 모드를 제거할 수 없습니다."
+        },
+        "MOD_DETAILS": {
+            "TITLE": "모드 세부 사항 가져오기 실패",
+            "MESSAGE": "지금 모드 세부 사항을 가져올 수 없습니다."
+        },
+        "USER_RATING": {
+            "TITLE": "사용자 평가 가져오기 실패",
+            "MESSAGE": "지금 사용자 평가를 가져올 수 없습니다."
+        },
+        "MOD_RATING": {
+            "TITLE": "모드 평가 가져오기 실패",
+            "MESSAGE": "모드 평가를 가져올 수 없습니다."
+        },
+        "ENABLE": {
+            "TITLE": "모드 활성화 실패",
+            "MESSAGE": "지금 이 모드를 활성화할 수 없습니다."
+        },
+        "DISABLE": {
+            "TITLE": "모드 비활성화 실패",
+            "MESSAGE": "지금 이 모드를 비활성화할 수 없습니다."
+        },
+        "GETSUBSCRIBED": {
+            "TITLE": "추가된 모드 가져오기 실패",
+            "MESSAGE": "지금 추가된 모드를 가져올 수 없습니다."
+        },
+        "GET_GAME_VERSION": {
+            "TITLE": "게임 버전 가져오기 실패",
+            "MESSAGE": "게임 버전을 가져올 수 없습니다."
+        },
+        "GET_ALL_DEPENDENCIES": {
+            "TITLE": "관련 파일 가져오기 실패",
+            "MESSAGE": "관련 파일을 가져올 수 없습니다."
+        },
+        "REPORT_MOD": {
+            "TITLE": "모드 신고 실패",
+            "MESSAGE": "모드를 신고할 수 없습니다."
+        },
+        "GET_GAME_DATA": {
+            "TITLE": "게임 정보 가져오기 실패",
+            "MESSAGE": "게임 정보를 가져올 수 없습니다."
+        },
+        "SET_ACTIVATION_ORDER": {
+            "TITLE": "활성화 순서 설정 실패",
+            "MESSAGE": "지금 활성화 순서를 변경할 수 없습니다."
+        },
+        "RESET_ACTIVATION_ORDER": {
+            "TITLE": "활성화 순서 초기화 실패",
+            "MESSAGE": "지금 활성화 순서를 변경할 수 없습니다."
+        },
+        "SCREEN_KEYBOARD": {
+            "TITLE": "화면 키보드 열기 실패",
+            "MESSAGE": "화면 키보드를 열 수 없습니다."
+        },
+        "PLAYSETS": {
+            "TITLE": "플레이 세트 가져오기 실패",
+            "MESSAGE": "지금 플레이 세트를 가져올 수 없습니다."
+        },
+        "PLAYSET_DETAILS": {
+            "TITLE": "플레이 세트 세부 사항 가져오기 실패",
+            "MESSAGE": "지금 플레이 세트 세부 사항을 가져올 수 없습니다."
+        },
+        "PLAYSET_DELETE": {
+            "TITLE": "플레이 세트 삭제 실패",
+            "MESSAGE": "지금 플레이 세트를 삭제할 수 없습니다."
+        },
+        "PLAYSET_RENAME": {
+            "TITLE": "플레이 세트 이름 변경 실패",
+            "MESSAGE": "지금 플레이 세트 이름을 변경할 수 없습니다."
+        },
+        "PLAYSET_MODS": {
+            "TITLE": "플레이 세트 모드 가져오기 실패",
+            "MESSAGE": "지금 플레이 세트 모드를 가져올 수 없습니다."
+        },
+        "PLAYSET_HAS_ENABLED_MODS": {
+            "TITLE": "활성화된 모드 확인 실패",
+            "MESSAGE": "지금 활성화된 플레이 세트에 활성화된 모드가 있는지 확인할 수 없습니다."
+        },
+        "CREATE_PLAYSET": {
+            "TITLE": "새 플레이 세트 생성 실패",
+            "MESSAGE": "지금 새 플레이 세트를 생성할 수 없습니다."
+        },
+        "ACTIVATE_PLAYSET": {
+            "TITLE": "플레이 세트 활성화 실패",
+            "MESSAGE": "지금 플레이 세트를 활성화할 수 없습니다."
+        },
+        "DEACTIVATE_PLAYSET": {
+            "TITLE": "플레이 세트 비활성화 실패",
+            "MESSAGE": "지금 플레이 세트를 비활성화할 수 없습니다."
+        },
+        "DEACTIVATED_PLAYSET": {
+            "TITLE": "모드 추가 실패",
+            "MESSAGE": "모드를 추가하려면 활성화된 플레이 세트가 필요합니다."
+        },
+        "ACTIVE_PLAYSET": {
+            "TITLE": "활성화된 플레이 세트 가져오기 실패",
+            "MESSAGE": "지금 활성화된 플레이 세트를 가져올 수 없습니다."
+        },
+        "GENERIC": {
+            "NOTLOGGEDIN": {
+                "TITLE": "로그인하지 않았습니다.",
+                "MESSAGE": "Paradox 계정에 로그인하지 않은 것 같습니다. 이 서비스를 이용하려면 계정을 생성하고 로그인하세요."
+            },
+            "OFFLINE": {
+                "TITLE": "오프라인 상태입니다",
+                "MESSAGE": "지금 인터넷에 연결할 수 없는 것 같습니다. 설치된 모드의 활성화, 비활성화, 로드 순서 변경은 가능합니다."
+            },
+            "SYNC": {
+                "TITLE": "모드 동기화 중 문제 발생",
+                "MESSAGE": "모드 동기화 중 문제가 발생한 것 같습니다."
+            },
+            "DEFAULT": {
+                "TITLE": "문제가 발생했습니다.",
+                "MESSAGE": "죄송합니다. 요청에 문제가 발생했습니다. 닫은 후 다시 시도하십시오."
+            }
+        },
+        "FROM_SERVER": {
+            "INTERNALERROR": {
+                "DISKFULLERROR": "디스크 용량이 부족해 작업을 완료할 수 없습니다.",
+                "THIRDPARTYEXCEPTION": "사용 중인 서드파티 라이브러리에 문제가 발생했습니다.",
+                "DBERROR": "서버의 데이터베이스에 문제가 발생했습니다.",
+                "DISKPERMISSIONERROR": "현재 디스크에 액세스할 수 있는 권한이 없는 것 같습니다.",
+                "FILEIOERROR": "디스크에 쓰거나 읽는 중 오류가 발생했습니다.",
+                "REMOTELOGOUTFAILED": "서버에서 로그아웃하는 중 문제가 발생했습니다. 로컬 및 서버 세션이 동기화되지 않을 수 있습니다.",
+                "INTERNALERROR": "알 수 없는 내부 오류가 발생했습니다."
+            },
+            "INVALIDNETWORKRESPONSE": {
+                "MALFORMEDJSON": "서버 응답 내용이 올바르지 않아 파싱할 수 없습니다.",
+                "HTTPREQUESTERROR": "연결 종료, DNS 오류 등으로 서버 요청에 실패했습니다.",
+                "NETWORKSENDERROR": "서버로 데이터를 보내는 중 알 수 없는 오류가 발생했습니다.",
+                "TASKTIMEOUTERROR": "서버 요청 시간을 초과했습니다.",
+                "UNEXPECTEDRESPONSEERROR": "서버 응답 내용이 올바르지 않거나 필요한 데이터가 부족합니다",
+                "NORESPONSEBODY": "서버 응답의 내용이 없습니다.",
+                "MODDOWNLOADFAILEDERROR": "모드의 메타데이터를 동기화했지만, 다운로드에 실패했습니다. 다음 동기화 중 새롭게 다운로드를 시도합니다."
+            },
+            "NOTFOUND": {
+                "NOACCOUNT": "사용자 계정을 찾을 수 없습니다.",
+                "NODOCUMENT": "문서를 찾을 수 없습니다.",
+                "NOMERGETASK": "병합 작업을 찾을 수 없습니다.",
+                "NOMOD": "모드를 찾을 수 없습니다.",
+                "NOMODVERSION": "요청한 모드 버전을 찾을 수 없습니다.",
+                "NOMODPLAYSET": "요청한 플레이 세트에 액세스할 수 없습니다.",
+                "NOPROFILE": "프로필을 찾을 수 없습니다.",
+                "NOACHIEVEMENT": "업적을 찾을 수 없습니다.",
+                "NORESOURCE": "요청한 리소스를 찾을 수 없습니다."
+            },
+            "INVALIDSTATE": {
+                "NOTLOGGEDIN": "사용자가 로그인하지 않았습니다.",
+                "MODDISABLED": "모드가 삭제되었거나 차단되었습니다."
+            },
+            "MODS": {
+                "SYNCONGOING": "동기화가 진행 중입니다.",
+                "OPERATIONSONGOING": "다른 작업이 진행 중입니다.",
+                "LOCALERROR": "작업을 수행하는 중 문제가 발생했습니다. 나중에 다시 시도하십시오."
+            },
+            "NOTAUTHORIZED": {
+                "EXPIREDREFRESHTOKEN": "사용자가 자격 증명을 사용해 다시 로그인해야 합니다.",
+                "EXPIREDSESSIONTOKEN": "사용자가 갱신 토큰을 사용해 새 세션 토큰을 생성해야 합니다.",
+                "SESSIONTOOLOWTRUSTLEVEL": "세션의 신뢰도 수준이 높지 않습니다. 신뢰도 수준을 높이기 위해 자격 증명을 사용해 다시 로그인하십시오.",
+                "INVALIDAUTHENTICATION": "제공된 인증 정보가 유효하지 않습니다.",
+                "REJECTEDBYTHIRDPARTY": "서드파티, Steam, PSN, Twitch 등에서 인증을 거부했습니다.",
+                "FORBIDDENACCESS": "세션에서 금지된 데이터에 액세스하려고 합니다.",
+                "AUTOMATICLOGINFAILURE": "Account.Startup()을 사용한 사용자 자동 로그인에 실패했습니다. 수동 Account.Login(자격 증명) 호출을 사용하십시오."
+            },
+            "MODSUI": {
+                "DELETEACTIVEPLAYSET": "현재 활성화된 플레이 세트를 삭제할 수 없습니다."
+            }
+        },
+        "WIP": {
+            "CREATE": {
+                "TITLE": "드래프트 모드를 생성할 수 없습니다.",
+                "MESSAGE": "죄송합니다. 드래프트 모드를 생성할 수 없습니다."
+            },
+            "LIST": {
+                "TITLE": "드래프트 모드를 가져올 수 없습니다.",
+                "MESSAGE": "죄송합니다. 플레이 세트 세부 사항을 가져올 수 없습니다."
+            },
+            "DELETE": {
+                "TITLE": "드래프트 모드를 삭제할 수 없습니다.",
+                "MESSAGE": "죄송합니다. 드래프트 모드를 삭제할 수 없습니다."
+            },
+            "GET": {
+                "TITLE": "드래프트 모드를 가져올 수 없습니다.",
+                "MESSAGE": "죄송합니다. 드래프트 모드를 가져올 수 없습니다."
+            },
+            "PUBLISH": {
+                "TITLE": "드래프트 모드를 게시할 수 없습니다.",
+                "MESSAGE": "죄송합니다. 드래프트 모드를 게시할 수 없습니다. 콘텐츠와 대표 이미지가 모두 포함되었는지 확인하십시오."
+            },
+            "NEW_VERSION": {
+                "TITLE": "새 드래프트 모드 버전을 게시할 수 없습니다.",
+                "MESSAGE": "죄송합니다. 새 드래프트 모드 버전을 게시할 수 없습니다. 콘텐츠와 대표 이미지가 모두 포함되었는지 확인하십시오."
+            }
+        },
+        "INPUT": {
+            "EMPTY": "입력은 비워 둘 수 없습니다."
+        }
+    },
+    "PROGRESSBAR": {
+        "QUEUED": "대기 중"
+    },
+    "MOD_DETAILS": {
+        "HEADER": {
+            "BACK": "뒤로",
+            "BY": "정렬 순서",
+            "SIZETEXT": "크기",
+            "VERSION": "모드 버전",
+            "REQUIREDGAMEVERSION": "추천 게임 버전",
+            "SUBSCRIPTIONSTOTAL": "구독자"
+        },
+        "SUBSCRIBE_BUTTON": {
+            "SUBSCRIBE": "플레이 세트에 추가",
+            "SUBSCRIBED": "추가됨",
+            "UNSUBSCRIBE": "플레이 세트에서 제거"
+        },
+        "REQUIREMENT": {
+            "TITLE": "필요",
+            "VIEW_ALL": "모두 보기",
+            "BACK_TO_MOD_DETAILS": "모드 세부 사항으로 돌아가기"
+        },
+        "CHANGELOG": {
+            "TITLE": "변경 사항 로그",
+            "V": "버전",
+            "RELEASED": "출시됨",
+            "READ_MORE": "더 보기"
+        },
+        "DESCRIPTION": {
+            "READ_MORE": "더 보기"
+        },
+        "BANNED": {
+            "TITLE": "차단됨",
+            "INFO": "이 모드는 약관을 위반하여 라이브러리에서 차단되었습니다."
+        },
+        "OUTDATED": "이 모드는 현재 게임 버전과 호환되지 않으며 올바르게 작동하지 않을 수 있습니다."
+    },
+    "PLAYSET_DETAILS": {
+        "HEADER": {
+            "CREATED_BY": "생성자",
+            "MODS": "모드",
+            "TOTAL_SIZE": "전체 크기",
+            "BACK": "플레이 세트 목록으로 돌아가기",
+            "SUBTITLE": "모드 {{modsCount}}개, 전체 크기 {{modsSize}}"
+        },
+        "MORE_BUTTON": {
+            "MORE": "더 보기"
+        },
+        "ACTIVATE_BUTTON": {
+            "ACTIVATE": "활성화"
+        },
+        "EMPTY_STATE": {
+            "TITLE": "아직 모드 없음",
+            "DESCRIPTION": "플레이 세트의 핵심은 모드를 플레이하는 것입니다. 새 플레이 세트에 더 많은 모드를 추가해 보세요.",
+            "ADD_MODS": "모드 추가"
+        },
+        "LIST": {
+            "AUTHOR": "<0>생성자: </0><1/>"
+        }
+    },
+    "CONSOLE_FOOTER": {
+        "SEARCH": "검색",
+        "APPLY_FILTERS": "필터 적용",
+        "APPLY": "적용",
+        "OPEN": "열기",
+        "ADD": "추가",
+        "BACK": "뒤로",
+        "ENABLE_DISABLE": "활성화/비활성화",
+        "ENABLE": "활성화",
+        "DISABLE": "비활성화",
+        "SUBSCRIBE": "플레이 세트에 추가",
+        "UNSUBSCRIBE": "플레이 세트에서 제거",
+        "CLOSE": "닫기",
+        "CHANGE_ORDER": "순서 변경",
+        "RESET_LOAD_ORDER": "로드 순서 초기화",
+        "SCROLL": "스크롤",
+        "DELETE": "삭제",
+        "DETAILS": "세부 사항",
+        "ACTIVATE": "활성화",
+        "RENAME": "이름 변경",
+        "CANCEL": "취소",
+        "CONFIRM": "확인",
+        "CREATE": "생성"
+    },
+    "CONSOLE_FILTER": {
+        "TITLE": "필터 적용 결과",
+        "TAGS": "태그",
+        "FILTER": "필터",
+        "FILTERED": "필터링됨"
+    },
+    "DEPENDENCIES_NOTIFICATION": {
+        "TITLE": "“{{modName}}” 모드를 추가하려고 합니다",
+        "INFORMATION": "<0>이 모드가 올바르게 작동하려면 {{numberOfDependencies}}개의 모드(총 크기: {{totalSizeOfDependencies}})가 필요합니다.</0><1> 필요한 모드도 자동으로 추가하시겠습니까?</1>",
+        "SUBSCRIBE_TO_MODS": "필요한 모드 추가",
+        "IGNORE_MODS": "필요한 모드 무시",
+        "NOT_PUBLISHED_DEPENDENCIES": "<0>이 모드에서는 본 모드를 정상적으로 작동하지 않게 할 수 있기 때문에 일부 관련 파일들을 이용할 수 없습니다.</0><1>이는 관련 파일이 차단, 삭제 또는 다른 방식으로 게시 상태에서 제거되었기 때문일 수 있습니다.</1>"
+    },
+    "OUT_OF_SYNC": {
+        "PLAYSET_OUT_OF_SYNC": {
+            "TITLE": "플레이 세트 동기화 충돌",
+            "INFORMATION": "플레이 세트 서버 상태와 로컬 상태가 일치하지 않습니다. 어떤 모드로 계속/이어서 플레이하시겠습니까?",
+            "KEEP_CLOUD": "클라우드 파일 유지",
+            "KEEP_LOCAL": "로컬 파일 유지"
+        },
+        "CLOUD": {
+            "TITLE": "이 장치에 클라우드 파일 다운로드",
+            "INFORMATION": "서버의 파일을 로컬 파일에 덮어씁니다. 계속하시겠습니까?",
+            "BACK": "뒤로",
+            "DOWNLOAD": "이 장치에 다운로드"
+        },
+        "LOCAL": {
+            "TITLE": "서버에 로컬 파일 업로드",
+            "INFORMATION": "로컬 파일을 서버 파일에 덮어씁니다. 계속하시겠습니까?",
+            "BACK": "뒤로",
+            "DOWNLOAD": "서버에 업로드"
+        }
+    },
+    "SYNC": {
+        "TITLE": "모드 최신 업데이트 받는 중...",
+        "INFORMATION": "계속하려면 몇 가지 모드를 동기화해야 합니다. 동기화가 완료될 때까지 모드를 둘러볼 수 없습니다.",
+        "MODS_DONE": "모드 완료",
+        "UPDATING_MOD": "모드 업데이트 중",
+        "STOP_AND_CONTINUE_NEXT_TIME": "중단하고 다음에 계속",
+        "WAITING_FOR_DOWNLOAD": "다운로드 시작 대기 중...",
+        "CHECKING_MODS": "모드 확인 중...",
+        "DOWNLOADING": "다운로드 중",
+        "DONE": "목록으로 가기",
+        "CLOSE": "닫기",
+        "RESYNC": "동기화 재시작",
+        "REMOVE_MODS": "디스크에 플레이 세트의 최신 업데이트를 받을 공간이 부족합니다. 디스크 공간을 확보하려면 일부 모드를 삭제해야 합니다.",
+        "INSTALLING": {
+            "PREPARING": "준비 중...",
+            "PATCHING": "파일 이동 중...",
+            "APPLYING": "변경 사항 적용 중...",
+            "PERMISSIONS": "권한 업데이트 중...",
+            "CLEANUP": "비우는 중...",
+            "": "설치 중"
+        }
+    },
+    "OTHER": {
+        "DLCS": "DLC",
+        "MODS": "모드",
+        "NO": "아니요",
+        "REQUIRED": "필요"
+    },
+    "SCREEN_KEYBOARD": {
+        "TITLES": {
+            "SEARCH_MODS": "모드 검색",
+            "REPORT_COMMENT": "댓글 신고",
+            "CREATE_PLAYSET": "플레이 세트 생성",
+            "RENAME_PLAYSET": "플레이 세트 이름 변경",
+            "PUBLISH": {
+                "DISPLAY_NAME": "표시 이름 설정",
+                "GAME_VERSION": "추천 게임 버전 설정",
+                "CHANGELOG": "변경 사항 로그 항목 추가",
+                "DESCRIPTION": "설명 설정"
+            }
+        }
+    },
+    "REPORT": {
+        "SECTION_TITLE": "부적절하다고 표시",
+        "INFORMATION_TEXT": "모드가 약관을 위반한 경우 조정을 위해 신고하여 검토할 수 있게 해주십시오.",
+        "BUTTON": "신고 제출",
+        "SUBMIT": "신고 제출",
+        "INFORMATION": "다음 내용을 작성하면 분석을 위해 QA 팀에 전달하겠습니다. 더 안전하고, 더 나은 Paradox가 되도록 도와주셔서 감사합니다.",
+        "CAPTION": "신고 이유",
+        "COMMENT_TITLE": "자세하게 설명해 주십시오.",
+        "COMMENT_PLACEHOLDER": "여기에 의견을 작성해 주십시오...",
+        "THANK_YOU": "신고해 주셔서 감사합니다.",
+        "THANK_YOU_MESSAGE": "모드가 신고되어 검토될 예정입니다. 더 안전하고, 더 나은 Paradox가 되도록 도와주셔서 감사합니다.",
+        "MISSING_REASON": "이유를 선택해야 합니다.",
+        "MISSING_DESCRIPTION": "위반 내용을 작성해야 합니다.",
+        "CLOSE": "창 닫기",
+        "COMMENT_INFORMATION": "부적절한 콘텐츠가 포함된 모드를 신고하려고 합니다.",
+        "COMMENT_SUBINFORMATION": "관련 내용을 알려주십시오.",
+        "PREVIEW_COMMENT": "의견:",
+        "PREVIEW": "미리 보기",
+        "VERSION_PREFIX": "버전",
+        "REASONS": {
+            "NUDITY": "선정성",
+            "VIOLENCE": "폭력성",
+            "HARASSMENT": "괴롭힘",
+            "SPAM": "스팸",
+            "COPYRIGHT": "저작권 위반",
+            "HATE": "차별 발언",
+            "DOESNOTWORK": "모드 작동 오류",
+            "OTHER": "기타"
+        }
+    },
+    "SEARCH": {
+        "NO_SEARCH_RESULTS": "검색 결과 없음",
+        "MODS_AVAILABLE": "{{modsAvailable}}개 모드 이용 가능"
+    },
+    "XBOX_SEARCH": {
+        "CLEAR_SEARCH": "검색 결과 지우기"
+    },
+    "SEARCH_INPUT": {
+        "PLACEHOLDER": "모드 검색 중..."
+    },
+    "PLAYSETS": {
+        "CREATE_NEW_PLAYSET": {
+            "TITLE": "플레이 세트 생성",
+            "NAME": "이름",
+            "CREATE": "생성",
+            "CANCEL": "취소",
+            "KEYBOARD_TITLE": "새 플레이 세트 이름 입력",
+            "SUCCESS": "플레이 세트 “{{name}}”이(가) 생성되었습니다."
+        },
+        "MODS_COUNT": "{{modsCount}}개 모드",
+        "UPDATED": "마지막 업데이트: {{updated}}",
+        "DELETE": {
+            "TITLE": "플레이 세트 삭제 확인",
+            "TEXT": "플레이 세트 “{{name}}”을(를) 삭제하시겠습니까"
+        },
+        "RENAME": {
+            "TITLE": "플레이 세트 이름 변경",
+            "TEXT": "“{{name}}” 이름 변경"
+        }
+    },
+    "PUBLISH": {
+        "INPUT_DETAILS": "모드 세부 사항",
+        "DISPLAY_NAME": "표시 이름*",
+        "DISPLAY_NAME_ERROR": "표시 이름이 필요합니다",
+        "SUGGESTED_GAME_VERSION": "추천 게임 버전*",
+        "SUGGESTED_GAME_VERSION_ERROR": "추천 게임 버전이 필요합니다",
+        "COVER_FILE_NAME": "대표 이미지 파일명*",
+        "COVER_FILE_NAME_ERROR": "대표 이미지 파일명이 필요합니다",
+        "DESCRIPTION": "설명*",
+        "DESCRIPTION_ERROR": "설명이 필요합니다",
+        "CHANGELOG": "변경 사항 로그 항목*",
+        "CHANGELOG_ERROR": "변경 사항 로그 항목이 필요합니다",
+        "PUBLISH_NEW_VERSION": "새 버전 게시",
+        "PUBLISH_NEW": "게시",
+        "PUBLISHING_TITLE": "모드 게시 중",
+        "PUBLISHING": "현재 모드를 게시 중입니다. 완료까지 시간이 조금 소요될 수 있습니다."
+    },
+    "LIBRARY": {
+        "PLAYSETS_TITLE": "내 플레이 세트",
+        "CREATIONS_TITLE": "내 창작물",
+        "IMPORTED_TITLE": "내 가져온 모드"
+    },
+    "CONFIRM_MODAL": {
+        "CONFIRM": "예",
+        "CANCEL": "취소",
+        "RENAME": "이름 변경"
+    },
+    "ALERT_MODAL": {
+        "CONFIRM": "닫기"
+    },
+    "TOASTS": {
+        "UNSUBSCRIBED_MOD": "모드를 제거했습니다."
+    },
+    "WIP_MOD": {
+        "CREATE_NEW": "새 모드 생성",
+        "CREATE_NEW_TEXT": "작업 중인 모드를 새로 생성하세요.",
+        "CREATE": "생성",
+        "CANCEL": "취소",
+        "DELETE_TITLE": "작업 중인 모드 삭제",
+        "DELETE_TEXT": "모드 “{{modName}}”을(를) 삭제하시겠습니까?",
+        "DRAFT_MODS": "{{modCount}}개 드래프트 모드"
+    },
+    "WARNING": {
+        "START_SCREEN": {
+            "XBOX": "<0>중요</0>모드 이용 시 게임의 오리지널 경험이 변경되며, 모드는 Paradox Interactive, 개발사, XboxMods의 사전 테스트 또는 인증을 거치지 않았습니다. 모드 플레이 시 개별 세이브 파일을 생성할 것을 권장합니다. 최소 한 개 모드가 활성화되어 있을 경우, 모든 업적 진행도가 비활성화됩니다. 설치된 모드 탭에서 언제든 모드를 비활성화할 수 있습니다. Paradox Mods에는 Paradox 사용자 계약이 적용됩니다.",
+            "PLAYSTATION": "<0>중요</0>모드 이용 시 게임의 오리지널 경험이 변경되며, 모드는 Paradox Interactive, 개발사, PlayStation의 사전 테스트 또는 인증을 거치지 않았습니다. 모드 플레이 시 개별 세이브 파일을 생성할 것을 권장합니다. 최소 한 개 모드가 활성화되어 있을 경우, 모든 트로피 진행도가 비활성화됩니다. 설치된 모드 탭에서 언제든 모드를 비활성화할 수 있습니다. Paradox Mods에는 Paradox 사용자 계약이 적용됩니다.",
+            "DEFAULT": "<0>중요</0>모드 이용 시 게임의 오리지널 경험이 변경되며, 모드는 Paradox Interactive의 사전 테스트 또는 인증을 거치지 않았습니다. 모드 플레이 시 개별 세이브 파일을 생성할 것을 권장합니다. 최소 한 개 모드가 활성화되어 있을 경우, 모든 업적 진행도가 비활성화됩니다. 설치된 모드 탭에서 언제든 모드를 비활성화할 수 있습니다. Paradox Mods에는 Paradox 사용자 계약이 적용됩니다."
+        },
+        "EXIT": {
+            "CLOSING": "닫는 중...",
+            "CLOSE_NOW": "지금 닫기",
+            "TITLE": "중요",
+            "XBOX": "최소 한 개 모드가 활성화되었습니다. 모드를 다시 비활성화할 때까지 업적 진행도가 비활성화됩니다. 계속하시겠습니까?",
+            "PLAYSTATION": "최소 한 개 모드가 활성화되었습니다. 모드를 다시 비활성화할 때까지 트로피 진행도가 비활성화됩니다. 계속하시겠습니까?",
+            "DEFAULT": "최소 한 개 모드가 활성화되었습니다. 모드를 다시 비활성화할 때까지 업적 진행도가 비활성화됩니다. 계속하시겠습니까?",
+            "CONFIRM": "모드를 유지하고 메인 메뉴로 돌아가기",
+            "CANCEL": "Paradox Mods로 돌아가기"
+        }
+    },
+    "FORUM_LINKS": {
+        "TITLE": "포럼 링크",
+        "DESCRIPTION": "이 모드에 관해 논의 중인 사람들",
+        "TOP_THREAD": "맨 위 스레드 보기"
+    }
+}

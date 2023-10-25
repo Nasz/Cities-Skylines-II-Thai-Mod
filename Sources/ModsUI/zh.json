@@ -1,0 +1,555 @@
+{
+    "TOP_MENU": {
+        "BROWSE_ALL": "搜索",
+        "INSTALLED_MODS": "已安装的模组",
+        "IMPORTED_MODS": "已导入的模组",
+        "PLAYSETS": "模组集",
+        "PUBLISH": "我的创作",
+        "LIBRARY": "我的资料库"
+    },
+    "PLAYSET_SELECTOR": {
+        "CREATE_NEW_PLAYSET": "创建新模组集",
+        "PLAYSET": "当前的模组集",
+        "DROPDOWN_LABEL": "选择已激活的模组集",
+        "DEACTIVATED_PLAYSETS": "没有已激活的模组集",
+        "DEACTIVATE_PLAYSET": "没有已激活的模组集"
+    },
+    "FILTER": {
+        "HEADING": "筛选",
+        "CLEAR_ALL": "清除全部",
+        "TAGS": "标签"
+    },
+    "LIST": {
+        "ENABLED": "已启用",
+        "DISABLED": "已禁用",
+        "EMPTY_STATE": {
+            "TITLE": "尚未安装模组",
+            "TEXT": "模组可以为游戏增添许多乐趣！点选下方按钮以浏览所有模组，安装至少一个模组后再返回此处。",
+            "BUTTON": "浏览所有模组"
+        },
+        "RESET_ACTIVATION_ORDER": "重置加载顺序",
+        "BANNED_MOD": "此模组已被封禁",
+        "OFFLINE": "离线",
+        "ADD_TO_PLAYSET": "添加到模组集",
+        "REMOVE_FROM_PLAYSET": "从模组集中移除",
+        "SUBSCRIBERS": "{{formattedCount}} 位订阅者",
+        "SUBSCRIBERS_plural": "{{formattedCount}} 位订阅者"
+    },
+    "SORT_BY_MENU": {
+        "AZ": "A...Z",
+        "ZA": "Z...A",
+        "OLDEST": "时间最旧",
+        "MOST_RECENT": "时间最新",
+        "MOST_SUBSCRIBERS": "最多订阅",
+        "HIGHEST_RATED": "评分最高",
+        "SORT_BY": "排序依据"
+    },
+    "ERROR": {
+        "PARADOX_SERVICES_DOWN": "很抱歉，Paradox 模组服务未能完成该要求。",
+        "BUTTONS": {
+            "CLOSE": "关闭"
+        },
+        "SET_USER_RATING": {
+            "TITLE": "无法设置模组的用户评分",
+            "MESSAGE": "我们无法为此模组设置新的用户评分。"
+        },
+        "GET_USER_RATING": {
+            "TITLE": "无法取得模组的用户评分",
+            "MESSAGE": "我们无法取得此模组的用户评分。"
+        },
+        "LOAD_MORE": {
+            "TITLE": "无法加载更多模组",
+            "MESSAGE": "我们无法在此次滚动时加载更多模组。"
+        },
+        "SEARCH": {
+            "TITLE": "无法搜索模组",
+            "MESSAGE": "我们当前无法搜索模组。"
+        },
+        "SUBSCRIBE": {
+            "TITLE": "无法添加模组",
+            "MESSAGE": "我们当前无法添加模组。"
+        },
+        "UNSUBSCRIBE": {
+            "TITLE": "无法移除模组",
+            "MESSAGE": "我们当前无法移除模组。"
+        },
+        "MOD_DETAILS": {
+            "TITLE": "无法提取模组详细信息",
+            "MESSAGE": "我们当前无法提取模组详细信息。"
+        },
+        "USER_RATING": {
+            "TITLE": "无法提取用户评分",
+            "MESSAGE": "我们当前无法提取您的用户评分。"
+        },
+        "MOD_RATING": {
+            "TITLE": "无法提取模组评分",
+            "MESSAGE": "我们无法提取模组评分。"
+        },
+        "ENABLE": {
+            "TITLE": "无法启用模组",
+            "MESSAGE": "我们暂时无法启用此模组。"
+        },
+        "DISABLE": {
+            "TITLE": "无法禁用模组",
+            "MESSAGE": "我们暂时无法禁用此模组。"
+        },
+        "GETSUBSCRIBED": {
+            "TITLE": "无法存取您添加的模组",
+            "MESSAGE": "我们暂时无法存取您添加的模组。"
+        },
+        "GET_GAME_VERSION": {
+            "TITLE": "无法提取游戏版本",
+            "MESSAGE": "我们无法提取游戏版本。"
+        },
+        "GET_ALL_DEPENDENCIES": {
+            "TITLE": "无法提取依赖项目",
+            "MESSAGE": "我们无法提取依赖项目。"
+        },
+        "REPORT_MOD": {
+            "TITLE": "无法举报模组",
+            "MESSAGE": "我们无法举报模组。"
+        },
+        "GET_GAME_DATA": {
+            "TITLE": "无法提取游戏信息",
+            "MESSAGE": "我们无法提取游戏信息。"
+        },
+        "SET_ACTIVATION_ORDER": {
+            "TITLE": "无法设置激活顺序",
+            "MESSAGE": "我们暂时无法更改激活顺序。"
+        },
+        "RESET_ACTIVATION_ORDER": {
+            "TITLE": "无法重置激活顺序",
+            "MESSAGE": "我们暂时无法更改激活顺序。"
+        },
+        "SCREEN_KEYBOARD": {
+            "TITLE": "无法开启屏幕键盘",
+            "MESSAGE": "当前无法开启屏幕键盘。"
+        },
+        "PLAYSETS": {
+            "TITLE": "无法提取模组集",
+            "MESSAGE": "我们当前无法提取您的模组集。"
+        },
+        "PLAYSET_DETAILS": {
+            "TITLE": "无法提取模组集详细信息",
+            "MESSAGE": "我们当前无法提取模组集详细信息。"
+        },
+        "PLAYSET_DELETE": {
+            "TITLE": "无法删除模组集",
+            "MESSAGE": "我们当前无法删除您的模组集。"
+        },
+        "PLAYSET_RENAME": {
+            "TITLE": "无法为模组集重命名",
+            "MESSAGE": "我们当前无法为模组集重命名。"
+        },
+        "PLAYSET_MODS": {
+            "TITLE": "无法存取模组集模组",
+            "MESSAGE": "我们当前无法提取您的模组。"
+        },
+        "PLAYSET_HAS_ENABLED_MODS": {
+            "TITLE": "无法检查是否有启用的模组",
+            "MESSAGE": "我们当前无法确认您已激活的模组集中是否有已启用的模组。"
+        },
+        "CREATE_PLAYSET": {
+            "TITLE": "无法创建新的模组集",
+            "MESSAGE": "我们当前无法创建新的模组集。"
+        },
+        "ACTIVATE_PLAYSET": {
+            "TITLE": "无法激活模组集",
+            "MESSAGE": "我们当前无法激活模组集。"
+        },
+        "DEACTIVATE_PLAYSET": {
+            "TITLE": "无法禁用模组集",
+            "MESSAGE": "我们当前无法禁用模组集。"
+        },
+        "DEACTIVATED_PLAYSET": {
+            "TITLE": "无法添加模组",
+            "MESSAGE": "您需要有已激活的模组集才能添加模组。"
+        },
+        "ACTIVE_PLAYSET": {
+            "TITLE": "无法取得已激活的模组集",
+            "MESSAGE": "我们当前无法取得已激活的模组集。"
+        },
+        "GENERIC": {
+            "NOTLOGGEDIN": {
+                "TITLE": "您还没有登录。",
+                "MESSAGE": "您似乎还没有登录 Paradox 帐户。使用本服务前，请先创建帐户并登录。"
+            },
+            "OFFLINE": {
+                "TITLE": "您已离线",
+                "MESSAGE": "您当前似乎无法连接到互联网。不过，您仍然可以启用或禁用已安装的模组，或是更改其加载顺序。"
+            },
+            "SYNC": {
+                "TITLE": "同步模组时发生错误",
+                "MESSAGE": "同步模组时似乎发生了错误。"
+            },
+            "DEFAULT": {
+                "TITLE": "发生错误。",
+                "MESSAGE": "很抱歉，处理您的要求时发生了错误，请关闭用户界面并再试一次。"
+            }
+        },
+        "FROM_SERVER": {
+            "INTERNALERROR": {
+                "DISKFULLERROR": "磁盘已满，无法完成操作。",
+                "THIRDPARTYEXCEPTION": "我们正在使用的第三方资料库发生了错误。",
+                "DBERROR": "服务器端的数据库发生了错误。",
+                "DISKPERMISSIONERROR": "您似乎没有访问当前磁盘的权限。",
+                "FILEIOERROR": "对磁盘进行写入或读取时发生了错误。",
+                "REMOTELOGOUTFAILED": "注销服务器时发生了错误。本地与服务器的工作阶段状态可能未同步。",
+                "INTERNALERROR": "发生了无法辨认的内部错误。"
+            },
+            "INVALIDNETWORKRESPONSE": {
+                "MALFORMEDJSON": "服务器的响应正文存在格式错误，因此无法分析。",
+                "HTTPREQUESTERROR": "由于发生断开连接、DNS 错误或类似问题，无法向服务器发送要求。",
+                "NETWORKSENDERROR": "向服务器发送数据时发生无法辨认的错误。",
+                "TASKTIMEOUTERROR": "向服务器发送的要求已超时。",
+                "UNEXPECTEDRESPONSEERROR": "服务器的响应存在格式错误或所需数据不完整。",
+                "NORESPONSEBODY": "服务器的响应没有正文。",
+                "MODDOWNLOADFAILEDERROR": "已同步模组的元数据，但是下载失败。将在下次同步时重新尝试下载。"
+            },
+            "NOTFOUND": {
+                "NOACCOUNT": "无法找到用户帐户。",
+                "NODOCUMENT": "无法找到文件。",
+                "NOMERGETASK": "无法找到合并任务。",
+                "NOMOD": "无法找到模组。",
+                "NOMODVERSION": "无法找到要求的模组版本。",
+                "NOMODPLAYSET": "无法找到或访问要求的模组集。",
+                "NOPROFILE": "无法找到个人档案。",
+                "NOACHIEVEMENT": "无法找到成就。",
+                "NORESOURCE": "无法找到要求的资源。"
+            },
+            "INVALIDSTATE": {
+                "NOTLOGGEDIN": "用户尚未登录。",
+                "MODDISABLED": "模组已被删除或封禁。"
+            },
+            "MODS": {
+                "SYNCONGOING": "已在进行同步。",
+                "OPERATIONSONGOING": "仍有正在进行的操作。",
+                "LOCALERROR": "执行操作时出现问题，请稍后再试。"
+            },
+            "NOTAUTHORIZED": {
+                "EXPIREDREFRESHTOKEN": "用户需要使用凭据信息再次进行完整用户登录。",
+                "EXPIREDSESSIONTOKEN": "用户需要使用刷新令牌来创建新的工作阶段令牌。",
+                "SESSIONTOOLOWTRUSTLEVEL": "工作阶段的信任级别不足，请使用信任级别更高的凭据信息再次登录。",
+                "INVALIDAUTHENTICATION": "所提供的验证无效。",
+                "REJECTEDBYTHIRDPARTY": "验证遭到第三方 (Steam、PSN、Twitch 等) 拒绝。",
+                "FORBIDDENACCESS": "正在尝试访问此工作阶段禁止的数据。",
+                "AUTOMATICLOGINFAILURE": "Account.Startup() 无法将用户自动登录。请改为手动呼叫 Account.Login(Credentials)。"
+            },
+            "MODSUI": {
+                "DELETEACTIVEPLAYSET": "无法删除当前已激活的模组集。"
+            }
+        },
+        "WIP": {
+            "CREATE": {
+                "TITLE": "无法创建草稿模组。",
+                "MESSAGE": "很抱歉，我们无法创建草稿模组。"
+            },
+            "LIST": {
+                "TITLE": "无法提取草稿模组。",
+                "MESSAGE": "很抱歉，我们无法提取您的模组集详细信息。"
+            },
+            "DELETE": {
+                "TITLE": "无法删除草稿模组。",
+                "MESSAGE": "很抱歉，我们无法删除您的草稿模组。"
+            },
+            "GET": {
+                "TITLE": "无法提取草稿模组。",
+                "MESSAGE": "很抱歉，我们无法提取您的草稿模组。"
+            },
+            "PUBLISH": {
+                "TITLE": "无法发布草稿模组。",
+                "MESSAGE": "很抱歉，我们无法发布您的草稿模组。请确认已具备所有内容与封面图像。"
+            },
+            "NEW_VERSION": {
+                "TITLE": "无法发布新的草稿模组版本。",
+                "MESSAGE": "很抱歉，我们无法发布您的新草稿模组版本。请确认已具备所有内容与封面图像。"
+            }
+        },
+        "INPUT": {
+            "EMPTY": "栏位不能为空。"
+        }
+    },
+    "PROGRESSBAR": {
+        "QUEUED": "已排入队列"
+    },
+    "MOD_DETAILS": {
+        "HEADER": {
+            "BACK": "返回",
+            "BY": "作者：",
+            "SIZETEXT": "大小",
+            "VERSION": "模组版本",
+            "REQUIREDGAMEVERSION": "建议的游戏版本",
+            "SUBSCRIPTIONSTOTAL": "位订阅者"
+        },
+        "SUBSCRIBE_BUTTON": {
+            "SUBSCRIBE": "添加到模组集",
+            "SUBSCRIBED": "已添加",
+            "UNSUBSCRIBE": "从模组集中移除"
+        },
+        "REQUIREMENT": {
+            "TITLE": "必要",
+            "VIEW_ALL": "查看全部",
+            "BACK_TO_MOD_DETAILS": "返回模组详细信息"
+        },
+        "CHANGELOG": {
+            "TITLE": "更新记录",
+            "V": "v",
+            "RELEASED": "已发布",
+            "READ_MORE": "阅读详细信息"
+        },
+        "DESCRIPTION": {
+            "READ_MORE": "阅读详细信息"
+        },
+        "BANNED": {
+            "TITLE": "已封禁",
+            "INFO": "此模组违反了我们的条款和条件，因此已从资料库封禁。"
+        },
+        "OUTDATED": "此模组与您的游戏版本不兼容，可能无法正常运作。"
+    },
+    "PLAYSET_DETAILS": {
+        "HEADER": {
+            "CREATED_BY": "创建者：",
+            "MODS": "模组",
+            "TOTAL_SIZE": "总大小",
+            "BACK": "返回模组集列表",
+            "SUBTITLE": "{{modsCount}} 个模组，总大小 {{modsSize}}"
+        },
+        "MORE_BUTTON": {
+            "MORE": "更多"
+        },
+        "ACTIVATE_BUTTON": {
+            "ACTIVATE": "激活"
+        },
+        "EMPTY_STATE": {
+            "TITLE": "还没有模组",
+            "DESCRIPTION": "创建模组集的用意就是可以尽情使用模组游玩，所以赶快来为这个崭新的模组集添加一些模组吧！",
+            "ADD_MODS": "添加模组"
+        },
+        "LIST": {
+            "AUTHOR": "<0>，作者：</0><1/>"
+        }
+    },
+    "CONSOLE_FOOTER": {
+        "SEARCH": "搜索",
+        "APPLY_FILTERS": "应用筛选",
+        "APPLY": "应用",
+        "OPEN": "开启",
+        "ADD": "添加",
+        "BACK": "返回",
+        "ENABLE_DISABLE": "启用/禁用",
+        "ENABLE": "启用",
+        "DISABLE": "禁用",
+        "SUBSCRIBE": "添加到模组集",
+        "UNSUBSCRIBE": "从模组集中移除",
+        "CLOSE": "关闭",
+        "CHANGE_ORDER": "更改顺序",
+        "RESET_LOAD_ORDER": "重置加载顺序",
+        "SCROLL": "滚动",
+        "DELETE": "删除",
+        "DETAILS": "详细信息",
+        "ACTIVATE": "激活",
+        "RENAME": "重命名",
+        "CANCEL": "取消",
+        "CONFIRM": "确认",
+        "CREATE": "创建"
+    },
+    "CONSOLE_FILTER": {
+        "TITLE": "筛选结果",
+        "TAGS": "标签",
+        "FILTER": "筛选",
+        "FILTERED": "已筛选"
+    },
+    "DEPENDENCIES_NOTIFICATION": {
+        "TITLE": "您即将添加模组“{{modName}}”。",
+        "INFORMATION": "<0>此模组需要依赖 {{numberOfDependencies}} 个必要模组 (总大小：{{totalSizeOfDependencies}}) 才能正常运行。</0><1>是否也要自动添加这些必要模组？</1>",
+        "SUBSCRIBE_TO_MODS": "添加必要模组",
+        "IGNORE_MODS": "忽略必要模组",
+        "NOT_PUBLISHED_DEPENDENCIES": "<0>请注意，此模组的某些依赖项目无法使用，这可能会导致此模组无法正常运行。</0><1>可能原因包括该依赖项目已被封禁、删除，或经其他方式从发布状态移除。</1>"
+    },
+    "OUT_OF_SYNC": {
+        "PLAYSET_OUT_OF_SYNC": {
+            "TITLE": "模组集同步冲突",
+            "INFORMATION": "模组集的服务器状态与本地状态不符。您想继续使用/保留何者？",
+            "KEEP_CLOUD": "保留云文件",
+            "KEEP_LOCAL": "保留本地文件"
+        },
+        "CLOUD": {
+            "TITLE": "将云文件下载至本地",
+            "INFORMATION": "服务器文件将覆盖本地文件。确定要继续吗？",
+            "BACK": "返回",
+            "DOWNLOAD": "下载至本地"
+        },
+        "LOCAL": {
+            "TITLE": "将本地文件上传至服务器",
+            "INFORMATION": "本地文件将覆盖服务器文件。确定要继续吗？",
+            "BACK": "返回",
+            "DOWNLOAD": "上传至服务器"
+        }
+    },
+    "SYNC": {
+        "TITLE": "正在取得模组的最新更新...",
+        "INFORMATION": "需要同步几个模组才能继续。待同步完成后您才可以浏览模组。",
+        "MODS_DONE": "已完成的模组",
+        "UPDATING_MOD": "正在更新模组",
+        "STOP_AND_CONTINUE_NEXT_TIME": "停止，下次再继续",
+        "WAITING_FOR_DOWNLOAD": "正在等待下载开始...",
+        "CHECKING_MODS": "正在检查模组...",
+        "DOWNLOADING": "正在下载",
+        "DONE": "前往列表",
+        "CLOSE": "关闭",
+        "RESYNC": "重新开始同步",
+        "REMOVE_MODS": "磁盘空间不足，无法将模组集更新至最新版。您必须移除一些模组来腾出磁盘空间。",
+        "INSTALLING": {
+            "PREPARING": "正在准备...",
+            "PATCHING": "正在移动文件...",
+            "APPLYING": "正在应用更改...",
+            "PERMISSIONS": "正在更新权限...",
+            "CLEANUP": "正在清理...",
+            "": "正在安装"
+        }
+    },
+    "OTHER": {
+        "DLCS": "可下载内容",
+        "MODS": "模组",
+        "NO": "否",
+        "REQUIRED": "必要"
+    },
+    "SCREEN_KEYBOARD": {
+        "TITLES": {
+            "SEARCH_MODS": "搜索模组",
+            "REPORT_COMMENT": "举报说明",
+            "CREATE_PLAYSET": "创建模组集",
+            "RENAME_PLAYSET": "为模组集重命名",
+            "PUBLISH": {
+                "DISPLAY_NAME": "设置显示名称",
+                "GAME_VERSION": "设置建议的游戏版本",
+                "CHANGELOG": "添加更新记录条目",
+                "DESCRIPTION": "设置描述"
+            }
+        }
+    },
+    "REPORT": {
+        "SECTION_TITLE": "标记为不恰当",
+        "INFORMATION_TEXT": "如果您认为此模组违反了我们的条款和条件，请举报模组以交给我们审查。",
+        "BUTTON": "提交举报",
+        "SUBMIT": "提交举报",
+        "INFORMATION": "请于下方填写详细信息，我们会将其提交给质量保证团队进行分析。感谢您协助 Paradox 变得更好，并创造更安全的环境。",
+        "CAPTION": "举报原因",
+        "COMMENT_TITLE": "请提供更详细的信息：",
+        "COMMENT_PLACEHOLDER": "请在此处填写说明...",
+        "THANK_YOU": "感谢您的举报。",
+        "THANK_YOU_MESSAGE": "您已成功举报此模组供管理团队审查。感谢您协助 Paradox 变得更好，并创造更安全的环境。",
+        "MISSING_REASON": "您必须选择原因。",
+        "MISSING_DESCRIPTION": "您必须描述违规行为。",
+        "CLOSE": "关闭窗口",
+        "COMMENT_INFORMATION": "您将要举报此模组中的不当内容。",
+        "COMMENT_SUBINFORMATION": "您已告知我们，它可能含有以下问题：",
+        "PREVIEW_COMMENT": "您的说明：",
+        "PREVIEW": "预览",
+        "VERSION_PREFIX": "v",
+        "REASONS": {
+            "NUDITY": "裸露",
+            "VIOLENCE": "暴力",
+            "HARASSMENT": "骚扰",
+            "SPAM": "滥发",
+            "COPYRIGHT": "侵犯版权",
+            "HATE": "仇恨言论",
+            "DOESNOTWORK": "模组无法正常运行",
+            "OTHER": "其他问题"
+        }
+    },
+    "SEARCH": {
+        "NO_SEARCH_RESULTS": "没有搜索结果",
+        "MODS_AVAILABLE": "{{modsAvailable}} 个可用的模组"
+    },
+    "XBOX_SEARCH": {
+        "CLEAR_SEARCH": "清除搜索"
+    },
+    "SEARCH_INPUT": {
+        "PLACEHOLDER": "搜索模组..."
+    },
+    "PLAYSETS": {
+        "CREATE_NEW_PLAYSET": {
+            "TITLE": "创建模组集",
+            "NAME": "名称",
+            "CREATE": "创建",
+            "CANCEL": "取消",
+            "KEYBOARD_TITLE": "输入新的模组集名称",
+            "SUCCESS": "已创建模组集“{{name}}”。"
+        },
+        "MODS_COUNT": "{{modsCount}} 个模组",
+        "UPDATED": "最后更新：{{updated}}",
+        "DELETE": {
+            "TITLE": "确认删除模组集",
+            "TEXT": "确定要删除模组集“{{name}}”吗？"
+        },
+        "RENAME": {
+            "TITLE": "为模组集重命名",
+            "TEXT": "为“{{name}}”重命名"
+        }
+    },
+    "PUBLISH": {
+        "INPUT_DETAILS": "模组详细信息",
+        "DISPLAY_NAME": "显示名称 *",
+        "DISPLAY_NAME_ERROR": "显示名称为必填",
+        "SUGGESTED_GAME_VERSION": "建议的游戏版本 *",
+        "SUGGESTED_GAME_VERSION_ERROR": "建议的游戏版本为必填",
+        "COVER_FILE_NAME": "封面图像文件名 *",
+        "COVER_FILE_NAME_ERROR": "封面图像文件名名为必填",
+        "DESCRIPTION": "描述 *",
+        "DESCRIPTION_ERROR": "描述为必填",
+        "CHANGELOG": "更新记录条目 *",
+        "CHANGELOG_ERROR": "更新记录条目为必填",
+        "PUBLISH_NEW_VERSION": "发布新版本",
+        "PUBLISH_NEW": "发布",
+        "PUBLISHING_TITLE": "模组待发布",
+        "PUBLISHING": "您的模组当前正在发布。可能需要等待一段时间才会完成。"
+    },
+    "LIBRARY": {
+        "PLAYSETS_TITLE": "我的模组集",
+        "CREATIONS_TITLE": "我的创作",
+        "IMPORTED_TITLE": "我的已导入模组"
+    },
+    "CONFIRM_MODAL": {
+        "CONFIRM": "是",
+        "CANCEL": "取消",
+        "RENAME": "重命名"
+    },
+    "ALERT_MODAL": {
+        "CONFIRM": "关闭"
+    },
+    "TOASTS": {
+        "UNSUBSCRIBED_MOD": "已成功移除模组。"
+    },
+    "WIP_MOD": {
+        "CREATE_NEW": "创建新模组",
+        "CREATE_NEW_TEXT": "创建新的制作中模组。",
+        "CREATE": "创建",
+        "CANCEL": "取消",
+        "DELETE_TITLE": "删除制作中的模组",
+        "DELETE_TEXT": "确定要删除模组“{{modName}}”吗？",
+        "DRAFT_MODS": "{{modCount}} 个草稿模组"
+    },
+    "WARNING": {
+        "START_SCREEN": {
+            "XBOX": "<0>重要提醒</0>模组将改变游戏的原始体验，且这些模组并未经由 Paradox Interactive、开发者或 Xbox 预先测试或检验。使用模组时，建议您另外创建一个独立的存档来游玩。只要有启用一个以上的模组，所有成就进度都将禁用。您可随时在“已安装的模组”标签页禁用模组。Paradox 模组需遵守 Paradox 用户协议。",
+            "PLAYSTATION": "<0>重要提醒</0>模组将改变游戏的原始体验，且这些模组并未经由 Paradox Interactive、开发者或 PlayStation 预先测试或检验。使用模组时，建议您另外创建一个独立的存档来游玩。只要有启用一个以上的模组，所有奖杯进度都将禁用。您可随时在“已安装的模组”标签页禁用模组。Paradox 模组需遵守 Paradox 用户协议。",
+            "DEFAULT": "<0>重要提醒</0>模组将改变游戏的原始体验，且这些模组并未经由 Paradox Interactive 预先测试或检验。使用模组时，建议您另外创建一个独立的存档来游玩。只要有启用一个以上的模组，所有成就进度都将禁用。您可随时在“已安装的模组”标签页禁用模组。Paradox 模组需遵守 Paradox 用户协议。"
+        },
+        "EXIT": {
+            "CLOSING": "正在关闭...",
+            "CLOSE_NOW": "立即关闭",
+            "TITLE": "重要提醒",
+            "XBOX": "有启用中的模组。成就进度将会禁用，直到您再度禁用模组。确定要继续吗？",
+            "PLAYSTATION": "有启用中的模组。奖杯进度将会禁用，直到您再度禁用模组。确定要继续吗？",
+            "DEFAULT": "有启用中的模组。成就进度将会禁用，直到您再度禁用模组。确定要继续吗？",
+            "CONFIRM": "是，请保留模组并返回主菜单",
+            "CANCEL": "返回 Paradox 模组"
+        }
+    },
+    "FORUM_LINKS": {
+        "TITLE": "论坛链接",
+        "DESCRIPTION": "讨论此模组的人",
+        "TOP_THREAD": "查看第一则帖子"
+    }
+}
