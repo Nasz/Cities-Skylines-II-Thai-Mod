@@ -3,9 +3,9 @@
  
  [![Discord](https://img.shields.io/discord/1092697599447932928?label=Discord)](https://discord.gg/HSYPKfdJfr "Cities:Skylines Thai Localization Community")
  
-![cities2project](https://github.com/Nasz/CS2THMod/assets/384751/1750d207-4432-468f-8f24-2066ec84271e)
+ ![cities2project](https://github.com/Nasz/CS2THMod/assets/384751/9c5eb6fa-7199-427b-862c-0d55de8b5216)
 
-รวมแปลกับเราได้ที่ <https://discord.gg/HSYPKfdJfr>
+ รวมแปลกับเราได้ที่ <https://discord.gg/HSYPKfdJfr>
 
 ## ดูแลโปรเจคโดย 
   - [Bammcool](https://steamcommunity.com/id/bammcool2546)
