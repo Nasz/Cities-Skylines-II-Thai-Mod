@@ -7,6 +7,9 @@
 
  รวมแปลกับเราได้ที่ <https://discord.gg/HSYPKfdJfr>
 
+ ![image](https://github.com/Nasz/CS2THMod/assets/384751/dbc5b692-8ae9-4911-8d36-4185f8674eeb)
+ ![image](https://github.com/Nasz/CS2THMod/assets/384751/72c6572d-0b3a-4153-9113-01bd3e006b6d)
+
 ## ดูแลโปรเจคโดย 
   - [Bammcool](https://steamcommunity.com/id/bammcool2546)
   - [N7C](https://steamcommunity.com/id/n7c_th)
