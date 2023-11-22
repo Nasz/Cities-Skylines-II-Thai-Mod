@@ -14,6 +14,13 @@
   - [Bammcool](https://steamcommunity.com/id/bammcool2546)
   - [N7C](https://steamcommunity.com/id/n7c_th)
 
+## ร่วมแปลโดย
+  - [Bossthumb](#)
+  - [Ca7amel](https://www.facebook.com/SugusPR/)
+  - [Landkarte](#)
+  - [Mazokie](https://steamcommunity.com/id/Mazokie/)
+  - [Solutiongamer](https://www.facebook.com/Solutiongamer)
+
 #### ที่ปรึกษา
   - [Bell](https://steamcommunity.com/id/bellraksit/)
   - [Chamëleon TBN](https://steamcommunity.com/id/chameleon_tbn/)
