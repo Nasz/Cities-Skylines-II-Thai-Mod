@@ -1,6 +1,15 @@
 # CS2THMod
  Thai Localization Mod for Cities: Skyline II (ชื่อไทย ซิตีส์: สกายไลน์ II)
+ ม็อดภาษาไทยสำหรับเกมซิตี้ส์: สกายไลน์ II
+
+ กดสมัครสมาชิกได้ที่ https://mods.paradoxplaza.com/mods/79562/Windows
  
+ ภาษาไทยโดยกลุ่มผู้เล่นเกมดัดแปลงแล้วกว่า 75% ของตำแหน่งการแสดงผลในเกมทั้งหมด (ยังคงเป็นเวอร์ชันเบต้าเนื่องจากในบางจุดยังไม่ได้ตรวจสอบคำแปล)
+
+ สามารถสนับสนุนเราโดยการเข้าร่วมแจ้งบัค แจ้งคำแปลสะกดผิด หรือร่วมทีมแปลกับเราได้ที่ discord.gg/RGzX9YWBYS
+
+ กรณีที่สมัครสมาชิกแล้วเกมยังไม่เป็นภาษาไทย เบื้องต้นให้เช็คโดยการ เปิดเกม แล้วไปที่ Options เลือกไปที่หัวข้อ Interface แล้วเปลี่ยนดรอปดาวในตัวเลือกด้านขวาให้เป็น "ภาษาไทย"
+
  [![Discord](https://img.shields.io/discord/1092697599447932928?label=Discord)](https://discord.gg/HSYPKfdJfr "Cities:Skylines Thai Localization Community")
  
  ![cities2project](https://github.com/Nasz/CS2THMod/assets/384751/9c5eb6fa-7199-427b-862c-0d55de8b5216)
@@ -26,3 +35,6 @@
   - [Chamëleon TBN](https://steamcommunity.com/id/chameleon_tbn/)
   - [PanlopPalms](https://steamcommunity.com/id/armsplams)
   - [Simscolony](https://steamcommunity.com/id/animenagi)
+
+####Special Thank
+  - [minenkoden](https://github.com/minenkoden)

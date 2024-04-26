@@ -1,18 +1,21 @@
 {
     "TOP_MENU": {
-        "BROWSE_ALL": "搜索",
-        "INSTALLED_MODS": "已安装的模组",
-        "IMPORTED_MODS": "已导入的模组",
-        "PLAYSETS": "模组集",
+        "START": "精选",
+        "BROWSE_ALL": "浏览",
+        "INSTALLED": "已安装",
+        "INSTALLED_MODS": "资料库",
+        "IMPORTED_MODS": "已导入的 Mod",
+        "PLAYSETS": "Playset",
         "PUBLISH": "我的创作",
         "LIBRARY": "我的资料库"
     },
     "PLAYSET_SELECTOR": {
-        "CREATE_NEW_PLAYSET": "创建新模组集",
-        "PLAYSET": "当前的模组集",
-        "DROPDOWN_LABEL": "选择已激活的模组集",
-        "DEACTIVATED_PLAYSETS": "没有已激活的模组集",
-        "DEACTIVATE_PLAYSET": "没有已激活的模组集"
+        "CREATE_NEW_PLAYSET": "新 Playset",
+        "PLAYSET": "激活中的 Playset",
+        "DROPDOWN_LABEL": "选择激活中的 Playset",
+        "DEACTIVATED_PLAYSETS": "没有激活中的 Playset",
+        "DEACTIVATE_PLAYSET": "没有激活中的 Playset",
+        "ACTIVE_PLAYSET": "激活中的 Playset：{{playsetName}}"
     },
     "FILTER": {
         "HEADING": "筛选",
@@ -23,15 +26,15 @@
         "ENABLED": "已启用",
         "DISABLED": "已禁用",
         "EMPTY_STATE": {
-            "TITLE": "尚未安装模组",
-            "TEXT": "模组可以为游戏增添许多乐趣！点选下方按钮以浏览所有模组，安装至少一个模组后再返回此处。",
-            "BUTTON": "浏览所有模组"
+            "TITLE": "尚未安装 Mod",
+            "TEXT": "Mod 可以为游戏增添许多乐趣！点击下方按钮以浏览所有的 Mod，安装至少一个 Mod 后再返回此处。",
+            "BUTTON": "浏览所有 Mod"
         },
         "RESET_ACTIVATION_ORDER": "重置加载顺序",
-        "BANNED_MOD": "此模组已被封禁",
+        "BANNED_MOD": "此 Mod 已被封禁",
         "OFFLINE": "离线",
-        "ADD_TO_PLAYSET": "添加到模组集",
-        "REMOVE_FROM_PLAYSET": "从模组集中移除",
+        "ADD_TO_PLAYSET": "添加到激活中的 Playset",
+        "REMOVE_FROM_PLAYSET": "从激活中的 Playset 中移除",
         "SUBSCRIBERS": "{{formattedCount}} 位订阅者",
         "SUBSCRIBERS_plural": "{{formattedCount}} 位订阅者"
     },
@@ -40,62 +43,83 @@
         "ZA": "Z...A",
         "OLDEST": "时间最旧",
         "MOST_RECENT": "时间最新",
-        "MOST_SUBSCRIBERS": "最多订阅",
+        "MOST_SUBSCRIBED": "最多订阅",
         "HIGHEST_RATED": "评分最高",
-        "SORT_BY": "排序依据"
+        "MOST_PLAYSETS": "包含在最多 Playset 中",
+        "LEAST_PLAYSETS": "包含在最少 Playset 中",
+        "SORT_BY": "排序依据",
+        "BEST": "最佳",
+        "MOST_POPULAR": "最热门",
+        "LAST_UPDATED": "最近更新"
     },
     "ERROR": {
-        "PARADOX_SERVICES_DOWN": "很抱歉，Paradox 模组服务未能完成该要求。",
+        "PARADOX_SERVICES_DOWN": "很抱歉，Paradox Mods 服务未能完成该要求。",
         "BUTTONS": {
             "CLOSE": "关闭"
         },
         "SET_USER_RATING": {
-            "TITLE": "无法设置模组的用户评分",
-            "MESSAGE": "我们无法为此模组设置新的用户评分。"
+            "TITLE": "无法为 Mod 设置用户评分",
+            "MESSAGE": "我们无法为此 Mod 设置新的用户评分。"
         },
         "GET_USER_RATING": {
-            "TITLE": "无法取得模组的用户评分",
-            "MESSAGE": "我们无法取得此模组的用户评分。"
+            "TITLE": "无法取得 Mod 的用户评分",
+            "MESSAGE": "我们无法取得此 Mod 的用户评分。"
         },
         "LOAD_MORE": {
-            "TITLE": "无法加载更多模组",
-            "MESSAGE": "我们无法在此次滚动时加载更多模组。"
+            "TITLE": "无法加载更多 Mod",
+            "MESSAGE": "我们无法在此次滚动期间加载更多 Mod。"
         },
         "SEARCH": {
-            "TITLE": "无法搜索模组",
-            "MESSAGE": "我们当前无法搜索模组。"
+            "TITLE": "无法搜索 Mod",
+            "MESSAGE": "我们当前无法搜索 Mod。"
         },
         "SUBSCRIBE": {
-            "TITLE": "无法添加模组",
-            "MESSAGE": "我们当前无法添加模组。"
+            "TITLE": "无法添加 Mod",
+            "MESSAGE": "我们当前无法添加 Mod。"
         },
         "UNSUBSCRIBE": {
-            "TITLE": "无法移除模组",
-            "MESSAGE": "我们当前无法移除模组。"
+            "TITLE": "无法移除 Mod",
+            "MESSAGE": "我们当前无法移除 Mod。"
         },
         "MOD_DETAILS": {
-            "TITLE": "无法提取模组详细信息",
-            "MESSAGE": "我们当前无法提取模组详细信息。"
+            "TITLE": "无法提取 Mod 详细信息",
+            "MESSAGE": "我们当前无法提取 Mod 详细信息。"
         },
         "USER_RATING": {
             "TITLE": "无法提取用户评分",
             "MESSAGE": "我们当前无法提取您的用户评分。"
         },
         "MOD_RATING": {
-            "TITLE": "无法提取模组评分",
-            "MESSAGE": "我们无法提取模组评分。"
+            "TITLE": "无法提取 Mod 评分",
+            "MESSAGE": "我们无法提取 Mod 评分。"
         },
         "ENABLE": {
-            "TITLE": "无法启用模组",
-            "MESSAGE": "我们暂时无法启用此模组。"
+            "TITLE": "无法启用 Mod",
+            "MESSAGE": "我们暂时无法启用此 Mod。"
         },
         "DISABLE": {
-            "TITLE": "无法禁用模组",
-            "MESSAGE": "我们暂时无法禁用此模组。"
+            "TITLE": "无法禁用 Mod",
+            "MESSAGE": "我们暂时无法禁用此 Mod。"
+        },
+        "ENABLE_PLAYSET_MODS": {
+            "TITLE": "无法启用 Playset 的 Mod",
+            "MESSAGE": "我们暂时无法启用此 Playset 的 Mod。"
+        },
+        "DISABLE_PLAYSET_MODS": {
+            "TITLE": "无法禁用 Playset 的 Mod",
+            "MESSAGE": "我们暂时无法禁用此 Playset 的 Mod。"
         },
         "GETSUBSCRIBED": {
-            "TITLE": "无法存取您添加的模组",
-            "MESSAGE": "我们暂时无法存取您添加的模组。"
+            "TITLE": "无法存取您添加的 Mod",
+            "MESSAGE": "我们暂时无法存取您添加的 Mod。"
+        },
+        "GET_FORUM_POSTS": {
+            "TITLE": "无法提取讨论帖",
+            "MESSAGE": "我们无法提取讨论帖。"
+        },
+        "SEND_FORUM_POST": {
+            "TITLE": "无法发布讨论帖",
+            "MESSAGE": "我们无法在讨论帖添加帖子。"
         },
         "GET_GAME_VERSION": {
             "TITLE": "无法提取游戏版本",
@@ -106,8 +130,8 @@
             "MESSAGE": "我们无法提取依赖项目。"
         },
         "REPORT_MOD": {
-            "TITLE": "无法举报模组",
-            "MESSAGE": "我们无法举报模组。"
+            "TITLE": "无法举报 Mod",
+            "MESSAGE": "我们无法举报 Mod。"
         },
         "GET_GAME_DATA": {
             "TITLE": "无法提取游戏信息",
@@ -126,48 +150,48 @@
             "MESSAGE": "当前无法开启屏幕键盘。"
         },
         "PLAYSETS": {
-            "TITLE": "无法提取模组集",
-            "MESSAGE": "我们当前无法提取您的模组集。"
+            "TITLE": "无法提取 Playset",
+            "MESSAGE": "我们当前无法提取您的 Playset。"
         },
         "PLAYSET_DETAILS": {
-            "TITLE": "无法提取模组集详细信息",
-            "MESSAGE": "我们当前无法提取模组集详细信息。"
+            "TITLE": "无法提取 Playset 详细信息",
+            "MESSAGE": "我们当前无法提取 Playset 详细信息。"
         },
         "PLAYSET_DELETE": {
-            "TITLE": "无法删除模组集",
-            "MESSAGE": "我们当前无法删除您的模组集。"
+            "TITLE": "无法删除 Playset",
+            "MESSAGE": "我们当前无法删除您的 Playset。"
         },
         "PLAYSET_RENAME": {
-            "TITLE": "无法为模组集重命名",
-            "MESSAGE": "我们当前无法为模组集重命名。"
+            "TITLE": "无法为 Playset 重命名",
+            "MESSAGE": "我们当前无法为 Playset 重命名。"
         },
         "PLAYSET_MODS": {
-            "TITLE": "无法存取模组集模组",
-            "MESSAGE": "我们当前无法提取您的模组。"
+            "TITLE": "无法存取 Playset Mod",
+            "MESSAGE": "我们当前无法提取您的 Mod。"
         },
         "PLAYSET_HAS_ENABLED_MODS": {
-            "TITLE": "无法检查是否有启用的模组",
-            "MESSAGE": "我们当前无法确认您已激活的模组集中是否有已启用的模组。"
+            "TITLE": "无法检查是否有启用的 Mod",
+            "MESSAGE": "我们当前无法确认您激活中的 Playset 是否包含已启用的 Mod。"
         },
         "CREATE_PLAYSET": {
-            "TITLE": "无法创建新的模组集",
-            "MESSAGE": "我们当前无法创建新的模组集。"
+            "TITLE": "无法创建新的 Playset",
+            "MESSAGE": "我们当前无法创建新的 Playset。"
         },
         "ACTIVATE_PLAYSET": {
-            "TITLE": "无法激活模组集",
-            "MESSAGE": "我们当前无法激活模组集。"
+            "TITLE": "无法激活 Playset",
+            "MESSAGE": "我们当前无法激活 Playset。"
         },
         "DEACTIVATE_PLAYSET": {
-            "TITLE": "无法禁用模组集",
-            "MESSAGE": "我们当前无法禁用模组集。"
+            "TITLE": "无法禁用 Playset",
+            "MESSAGE": "我们当前无法禁用 Playset。"
         },
         "DEACTIVATED_PLAYSET": {
-            "TITLE": "无法添加模组",
-            "MESSAGE": "您需要有已激活的模组集才能添加模组。"
+            "TITLE": "无法添加 Mod",
+            "MESSAGE": "您需要有激活中的 Playset 才能添加 Mod。"
         },
         "ACTIVE_PLAYSET": {
-            "TITLE": "无法取得已激活的模组集",
-            "MESSAGE": "我们当前无法取得已激活的模组集。"
+            "TITLE": "无法取得激活中的 Playset",
+            "MESSAGE": "我们当前无法取得您激活中的 Playset。"
         },
         "GENERIC": {
             "NOTLOGGEDIN": {
@@ -176,11 +200,11 @@
             },
             "OFFLINE": {
                 "TITLE": "您已离线",
-                "MESSAGE": "您当前似乎无法连接到互联网。不过，您仍然可以启用或禁用已安装的模组，或是更改其加载顺序。"
+                "MESSAGE": "您当前似乎无法连接到互联网。不过，您仍然可以启用或禁用已安装的 Mod，或是更改其加载顺序。"
             },
             "SYNC": {
-                "TITLE": "同步模组时发生错误",
-                "MESSAGE": "同步模组时似乎发生了错误。"
+                "TITLE": "同步 Mod 时发生错误",
+                "MESSAGE": "同步 Mod 时似乎发生了错误。"
             },
             "DEFAULT": {
                 "TITLE": "发生错误。",
@@ -204,22 +228,22 @@
                 "TASKTIMEOUTERROR": "向服务器发送的要求已超时。",
                 "UNEXPECTEDRESPONSEERROR": "服务器的响应存在格式错误或所需数据不完整。",
                 "NORESPONSEBODY": "服务器的响应没有正文。",
-                "MODDOWNLOADFAILEDERROR": "已同步模组的元数据，但是下载失败。将在下次同步时重新尝试下载。"
+                "MODDOWNLOADFAILEDERROR": "已同步 Mod 的元数据，但是下载失败。将在下次同步时重新尝试下载。"
             },
             "NOTFOUND": {
                 "NOACCOUNT": "无法找到用户帐户。",
                 "NODOCUMENT": "无法找到文件。",
                 "NOMERGETASK": "无法找到合并任务。",
-                "NOMOD": "无法找到模组。",
-                "NOMODVERSION": "无法找到要求的模组版本。",
-                "NOMODPLAYSET": "无法找到或访问要求的模组集。",
+                "NOMOD": "无法找到 Mod。",
+                "NOMODVERSION": "无法找到要求的 Mod 版本。",
+                "NOMODPLAYSET": "无法找到或访问要求的 Playset。",
                 "NOPROFILE": "无法找到个人档案。",
                 "NOACHIEVEMENT": "无法找到成就。",
                 "NORESOURCE": "无法找到要求的资源。"
             },
             "INVALIDSTATE": {
                 "NOTLOGGEDIN": "用户尚未登录。",
-                "MODDISABLED": "模组已被删除或封禁。"
+                "MODDISABLED": "Mod 已被删除或封禁。"
             },
             "MODS": {
                 "SYNCONGOING": "已在进行同步。",
@@ -236,33 +260,38 @@
                 "AUTOMATICLOGINFAILURE": "Account.Startup() 无法将用户自动登录。请改为手动呼叫 Account.Login(Credentials)。"
             },
             "MODSUI": {
-                "DELETEACTIVEPLAYSET": "无法删除当前已激活的模组集。"
+                "DELETEACTIVEPLAYSET": "无法删除当前激活中的 Playset。",
+                "REPORTMODBLOCKEDTIMELIMIT": "已经举报过此 Mod，正在等待我们的管理员审查。",
+                "TOOMANYPLAYSETS": "玩具套装不能超过 50 个。"
+            },
+            "__DETAILS": {
+                "UNABLE_TO_ADD_FORUM_POST__MAKE_SURE_YOUR_ACCOUNT_IS_CONNECTED_TO_THE_FORUMS": "无法添加论坛帖子，请确保您的帐户已连接到论坛"
             }
         },
         "WIP": {
             "CREATE": {
-                "TITLE": "无法创建草稿模组。",
-                "MESSAGE": "很抱歉，我们无法创建草稿模组。"
+                "TITLE": "无法创建草稿 Mod。",
+                "MESSAGE": "很抱歉，我们无法创建您的草稿 Mod。"
             },
             "LIST": {
-                "TITLE": "无法提取草稿模组。",
-                "MESSAGE": "很抱歉，我们无法提取您的模组集详细信息。"
+                "TITLE": "无法提取草稿 Mod。",
+                "MESSAGE": "很抱歉，我们无法提取您的 Playset 详细信息。"
             },
             "DELETE": {
-                "TITLE": "无法删除草稿模组。",
-                "MESSAGE": "很抱歉，我们无法删除您的草稿模组。"
+                "TITLE": "无法删除草稿 Mod。",
+                "MESSAGE": "很抱歉，我们无法删除您的草稿 Mod。"
             },
             "GET": {
-                "TITLE": "无法提取草稿模组。",
-                "MESSAGE": "很抱歉，我们无法提取您的草稿模组。"
+                "TITLE": "无法提取草稿 Mod。",
+                "MESSAGE": "很抱歉，我们无法提取您的草稿 Mod。"
             },
             "PUBLISH": {
-                "TITLE": "无法发布草稿模组。",
-                "MESSAGE": "很抱歉，我们无法发布您的草稿模组。请确认已具备所有内容与封面图像。"
+                "TITLE": "无法发布草稿 Mod。",
+                "MESSAGE": "很抱歉，我们无法发布您的草稿 Mod。请确认已具备所有内容与封面图像。"
             },
             "NEW_VERSION": {
-                "TITLE": "无法发布新的草稿模组版本。",
-                "MESSAGE": "很抱歉，我们无法发布您的新草稿模组版本。请确认已具备所有内容与封面图像。"
+                "TITLE": "无法发布新的草稿 Mod 版本。",
+                "MESSAGE": "很抱歉，我们无法发布您的新草稿 Mod 版本。请确认已具备所有内容与封面图像。"
             }
         },
         "INPUT": {
@@ -277,19 +306,66 @@
             "BACK": "返回",
             "BY": "作者：",
             "SIZETEXT": "大小",
-            "VERSION": "模组版本",
+            "VERSION": "Mod 版本",
             "REQUIREDGAMEVERSION": "建议的游戏版本",
-            "SUBSCRIPTIONSTOTAL": "位订阅者"
+            "SUBSCRIPTIONSTOTAL": "位订阅者",
+            "LIKESTOTAL": "个赞",
+            "AUTHOR": "作者"
+        },
+        "AUTHOR": {
+            "TITLE": "Mod 作者",
+            "ALL_MODS_BY_AUTHOR": "此作者的所有 Mod",
+            "MORE_FROM_THIS_CREATOR": "此创作者的更多作品"
         },
         "SUBSCRIBE_BUTTON": {
-            "SUBSCRIBE": "添加到模组集",
+            "SUBSCRIBE": "添加到激活中的 Playset",
             "SUBSCRIBED": "已添加",
-            "UNSUBSCRIBE": "从模组集中移除"
+            "UNSUBSCRIBE": "从激活中的 Playset 中移除",
+            "INSTALLING": "正在安装...",
+            "UNINSTALLING": "正在卸载...",
+            "UNSUBSCRIBE_CONFIRMATION": {
+                "TITLE": "确认移除 Mod",
+                "TEXT": "确定要从激活中的 Playset 中移除 Mod“{{name}}”({{size}}) 吗？"
+            }
         },
         "REQUIREMENT": {
             "TITLE": "必要",
             "VIEW_ALL": "查看全部",
-            "BACK_TO_MOD_DETAILS": "返回模组详细信息"
+            "BACK_TO_MOD_DETAILS": "返回 Mod 详细信息",
+            "REQUIRED_MODS": "需要 Mod ({{modsCount}} 个)",
+            "REQUIRED_DLC": "需要可下载内容 ({{dlcCount}} 个)",
+            "REQUIRED_MODS_MESSAGE": "此 Mod 需有以下的 Mod 才能运作",
+            "REQUIRED_DLC_MESSAGE": "此 Mod 需要以下的可下载内容才能运作"
+        },
+        "FORUM_LINKS": {
+            "TITLE": "此 Mod 的更多详情",
+            "TOP_THREAD": "Paradox 论坛"
+        },
+        "FORUM_POSTS": {
+            "TITLE": "讨论",
+            "OPEN_FULL_DISCUSSION": "开启完整讨论",
+            "UNSUPPORTED_FORMATTING": "此信息有不支持的格式，无法在此显示。",
+            "GO_TO_POST": "前往论坛查看完整帖子。",
+            "OPEN_IN_BROWSER": "在浏览器中开启",
+            "COMMENT_TITLE": "评论 Mod",
+            "REPLYING_TO": "回复 {{user}} 的帖子",
+            "REMOVE_REPLY": "取消",
+            "SEND_COMMENT": "发布",
+            "ADD_COMMENT": "添加评论...",
+            "REFRESH": "刷新",
+            "LOAD_MORE": "加载更多",
+            "NEW": "新",
+            "YOU": "祐",
+            "REGISTER_TITLE": "您需要访问 Paradox 论坛",
+            "REGISTER_INFORMATION": "<0>您的帐户必须链接到 Paradox 论坛才能发表评论。 按照下面的按钮并使用您的 Paradox 帐户登录进行设置。</0><1>如果您已经关联账户，请稍等片刻后重试。</1>",
+            "OPEN_REGISTER": "关联您的帐户"
+        },
+        "LINKS": {
+            "TITLE": "此 Mod 的更多详情"
+        },
+        "LINKS_MODAL": {
+            "TITLE": "要在网页浏览器中开启吗？",
+            "TEXT": "要在游戏外的网页浏览器开启此链接吗？"
         },
         "CHANGELOG": {
             "TITLE": "更新记录",
@@ -298,35 +374,52 @@
             "READ_MORE": "阅读详细信息"
         },
         "DESCRIPTION": {
+            "TITLE": "描述",
             "READ_MORE": "阅读详细信息"
+        },
+        "INFO": {
+            "TITLE": "Mod 信息"
         },
         "BANNED": {
             "TITLE": "已封禁",
-            "INFO": "此模组违反了我们的条款和条件，因此已从资料库封禁。"
+            "INFO": "此 Mod 违反了我们的条款和条件，因此已从资料库封禁。"
         },
-        "OUTDATED": "此模组与您的游戏版本不兼容，可能无法正常运作。"
+        "OUTDATED": "此 Mod 与您的游戏版本不兼容，可能无法正常运作。",
+        "GALLERY": {
+            "NEXT": "下一个",
+            "PREVIOUS": "上一个",
+            "MISSING_IMAGES": "该模组还没有图库图片..."
+        },
+        "TAGS": {
+            "TITLE": "标签"
+        }
     },
     "PLAYSET_DETAILS": {
         "HEADER": {
             "CREATED_BY": "创建者：",
-            "MODS": "模组",
+            "MODS": "Mod",
             "TOTAL_SIZE": "总大小",
-            "BACK": "返回模组集列表",
-            "SUBTITLE": "{{modsCount}} 个模组，总大小 {{modsSize}}"
+            "BACK": "返回所有 Playset",
+            "SUBTITLE": "{{modsCount}} 个 Mod，总大小 {{modsSize}}"
         },
         "MORE_BUTTON": {
             "MORE": "更多"
         },
         "ACTIVATE_BUTTON": {
-            "ACTIVATE": "激活"
+            "ACTIVATE": "激活",
+            "ACTIVATED": "已激活"
+        },
+        "ACTION_MENU": {
+            "ENABLE_ALL_MODS": "启用所有 Mod",
+            "DISABLE_ALL_MODS": "禁用所有 Mod"
         },
         "EMPTY_STATE": {
-            "TITLE": "还没有模组",
-            "DESCRIPTION": "创建模组集的用意就是可以尽情使用模组游玩，所以赶快来为这个崭新的模组集添加一些模组吧！",
-            "ADD_MODS": "添加模组"
+            "TITLE": "还没有 Mod",
+            "DESCRIPTION": "创建 Playset 的用意就是可以尽情使用 Mod 游玩，所以快为这个崭新的 Playset 添加一些 Mod 吧！",
+            "ADD_MODS": "添加 Mod"
         },
         "LIST": {
-            "AUTHOR": "<0>，作者：</0><1/>"
+            "AUTHOR": "<0>作者：</0><1/>"
         }
     },
     "CONSOLE_FOOTER": {
@@ -339,8 +432,8 @@
         "ENABLE_DISABLE": "启用/禁用",
         "ENABLE": "启用",
         "DISABLE": "禁用",
-        "SUBSCRIBE": "添加到模组集",
-        "UNSUBSCRIBE": "从模组集中移除",
+        "SUBSCRIBE": "添加到 Playset",
+        "UNSUBSCRIBE": "从 Playset 中移除",
         "CLOSE": "关闭",
         "CHANGE_ORDER": "更改顺序",
         "RESET_LOAD_ORDER": "重置加载顺序",
@@ -351,7 +444,16 @@
         "RENAME": "重命名",
         "CANCEL": "取消",
         "CONFIRM": "确认",
-        "CREATE": "创建"
+        "CREATE": "创建",
+        "TOGGLE_ACTION_MENU": "切换行动菜单",
+        "SCROLL_TO_TOP": "滚动至顶部",
+        "LIKE": "赞",
+        "REMOVE_LIKE": "收回赞",
+        "EXPAND": "展开",
+        "COLLAPSE": "折叠",
+        "OPEN_WEB_LINK": "在网页浏览器中开启",
+        "SELECT": "选择",
+        "REPLY": "回复"
     },
     "CONSOLE_FILTER": {
         "TITLE": "筛选结果",
@@ -360,16 +462,16 @@
         "FILTERED": "已筛选"
     },
     "DEPENDENCIES_NOTIFICATION": {
-        "TITLE": "您即将添加模组“{{modName}}”。",
-        "INFORMATION": "<0>此模组需要依赖 {{numberOfDependencies}} 个必要模组 (总大小：{{totalSizeOfDependencies}}) 才能正常运行。</0><1>是否也要自动添加这些必要模组？</1>",
-        "SUBSCRIBE_TO_MODS": "添加必要模组",
-        "IGNORE_MODS": "忽略必要模组",
-        "NOT_PUBLISHED_DEPENDENCIES": "<0>请注意，此模组的某些依赖项目无法使用，这可能会导致此模组无法正常运行。</0><1>可能原因包括该依赖项目已被封禁、删除，或经其他方式从发布状态移除。</1>"
+        "TITLE": "您即将添加 Mod“{{modName}}”。",
+        "INFORMATION": "<0>这个 Mod 必须有另外 {{numberOfDependencies}} 个 Mod (总大小：{{totalSizeOfDependencies}}) 才能正常运行。</0><1>是否要一并自动添加这些必要的 Mod？</1>",
+        "SUBSCRIBE_TO_MODS": "添加必要 Mod",
+        "IGNORE_MODS": "忽略必要 Mod",
+        "NOT_PUBLISHED_DEPENDENCIES": "<0>请注意，此 Mod 的某些依赖项目无法使用，这可能会导致此 Mod 无法正常运行。</0><1>可能原因包括依赖项目已被封禁、删除，或经其他方式从发布状态移除。</1>"
     },
     "OUT_OF_SYNC": {
         "PLAYSET_OUT_OF_SYNC": {
-            "TITLE": "模组集同步冲突",
-            "INFORMATION": "模组集的服务器状态与本地状态不符。您想继续使用/保留何者？",
+            "TITLE": "Playset 同步冲突",
+            "INFORMATION": "Playset 的服务器状态与本地状态不符。您想继续使用/保留何者？",
             "KEEP_CLOUD": "保留云文件",
             "KEEP_LOCAL": "保留本地文件"
         },
@@ -387,18 +489,19 @@
         }
     },
     "SYNC": {
-        "TITLE": "正在取得模组的最新更新...",
-        "INFORMATION": "需要同步几个模组才能继续。待同步完成后您才可以浏览模组。",
-        "MODS_DONE": "已完成的模组",
-        "UPDATING_MOD": "正在更新模组",
-        "STOP_AND_CONTINUE_NEXT_TIME": "停止，下次再继续",
+        "TITLE": "正在取得 Mod 的最新更新...",
+        "INFORMATION": "无法在更新进行时浏览 Mod。关闭此窗口仍会继续更新。",
+        "MODS_DONE": "Mod 已完成",
+        "UPDATING_MOD": "正在更新 Mod",
+        "STOP_AND_CONTINUE_NEXT_TIME": "关闭此窗口",
         "WAITING_FOR_DOWNLOAD": "正在等待下载开始...",
-        "CHECKING_MODS": "正在检查模组...",
+        "CHECKING_MODS": "正在检查 Mod...",
         "DOWNLOADING": "正在下载",
         "DONE": "前往列表",
         "CLOSE": "关闭",
         "RESYNC": "重新开始同步",
-        "REMOVE_MODS": "磁盘空间不足，无法将模组集更新至最新版。您必须移除一些模组来腾出磁盘空间。",
+        "UNHANDLED_ERROR": "部分 Mod 在同步时发生错误，请移除出错的 Mod 后重试。",
+        "OUT_OF_SPACE": "磁盘空间不足，无法将 Playset 更新至最新版。您必须移除一些 Mod 来腾出磁盘空间。",
         "INSTALLING": {
             "PREPARING": "正在准备...",
             "PATCHING": "正在移动文件...",
@@ -410,16 +513,16 @@
     },
     "OTHER": {
         "DLCS": "可下载内容",
-        "MODS": "模组",
+        "MODS": "Mod",
         "NO": "否",
         "REQUIRED": "必要"
     },
     "SCREEN_KEYBOARD": {
         "TITLES": {
-            "SEARCH_MODS": "搜索模组",
+            "SEARCH_MODS": "搜索 Mod",
             "REPORT_COMMENT": "举报说明",
-            "CREATE_PLAYSET": "创建模组集",
-            "RENAME_PLAYSET": "为模组集重命名",
+            "CREATE_PLAYSET": "创建 Playset",
+            "RENAME_PLAYSET": "为 Playset 重命名",
             "PUBLISH": {
                 "DISPLAY_NAME": "设置显示名称",
                 "GAME_VERSION": "设置建议的游戏版本",
@@ -430,19 +533,20 @@
     },
     "REPORT": {
         "SECTION_TITLE": "标记为不恰当",
-        "INFORMATION_TEXT": "如果您认为此模组违反了我们的条款和条件，请举报模组以交给我们审查。",
+        "INFORMATION_TEXT": "如果您认为此 Mod 违反了我们的条款和条件，请举报 Mod 以交给我们审查。",
         "BUTTON": "提交举报",
+        "BUTTON_DONE": "已发送举报",
         "SUBMIT": "提交举报",
         "INFORMATION": "请于下方填写详细信息，我们会将其提交给质量保证团队进行分析。感谢您协助 Paradox 变得更好，并创造更安全的环境。",
         "CAPTION": "举报原因",
         "COMMENT_TITLE": "请提供更详细的信息：",
         "COMMENT_PLACEHOLDER": "请在此处填写说明...",
         "THANK_YOU": "感谢您的举报。",
-        "THANK_YOU_MESSAGE": "您已成功举报此模组供管理团队审查。感谢您协助 Paradox 变得更好，并创造更安全的环境。",
+        "THANK_YOU_MESSAGE": "您已举报此 Mod 供管理团队审查。感谢您协助 Paradox Mods 变得更好，并创造更安全的环境。",
         "MISSING_REASON": "您必须选择原因。",
         "MISSING_DESCRIPTION": "您必须描述违规行为。",
         "CLOSE": "关闭窗口",
-        "COMMENT_INFORMATION": "您将要举报此模组中的不当内容。",
+        "COMMENT_INFORMATION": "您即将因含有不当内容举报此 Mod。",
         "COMMENT_SUBINFORMATION": "您已告知我们，它可能含有以下问题：",
         "PREVIEW_COMMENT": "您的说明：",
         "PREVIEW": "预览",
@@ -454,61 +558,67 @@
             "SPAM": "滥发",
             "COPYRIGHT": "侵犯版权",
             "HATE": "仇恨言论",
-            "DOESNOTWORK": "模组无法正常运行",
+            "DOESNOTWORK": "Mod 无法正常运行",
             "OTHER": "其他问题"
         }
     },
     "SEARCH": {
         "NO_SEARCH_RESULTS": "没有搜索结果",
-        "MODS_AVAILABLE": "{{modsAvailable}} 个可用的模组"
+        "MODS_AVAILABLE": "{{modsAvailable}} 个可用的 Mod"
+    },
+    "INSTALLED_MODS": {
+        "MODS_INSTALLED": "{{modsAvailable}} 个已安装的 Mod"
     },
     "XBOX_SEARCH": {
         "CLEAR_SEARCH": "清除搜索"
     },
     "SEARCH_INPUT": {
-        "PLACEHOLDER": "搜索模组..."
+        "PLACEHOLDER": "搜索 Mod..."
     },
     "PLAYSETS": {
+        "TITLE": "Playset",
+        "ACTIVE": "激活中",
+        "ACTIVATE_PLAYSET": "使用此 Playset",
         "CREATE_NEW_PLAYSET": {
-            "TITLE": "创建模组集",
+            "TITLE": "创建新 Playset",
             "NAME": "名称",
             "CREATE": "创建",
             "CANCEL": "取消",
-            "KEYBOARD_TITLE": "输入新的模组集名称",
-            "SUCCESS": "已创建模组集“{{name}}”。"
+            "KEYBOARD_TITLE": "输入新的 Playset 名称",
+            "SUCCESS": "已创建 Playset“{{name}}”。"
         },
-        "MODS_COUNT": "{{modsCount}} 个模组",
+        "MODS_COUNT": "{{modsCount}} 个 Mod",
         "UPDATED": "最后更新：{{updated}}",
         "DELETE": {
-            "TITLE": "确认删除模组集",
-            "TEXT": "确定要删除模组集“{{name}}”吗？"
+            "TITLE": "确认删除 Playset",
+            "TEXT": "确定要删除 Playset“{{name}}”吗？"
         },
         "RENAME": {
-            "TITLE": "为模组集重命名",
+            "TITLE": "为 Playset 重命名",
             "TEXT": "为“{{name}}”重命名"
         }
     },
     "PUBLISH": {
-        "INPUT_DETAILS": "模组详细信息",
+        "INPUT_DETAILS": "Mod 详细信息",
         "DISPLAY_NAME": "显示名称 *",
         "DISPLAY_NAME_ERROR": "显示名称为必填",
         "SUGGESTED_GAME_VERSION": "建议的游戏版本 *",
         "SUGGESTED_GAME_VERSION_ERROR": "建议的游戏版本为必填",
         "COVER_FILE_NAME": "封面图像文件名 *",
-        "COVER_FILE_NAME_ERROR": "封面图像文件名名为必填",
+        "COVER_FILE_NAME_ERROR": "封面图像文件名为必填",
         "DESCRIPTION": "描述 *",
         "DESCRIPTION_ERROR": "描述为必填",
         "CHANGELOG": "更新记录条目 *",
         "CHANGELOG_ERROR": "更新记录条目为必填",
         "PUBLISH_NEW_VERSION": "发布新版本",
         "PUBLISH_NEW": "发布",
-        "PUBLISHING_TITLE": "模组待发布",
-        "PUBLISHING": "您的模组当前正在发布。可能需要等待一段时间才会完成。"
+        "PUBLISHING_TITLE": "Mod 待发布",
+        "PUBLISHING": "当前正在发布您的 Mod。可能需要等待一段时间才会完成。"
     },
     "LIBRARY": {
-        "PLAYSETS_TITLE": "我的模组集",
+        "PLAYSETS_TITLE": "我的 Playset",
         "CREATIONS_TITLE": "我的创作",
-        "IMPORTED_TITLE": "我的已导入模组"
+        "IMPORTED_TITLE": "我已导入的 Mod"
     },
     "CONFIRM_MODAL": {
         "CONFIRM": "是",
@@ -519,37 +629,46 @@
         "CONFIRM": "关闭"
     },
     "TOASTS": {
-        "UNSUBSCRIBED_MOD": "已成功移除模组。"
+        "UNSUBSCRIBED_MOD": "已成功移除 Mod。",
+        "ENABLED_PLAYSET_MODS": "已成功启用 Playset 的 Mod",
+        "DISABLED_PLAYSET_MODS": "已成功禁用 Playset 的 Mod",
+        "COMMENT_POSTED": "已成功发布评论"
     },
     "WIP_MOD": {
-        "CREATE_NEW": "创建新模组",
-        "CREATE_NEW_TEXT": "创建新的制作中模组。",
+        "CREATE_NEW": "创建新 Mod",
+        "CREATE_NEW_TEXT": "创建新的制作中 Mod。",
         "CREATE": "创建",
         "CANCEL": "取消",
-        "DELETE_TITLE": "删除制作中的模组",
-        "DELETE_TEXT": "确定要删除模组“{{modName}}”吗？",
-        "DRAFT_MODS": "{{modCount}} 个草稿模组"
+        "DELETE_TITLE": "删除制作中的 Mod",
+        "DELETE_TEXT": "确定要删除 Mod“{{modName}}”吗？",
+        "DRAFT_MODS": "{{modCount}} 个草稿 Mod"
     },
     "WARNING": {
         "START_SCREEN": {
-            "XBOX": "<0>重要提醒</0>模组将改变游戏的原始体验，且这些模组并未经由 Paradox Interactive、开发者或 Xbox 预先测试或检验。使用模组时，建议您另外创建一个独立的存档来游玩。只要有启用一个以上的模组，所有成就进度都将禁用。您可随时在“已安装的模组”标签页禁用模组。Paradox 模组需遵守 Paradox 用户协议。",
-            "PLAYSTATION": "<0>重要提醒</0>模组将改变游戏的原始体验，且这些模组并未经由 Paradox Interactive、开发者或 PlayStation 预先测试或检验。使用模组时，建议您另外创建一个独立的存档来游玩。只要有启用一个以上的模组，所有奖杯进度都将禁用。您可随时在“已安装的模组”标签页禁用模组。Paradox 模组需遵守 Paradox 用户协议。",
-            "DEFAULT": "<0>重要提醒</0>模组将改变游戏的原始体验，且这些模组并未经由 Paradox Interactive 预先测试或检验。使用模组时，建议您另外创建一个独立的存档来游玩。只要有启用一个以上的模组，所有成就进度都将禁用。您可随时在“已安装的模组”标签页禁用模组。Paradox 模组需遵守 Paradox 用户协议。"
+            "XBOX": "<0>重要提醒</0> Mod 将改变游戏的原始体验，且这些 Mod 并未经由 Paradox Interactive、开发者或 Xbox 预先测试或检验。只要有启用一个以上的 Mod，所有成就进度都将禁用。使用 Paradox Mods 需遵守 Paradox 用户协议。",
+            "PLAYSTATION": "<0>重要提醒</0> Mod 将改变游戏的原始体验，且这些 Mod 并未经由 Paradox Interactive、开发者或 PlayStation 预先测试或检验。只要有启用一个以上的 Mod，所有奖杯进度都将禁用。使用 Paradox Mods 需遵守 Paradox 用户协议。",
+            "DEFAULT": "<0>重要提醒</0> Mod 将改变游戏的原始体验，且这些 Mod 并未经由 Paradox Interactive 预先测试或检验。只要有启用一个以上的 Mod，所有成就进度都将禁用。使用 Paradox Mods 需遵守 Paradox 用户协议。"
         },
         "EXIT": {
             "CLOSING": "正在关闭...",
             "CLOSE_NOW": "立即关闭",
             "TITLE": "重要提醒",
-            "XBOX": "有启用中的模组。成就进度将会禁用，直到您再度禁用模组。确定要继续吗？",
-            "PLAYSTATION": "有启用中的模组。奖杯进度将会禁用，直到您再度禁用模组。确定要继续吗？",
-            "DEFAULT": "有启用中的模组。成就进度将会禁用，直到您再度禁用模组。确定要继续吗？",
-            "CONFIRM": "是，请保留模组并返回主菜单",
-            "CANCEL": "返回 Paradox 模组"
+            "XBOX": "只要有启用一个以上的 Mod，系统就会禁用成就进度，直到您再度禁用 Mod 为止。确定要继续吗？",
+            "PLAYSTATION": "只要有启用一个以上的 Mod，系统就会禁用奖杯进度，直到您再度禁用 Mod 为止。确定要继续吗？",
+            "DEFAULT": "只要有启用一个以上的 Mod，系统就会禁用成就进度，直到您再度禁用 Mod 为止。确定要继续吗？",
+            "CONFIRM": "是，请保留 Mod 并返回主菜单",
+            "CANCEL": "返回 Paradox Mods"
         }
     },
-    "FORUM_LINKS": {
-        "TITLE": "论坛链接",
-        "DESCRIPTION": "讨论此模组的人",
-        "TOP_THREAD": "查看第一则帖子"
+    "MOD_SPOTLIGHT": {
+        "VIEW_DETAILS": "查看详细信息",
+        "READ_MORE": "阅读详细信息"
+    },
+    "START": {
+        "FEATURED_MODS": {
+            "BROWSE_ALL": "浏览全部",
+            "LOAD_MORE": "加载更多",
+            "MOST_POPULAR": "最热门的 Mod"
+        }
     }
 }
