@@ -2,7 +2,8 @@
     "TOP_MENU": {
         "START": "Featured",
         "BROWSE_ALL": "Browse",
-        "INSTALLED_MODS": "Installed",
+        "INSTALLED": "Installed",
+        "INSTALLED_MODS": "Library",
         "IMPORTED_MODS": "Imported Mods",
         "PLAYSETS": "Playsets",
         "PUBLISH": "My creations",
@@ -13,7 +14,8 @@
         "PLAYSET": "Active playset",
         "DROPDOWN_LABEL": "Select active playset",
         "DEACTIVATED_PLAYSETS": "No active playset",
-        "DEACTIVATE_PLAYSET": "No active playset"
+        "DEACTIVATE_PLAYSET": "No active playset",
+        "ACTIVE_PLAYSET": "ACTIVE PLAYSET: {{playsetName}}"
     },
     "FILTER": {
         "HEADING": "Filter",
@@ -40,12 +42,15 @@
         "AZ": "A..Z",
         "ZA": "Z..A",
         "OLDEST": "Oldest",
-        "MOST_RECENT": "Most recent",
-        "MOST_SUBSCRIBERS": "Most subscribers",
+        "MOST_RECENT": "Most Recent",
+        "MOST_SUBSCRIBED": "Most Subscribed",
         "HIGHEST_RATED": "Highest rated",
         "MOST_PLAYSETS": "In most playsets",
         "LEAST_PLAYSETS": "In least playsets",
-        "SORT_BY": "Sort by"
+        "SORT_BY": "Sort by",
+        "BEST": "Best",
+        "MOST_POPULAR": "Most Popular",
+        "LAST_UPDATED": "Last Updated"
     },
     "ERROR": {
         "PARADOX_SERVICES_DOWN": "Sorry, Paradox Mods services failed to complete the request.",
@@ -107,6 +112,14 @@
         "GETSUBSCRIBED": {
             "TITLE": "Could not get your added mods",
             "MESSAGE": "We were unable to get your added mods for the moment."
+        },
+        "GET_FORUM_POSTS": {
+            "TITLE": "Could not fetch discussion thread",
+            "MESSAGE": "We were unable to fetch the discussion thread."
+        },
+        "SEND_FORUM_POST": {
+            "TITLE": "Could not post to the discussion thread",
+            "MESSAGE": "We were unable to add a post to the discussion thread."
         },
         "GET_GAME_VERSION": {
             "TITLE": "Could not fetch game version",
@@ -247,7 +260,12 @@
                 "AUTOMATICLOGINFAILURE": "The Account.Startup() was not able to automatically login the user. Do a manual Account.Login(Credentials) call instead."
             },
             "MODSUI": {
-                "DELETEACTIVEPLAYSET":"You can't delete the currently active playset."
+                "DELETEACTIVEPLAYSET":"You can't delete the currently active playset.",
+                "REPORTMODBLOCKEDTIMELIMIT": "You have already reported this mod, and it is waiting to be reviewed by our moderators.",
+                "TOOMANYPLAYSETS":"You can't have more than 50 playsets."
+            },
+            "__DETAILS": {
+                "UNABLE_TO_ADD_FORUM_POST__MAKE_SURE_YOUR_ACCOUNT_IS_CONNECTED_TO_THE_FORUMS": "Unable to add forum post, make sure your account is connected to the forums"
             }
         },
         "WIP": {
@@ -290,26 +308,62 @@
             "SIZETEXT": "Size",
             "VERSION": "Mod ver.",
             "REQUIREDGAMEVERSION": "Suggested game ver.",
-            "SUBSCRIPTIONSTOTAL": "Subscribers"
+            "SUBSCRIPTIONSTOTAL": "Subscribers",
+            "LIKESTOTAL": "Likes",
+            "AUTHOR": "Author"
+        },
+        "AUTHOR": {
+            "TITLE": "Mod author",
+            "ALL_MODS_BY_AUTHOR": "All author mods",
+            "MORE_FROM_THIS_CREATOR": "More from this creator"
         },
         "SUBSCRIBE_BUTTON": {
             "SUBSCRIBE": "Add to active playset",
             "SUBSCRIBED": "ADDED",
-            "UNSUBSCRIBE": "Remove from active playset"
+            "UNSUBSCRIBE": "Remove from active playset",
+            "INSTALLING": "Installing...",
+            "UNINSTALLING": "Uninstalling...",
+            "UNSUBSCRIBE_CONFIRMATION": {
+                "TITLE": "Confirm removing the mod",
+                "TEXT": "Are you sure you want to remove mod “{{name}}” ({{size}}) from the active playset?"
+            }
         },
         "REQUIREMENT": {
             "TITLE": "Required",
             "VIEW_ALL": "View all",
-            "BACK_TO_MOD_DETAILS": "Back to mod details"
+            "BACK_TO_MOD_DETAILS": "Back to mod details",
+            "REQUIRED_MODS": "Required mods ({{modsCount}})",
+            "REQUIRED_DLC": "Required DLC ({{dlcCount}})",
+            "REQUIRED_MODS_MESSAGE": "The following mods are required for this mod to work",
+            "REQUIRED_DLC_MESSAGE": "The following DLCs are required for this mod to work"
         },
         "FORUM_LINKS": {
             "TITLE": "More about this mod",
             "TOP_THREAD": "Paradox Forums"
         },
-        "SOCIAL_MEDIA_LINKS": {
+        "FORUM_POSTS": {
+            "TITLE": "Discussion",
+            "OPEN_FULL_DISCUSSION": "Open full discussion",
+            "UNSUPPORTED_FORMATTING": "This message has unsupported formatting and cannot be displayed here.",
+            "GO_TO_POST": "Go to forum to view full post.",
+            "OPEN_IN_BROWSER": "Open in browser",
+            "COMMENT_TITLE": "Comment the mod",
+            "REPLYING_TO": "Replying to a post by {{user}}",
+            "REMOVE_REPLY": "Cancel",
+            "SEND_COMMENT": "Post",
+            "ADD_COMMENT": "Add a comment...",
+            "REFRESH": "Refresh",
+            "LOAD_MORE": "Load more",
+            "NEW": "New",
+            "YOU": "You",
+            "REGISTER_TITLE": "You need access to Paradox Forums",
+            "REGISTER_INFORMATION": "<0>Your account must be linked to the Paradox Forums to be able to post comments. Follow the button below and log in using your Paradox Account to set things up.</0><1>If you have already linked your account, please wait a moment and try again.</1>",
+            "OPEN_REGISTER": "Link your account"
+        },
+        "LINKS": {
             "TITLE": "More about this mod"
         },
-        "EXTERNAL_LINKS_MODAL": {
+        "LINKS_MODAL": {
             "TITLE": "Open in web browser?",
             "TEXT": "Do you want to open this link in a web browser outside of the game?"
         },
@@ -320,13 +374,25 @@
             "READ_MORE": "Read more"
         },
         "DESCRIPTION": {
+            "TITLE": "Description",
             "READ_MORE": "Read more"
+        },
+        "INFO": {
+            "TITLE": "Mod info"
         },
         "BANNED": {
             "TITLE": "Banned",
             "INFO": "This mod has been banned from the library due to violations of our Terms and Conditions."
         },
-        "OUTDATED": "This mod is not compatible with your game version and may not work properly."
+        "OUTDATED": "This mod is not compatible with your game version and may not work properly.",
+        "GALLERY": {
+            "NEXT": "Next",
+            "PREVIOUS": "Prev",
+            "MISSING_IMAGES": "No gallery images for this mod yet..."
+        },
+        "TAGS": {
+            "TITLE": "Tags"
+        }
     },
     "PLAYSET_DETAILS": {
         "HEADER": {
@@ -379,7 +445,15 @@
         "CANCEL": "Cancel",
         "CONFIRM": "Confirm",
         "CREATE": "Create",
-        "TOGGLE_ACTION_MENU": "Toggle actions menu"
+        "TOGGLE_ACTION_MENU": "Toggle actions menu",
+        "SCROLL_TO_TOP": "Scroll to top",
+        "LIKE": "Like",
+        "REMOVE_LIKE": "Remove like",
+        "EXPAND": "Expand",
+        "COLLAPSE": "Collapse",
+        "OPEN_WEB_LINK": "Open in web browser",
+        "SELECT": "Select",
+        "REPLY": "Reply"
     },
     "CONSOLE_FILTER": {
         "TITLE": "Filter results",
@@ -417,7 +491,7 @@
     "SYNC": {
         "TITLE": "Getting latest updates for your mods...",
         "INFORMATION": "You are not able to browse any mods while the update is in progress. The update will continue even if you close this window.",
-        "MODS_DONE": "Mods done",
+        "MODS_DONE": "mods done",
         "UPDATING_MOD": "Updating mod",
         "STOP_AND_CONTINUE_NEXT_TIME": "Close this window",
         "WAITING_FOR_DOWNLOAD": "Waiting for download to start...",
@@ -461,6 +535,7 @@
         "SECTION_TITLE": "Flag as inappropriate",
         "INFORMATION_TEXT": "If you believe this mod violates our Terms and Conditions, help us review it by reporting it for moderation.",
         "BUTTON": "Submit report",
+        "BUTTON_DONE": "Report was sent",
         "SUBMIT": "Submit report",
         "INFORMATION":"Please fill in the details below and we'll submit it to our QA team for analysis. Thank you for helping make Paradox better and safer.",
         "CAPTION": "Reason for reporting",
@@ -556,7 +631,8 @@
     "TOASTS": {
         "UNSUBSCRIBED_MOD": "Successfully removed mod.",
         "ENABLED_PLAYSET_MODS": "Successfully enabled the playset mods",
-        "DISABLED_PLAYSET_MODS": "Successfully disabled the playset mods"
+        "DISABLED_PLAYSET_MODS": "Successfully disabled the playset mods",
+        "COMMENT_POSTED": "Your comment was successfully posted"
     },
     "WIP_MOD": {
         "CREATE_NEW": "Create new mod",
@@ -591,6 +667,7 @@
     "START": {
         "FEATURED_MODS": {
             "BROWSE_ALL": "Browse all",
+            "LOAD_MORE": "LOAD MORE",
             "MOST_POPULAR": "Most popular mods"
         }
     }

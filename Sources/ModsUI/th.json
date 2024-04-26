@@ -53,31 +53,31 @@
             "CLOSE": "Close"
         },
         "SET_USER_RATING": {
-            "TITLE":"Couldn\'t set user rating for mod",
+            "TITLE":"Couldn't set user rating for mod",
             "MESSAGE": "We were unable to set a new user rating for this mod."
         },
         "GET_USER_RATING": {
-            "TITLE":"Couldn\'t get user rating for mod",
+            "TITLE":"Couldn't get user rating for mod",
             "MESSAGE": "We were unable to get user rating for this mod."
         },
         "LOAD_MORE": {
-            "TITLE":"Couldn\'t load more mods",
+            "TITLE":"Couldn't load more mods",
             "MESSAGE": "We were unable to load more mods while you scrolled this time."
         },
         "SEARCH": {
-            "TITLE":"Couldn\'t search for mods",
+            "TITLE":"Couldn't search for mods",
             "MESSAGE": "We were unable to search for mods this time."
         },
         "SUBSCRIBE": {
-            "TITLE":"Couldn\'t add mod",
+            "TITLE":"Couldn't add mod",
             "MESSAGE": "We were unable to add the mod this time."
         },
         "UNSUBSCRIBE": {
-            "TITLE":"Couldn\'t remove the mod",
+            "TITLE":"Couldn't remove the mod",
             "MESSAGE": "We were unable to remove the mod this time."
         },
         "MOD_DETAILS": {
-            "TITLE":"Couldn\'t fetch mod details",
+            "TITLE":"Couldn't fetch mod details",
             "MESSAGE": "We were unable to fetch mod details this time."
         },
         "USER_RATING": {
@@ -134,50 +134,50 @@
         },
         "SCREEN_KEYBOARD": {
             "TITLE": "Could not open screen keyboard",
-            "MESSAGE":"The screen keyboard couldn\'t open."
+            "MESSAGE":"The screen keyboard couldn't open."
         },
         "PLAYSETS": {
-            "TITLE":"Couldn\'t fetch playsets",
+            "TITLE":"Couldn't fetch playsets",
             "MESSAGE": "We were unable to fetch your playsets this time."
         },
         "PLAYSET_DETAILS": {
-            "TITLE":"Couldn\'t fetch playset details",
+            "TITLE":"Couldn't fetch playset details",
             "MESSAGE": "We were unable to fetch your playset details this time."
         },
         "PLAYSET_DELETE": {
-            "TITLE":"Couldn\'t delete playset",
+            "TITLE":"Couldn't delete playset",
             "MESSAGE": "We were unable to delete your playset this time."
         },
         "PLAYSET_RENAME": {
-            "TITLE":"Couldn\'t rename playset",
+            "TITLE":"Couldn't rename playset",
             "MESSAGE": "We were unable to rename your playset this time."
         },
         "PLAYSET_MODS": {
-            "TITLE":"Couldn\'t get playset mods",
+            "TITLE":"Couldn't get playset mods",
             "MESSAGE": "We were unable to retrieve your mods this time."
         },
         "PLAYSET_HAS_ENABLED_MODS": {
-            "TITLE":"Couldn\'t not check if you have enabled mods",
+            "TITLE":"Couldn't not check if you have enabled mods",
             "MESSAGE": "We were unable to retrieve if your active playset has enabled mods this time."
         },
         "CREATE_PLAYSET": {
-            "TITLE":"Couldn\'t create new playset",
+            "TITLE":"Couldn't create new playset",
             "MESSAGE": "We were unable to create a new playset this time."
         },
         "ACTIVATE_PLAYSET": {
-            "TITLE":"Couldn\'t activate playset",
+            "TITLE":"Couldn't activate playset",
             "MESSAGE": "We were unable to activate your playset this time."
         },
         "DEACTIVATE_PLAYSET": {
-            "TITLE":"Couldn\'t deactivate playset",
+            "TITLE":"Couldn't deactivate playset",
             "MESSAGE": "We were unable to deactivate your playset this time."
         },
         "DEACTIVATED_PLAYSET": {
-            "TITLE":"Couldn\'t add mod",
+            "TITLE":"Couldn't add mod",
             "MESSAGE": "You need to have an active playset before adding a mod."
         },
         "ACTIVE_PLAYSET": {
-            "TITLE":"Couldn\'t get active playset",
+            "TITLE":"Couldn't get active playset",
             "MESSAGE": "We were unable to get your active playset this time."
         },
         "GENERIC": {
@@ -203,13 +203,13 @@
                 "DISKFULLERROR": "Could not complete the operation because the disk is full.",
                 "THIRDPARTYEXCEPTION": "Something went wrong in a third party library we are using.",
                 "DBERROR": "There is a problem with the database on the server side.",
-                "DISKPERMISSIONERROR":"You don\'t seem to have permission to access the the current disk.",
+                "DISKPERMISSIONERROR":"You don't seem to have permission to access the the current disk.",
                 "FILEIOERROR": "An error occurred while writing to or reading from disk.",
                 "REMOTELOGOUTFAILED": "There was a problem logging out from the server. Local and server session states can be out of sync.",
                 "INTERNALERROR": "An unspecified internal error occurred."
             },
             "INVALIDNETWORKRESPONSE": {
-                "MALFORMEDJSON":"The body of the response from the server was malformed and couldn\'t be parsed.",
+                "MALFORMEDJSON":"The body of the response from the server was malformed and couldn't be parsed.",
                 "HTTPREQUESTERROR": "The request to the server has failed due to a disconnection, a DNS error or a similar issue.",
                 "NETWORKSENDERROR": "An unspecified error occurred while sending data to the server.",
                 "TASKTIMEOUTERROR": "The request to the server has timed out.",
@@ -218,15 +218,15 @@
                 "MODDOWNLOADFAILEDERROR": "The meta data for the mod was synced, but the download failed. A new download retry will occur in the next sync."
             },
             "NOTFOUND": {
-                "NOACCOUNT":"Couldn\'t find the user account.",
-                "NODOCUMENT":"Couldn\'t find the document.",
-                "NOMERGETASK":"Couldn\'t find the merge task.",
-                "NOMOD":"Couldn\'t find the mod.",
-                "NOMODVERSION":"Couldn\'t find the requested version of the mod.",
-                "NOMODPLAYSET":"Couldn\'t find or access the requested playset.",
-                "NOPROFILE":"Couldn\'t find the profile.",
-                "NOACHIEVEMENT":"Couldn\'t find the achievement.",
-                "NORESOURCE":"Couldn\'t find the requested resource."
+                "NOACCOUNT":"Couldn't find the user account.",
+                "NODOCUMENT":"Couldn't find the document.",
+                "NOMERGETASK":"Couldn't find the merge task.",
+                "NOMOD":"Couldn't find the mod.",
+                "NOMODVERSION":"Couldn't find the requested version of the mod.",
+                "NOMODPLAYSET":"Couldn't find or access the requested playset.",
+                "NOPROFILE":"Couldn't find the profile.",
+                "NOACHIEVEMENT":"Couldn't find the achievement.",
+                "NORESOURCE":"Couldn't find the requested resource."
             },
             "INVALIDSTATE": {
                 "NOTLOGGEDIN": "The user is not logged in.",
@@ -247,32 +247,32 @@
                 "AUTOMATICLOGINFAILURE": "The Account.Startup() was not able to automatically login the user. Do a manual Account.Login(Credentials) call instead."
             },
             "MODSUI": {
-                "DELETEACTIVEPLAYSET":"You can\'t delete the currently active playset."
+                "DELETEACTIVEPLAYSET":"You can't delete the currently active playset."
             }
         },
         "WIP": {
             "CREATE": {
-                "TITLE":"Couldn\'t create a draft mod.",
+                "TITLE":"Couldn't create a draft mod.",
                 "MESSAGE": "Sorry, we were unable to create your draft mod."
             },
             "LIST": {
-                "TITLE":"Couldn\'t fetch draft mods.",
+                "TITLE":"Couldn't fetch draft mods.",
                 "MESSAGE": "Sorry, we were unable to fetch your playset details."
             },
             "DELETE": {
-                "TITLE":"Couldn\'t delete draft mod.",
+                "TITLE":"Couldn't delete draft mod.",
                 "MESSAGE": "Sorry, we were unable to delete your draft mod."
             },
             "GET": {
-                "TITLE":"Couldn\'t fetch draft mod.",
+                "TITLE":"Couldn't fetch draft mod.",
                 "MESSAGE": "Sorry, we were unable to fetch your draft mod."
             },
             "PUBLISH": {
-                "TITLE":"Couldn\'t publish draft mod.",
+                "TITLE":"Couldn't publish draft mod.",
                 "MESSAGE": "Sorry, we were unable to publish your draft mod. Please make sure all content and cover image is there."
             },
             "NEW_VERSION": {
-                "TITLE":"Couldn\'t publish new draft mod version.",
+                "TITLE":"Couldn't publish new draft mod version.",
                 "MESSAGE": "Sorry, we were unable to publish your new draft mod version. Please make sure all content and cover image is there."
             }
         },
@@ -462,7 +462,7 @@
         "INFORMATION_TEXT": "If you believe this mod violates our Terms and Conditions, help us review it by reporting it for moderation.",
         "BUTTON": "Submit report",
         "SUBMIT": "Submit report",
-        "INFORMATION":"Please fill in the details below and we\'ll submit it to our QA team for analysis. Thank you for helping make Paradox better and safer.",
+        "INFORMATION":"Please fill in the details below and we'll submit it to our QA team for analysis. Thank you for helping make Paradox better and safer.",
         "CAPTION": "Reason for reporting",
         "COMMENT_TITLE": "Please provide more details:",
         "COMMENT_PLACEHOLDER": "Write your comment here...",
@@ -471,8 +471,8 @@
         "MISSING_REASON": "You must select a reason.",
         "MISSING_DESCRIPTION": "You must write a description of the violation.",
         "CLOSE": "Close window",
-        "COMMENT_INFORMATION":"You\'re about to report this mod for its inappropriate content.",
-        "COMMENT_SUBINFORMATION":"You\'ve let us known it may be related to:",
+        "COMMENT_INFORMATION":"You're about to report this mod for its inappropriate content.",
+        "COMMENT_SUBINFORMATION":"You've let us known it may be related to:",
         "PREVIEW_COMMENT": "Your comment:",
         "PREVIEW": "Preview",
         "VERSION_PREFIX": "v",
@@ -483,7 +483,7 @@
             "SPAM": "Spam",
             "COPYRIGHT": "Copyright infringement",
             "HATE": "Hate speech",
-            "DOESNOTWORK":"Mod doesn\'t work properly",
+            "DOESNOTWORK":"Mod doesn't work properly",
             "OTHER": "Something else"
         }
     },
@@ -509,7 +509,7 @@
             "NAME": "Name",
             "CREATE": "Create",
             "CANCEL": "Cancel",
-            "KEYBOARD_TITLE":"Enter new playset\'s name",
+            "KEYBOARD_TITLE":"Enter new playset's name",
             "SUCCESS": "Playset “{{name}}” has been created."
         },
         "MODS_COUNT": "{{modsCount}} mods",
