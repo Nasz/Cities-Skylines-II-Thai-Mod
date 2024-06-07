@@ -1,84 +1,70 @@
 ﻿<Publish>
-	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
-	<ModId Value="79562" />
-	<!--Name of the mod to display to players-->
-	<DisplayName Value="Thai Localization" />
-	<!--Short description of the mod-->
-	<ShortDescription Value="Thai Localization Mod for Cities: Skylines II" />
-	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
-	<!--LongDescription Value="Thai Localization Mod for Cities: Skylines II" /-->
-	<LongDescription>
-#Thai Localization Mod for Cities: Skylines II
+  <!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+  <ModId Value="79578" />
+  <!--Name of the mod to display to players-->
+  <DisplayName Value="Thai Localization" />
+  <!--Short description of the mod-->
+  <ShortDescription Value="Thai Localization Mod for Cities: Skylines II" />
+  <!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+  <!--LongDescription Value="Thai Localization Mod for Cities: Skylines II" /-->
+  <LongDescription>
+# Thai Localization Mod for Cities: Skylines II
 
-This Thai community translator version (Bata version). 
-Using method to adding new localization file th-TH.loc to your game.
+This Thai community translator version (Bata version).
+Using method to place new localization file th-TH.loc into your game.
 
-Feedback or Join us at discord.gg/RGzX9YWBYS
+Feedback or Join us at https://discord.gg/RGzX9YWBYS
 
-Open Game goto menu Options > Select Interface > Change dropdown menu to "ภาษาไทย"
+https://www.facebook.com/groups/CitiesSkylinesThailand
 
-Translator
- * Bammcool
- * Bossthumb
- * Ca7amel
- * Landkarte
- * N7C
- * Mazokie
- * Solutiongamer
+Manual Activate: Open game goto menu "Paradox Mods" > Select "Playsets" > Choose current "Activated" playset > Scroll to "Thai Localization" and toggle enabled in the rightside.
 
-Advice
- * Bell
- * Chamëleon TBN
- * PanlopPalms
- * Simscolony
+## Translator
+  * Bammcool
+  * Bossthumb
+  * Ca7amel
+  * Landkarte
+  * N7C
+  * Mazokie
+  * Solutiongamer
 
-Special Thank
- * minenkoden
-	</LongDescription>
-	<!--Thumbnail-->
-	<Thumbnail Value="Properties/Thumbnail.png" />
-	<!--Screenshot, can be set multiple times-->
-	<Screenshot Value="Properties/Screenshot/MainMenu.png" />
-	<Screenshot Value="Properties/Screenshot/Interface.png" />
-	<Screenshot Value="Properties/Screenshot/Infoview.jpg" />
-	<Screenshot Value="Properties/Screenshot/Economics.jpg" />
-	<Screenshot Value="Properties/Screenshot/Loan.jpg" />
-	<Screenshot Value="Properties/Screenshot/Progression.jpg" />
-	<Screenshot Value="Properties/Screenshot/Milestone.jpg" />
-	<!--Tag, can be set multiple times-->
-	<Tag Value="Code Mod" />
-	<!--Link to the forum post where the mod can be discussed-->
-	<ForumLink Value="" />
-	<!--Version of the mod-->
-	<ModVersion Value="0.2.6" />
-	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.1.*" />
-	<!--Dependency for the mod, can be set multiple times-->
-	<Dependency Id="" />
-	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog>
-	# Version 0.2.6
-	 * เพิ่ม ลด ปรับแก้คำ และอัปเดทการรองรับตัวเกมเวอร์ชัน 1.1.2f1
-	# Version 0.2.5
-	 * เพิ่ม ลด ปรับแก้คำ และอัปเดทการรองรับตัวเกมเวอร์ชัน 1.1.0f1
-	# Version 0.2.4
-	 * เพิ่ม ลด ปรับแก้คำ และอัปเดทการรองรับตัวเกมเวอร์ชัน 1.0.19f1
-	# Version 0.2.3
-	 * ปรับแก้คำในบางจุด
-	# Version 0.2.2
-	 * อัปเดทการรองรับตัวเกมเวอร์ชัน 1.0.18f1
-	# Version 0.2.1
-	 * อัปเดทการรองรับตัวเกมเวอร์ชัน 1.0.15f1
-	# Version 0.2
-	 * แปลในส่วนของความก้าวหน้าครบแล้ว
-	# Version 0.1.1
-	 * แก้ไขบัคการตัดคำและการรองรับตัวเกมเวอร์ชัน 1.0.14f1
-	# Version 0.1
-	 * เวอร์ชันทดลองที่ 1 แปลในส่วนของเมนูและตัวเลือกครบแล้ว
-	</ChangeLog>
-	<!--ChangeLog>
+## Advice
+  * Bell
+  * Chamëleon TBN
+  * PanlopPalms
+  * Simscolony
+
+## Special Thank
+  * minenkoden
+  </LongDescription>
+  <!--Thumbnail-->
+  <Thumbnail Value="Properties/Thumbnail.png" />
+  <!--Screenshot, can be set multiple times-->
+  <Screenshot Value="Properties/Screenshot/MainMenu.png" />
+  <Screenshot Value="Properties/Screenshot/Interface.png" />
+  <Screenshot Value="Properties/Screenshot/Infoview.jpg" />
+  <Screenshot Value="Properties/Screenshot/Economics.jpg" />
+  <Screenshot Value="Properties/Screenshot/Loan.jpg" />
+  <Screenshot Value="Properties/Screenshot/Progression.jpg" />
+  <Screenshot Value="Properties/Screenshot/Milestone.jpg" />
+  <!--Tag, can be set multiple times-->
+  <Tag Value="Code Mod" />
+  <!--Link to the forum post where the mod can be discussed-->
+  <ForumLink Value="" />
+  <!--Version of the mod-->
+  <ModVersion Value="0.4" />
+  <!--Recommended version of the base game to use the mod-->
+  <GameVersion Value="1.1.*" />
+  <!--Dependency for the mod, can be set multiple times-->
+  <Dependency Id="" />
+  <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+  <ChangeLog>
+* Add Chirper translation.
+  </ChangeLog>
+  <!--ChangeLog>
 	</ChangeLog-->
-	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
-	<ExternalLink Type="discord" Url="https://discord.gg/RGzX9YWBYS" />
-	<ExternalLink Type="github" Url="https://github.com/Nasz/CS2THMod/" />
+  <!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
+  <ExternalLink Type="discord" Url="https://discord.gg/RGzX9YWBYS"/>
+  <ExternalLink Type="discord" Url="https://discord.gg/Ha8Swt2cwd" />
+  <ExternalLink Type="github" Url="https://github.com/Nasz/CS2THMod/" />
 </Publish>

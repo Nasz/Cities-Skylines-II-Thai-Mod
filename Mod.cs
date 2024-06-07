@@ -11,13 +11,13 @@ using System.Collections.Generic;
 using System.Linq;
 using Hash128 = Colossal.Hash128;
 
-namespace Thai_localization_CSII
+namespace ThaiLocale
 {
     public class Mod : IMod
     {
         const string LOC_FOLDER = "Data~";
         const string CURRENT_LOCALIZATION = "th-TH";
-        public static ILog log = LogManager.GetLogger($"{nameof(Thai_localization_CSII)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
+        public static ILog log = LogManager.GetLogger($"{nameof(ThaiLocale)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
         private LocalizationManager _localizationManager;
         public void OnLoad(UpdateSystem updateSystem)
         {
@@ -103,12 +103,14 @@ namespace Thai_localization_CSII
             {
                 binaryReader.ReadUInt16();
                 Enum.TryParse<SystemLanguage>(binaryReader.ReadString(), out var m_SystemLanguage);
-                //log.Info($"SystemLang {m_SystemLanguage}");
                 string text = binaryReader.ReadString();
                 var localizedName = binaryReader.ReadString();
-                //log.Info($"localizedName {localizedName}");
                 int num = binaryReader.ReadInt32();
-                //log.Info($"num {num}");
+#if DEBUG
+                log.Info($"SystemLang {m_SystemLanguage}");
+                log.Info($"localizedName {localizedName}");
+                log.Info($"num {num}");
+#endif
                 Dictionary<string, string> dictionary = new Dictionary<string, string>(num);
                 for (int i = 0; i < num; i++)
                 {
