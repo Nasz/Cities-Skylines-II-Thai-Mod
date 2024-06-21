@@ -1,4 +1,4 @@
-# CS2THMod
+# Cities: Skylines II Thai Mod
 
  Thai Localization Mod for Cities: Skyline II (ชื่อไทย ซิตีส์: สกายไลน์ II)
  ม็อดภาษาไทยสำหรับเกมซิตี้ส์: สกายไลน์ II
@@ -20,6 +20,14 @@
 ![image](https://github.com/Nasz/CS2THMod/assets/384751/dbc5b692-8ae9-4911-8d36-4185f8674eeb)
 
 ![image](https://github.com/Nasz/CS2THMod/assets/384751/72c6572d-0b3a-4153-9113-01bd3e006b6d)
+
+This mod procedure is 
+  1. Export .loc to .txt by using python tool. 
+  2. Convert .txt to .csv by using php script
+  3. Import .csv to Google sheet and translate together with our community.
+  4. Download .csv file from Google sheet and convert to .txt
+  5. Convert .txt to .loc
+  6. Public mod by using Visual Studio.
 
 ## ดูแลโปรเจคโดย 
 
