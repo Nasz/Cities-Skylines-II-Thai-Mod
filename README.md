@@ -22,12 +22,12 @@
 ![image](https://github.com/Nasz/CS2THMod/assets/384751/72c6572d-0b3a-4153-9113-01bd3e006b6d)
 
 This mod procedure is 
-  1. Export .loc to .txt by using python tool. 
-  2. Convert .txt to .csv by using php script
-  3. Import .csv to Google sheet and translate together with our community.
-  4. Download .csv file from Google sheet and convert to .txt
-  5. Convert .txt to .loc
-  6. Public mod by using Visual Studio.
+  1. Export .loc to .txt by using python tool. (ExportLoc.bat)
+  2. Convert .txt to .csv by using php script. (ExportLoc.bat)
+  3. Import .csv to [Google Sheet](https://docs.google.com/spreadsheets/d/1qjla-3vPIsEfzmQTx-EJy4Hd3hsC-I62QBGkgTM7Ufs/edit?usp=sharing) and translate together with our community.
+  4. Download .csv file from Google Sheet and convert to .txt by using php script. (GenTHLoc.bat)
+  5. Convert .txt to .loc by using python tool. (GenTHLoc.bat)
+  6. Public mod to [Paradox Mods](https://mods.paradoxplaza.com/mods/79578/Windows) by using Visual Studio.
 
 ## ดูแลโปรเจคโดย 
 
