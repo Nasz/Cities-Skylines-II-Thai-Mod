@@ -21,13 +21,12 @@
 
 ![image](https://github.com/Nasz/CS2THMod/assets/384751/72c6572d-0b3a-4153-9113-01bd3e006b6d)
 
-This mod procedure is 
-  1. Export .loc to .txt by using python tool. (ExportLoc.bat)
-  2. Convert .txt to .csv by using php script. (ExportLoc.bat)
-  3. Import .csv to [Google Sheet](https://docs.google.com/spreadsheets/d/1qjla-3vPIsEfzmQTx-EJy4Hd3hsC-I62QBGkgTM7Ufs/edit?usp=sharing) and translate together with our community.
-  4. Download .csv file from Google Sheet and convert to .txt by using php script. (GenTHLoc.bat)
-  5. Convert .txt to .loc by using python tool. (GenTHLoc.bat)
-  6. Public mod to [Paradox Mods](https://mods.paradoxplaza.com/mods/79578/Windows) by using Visual Studio.
+## This mod procedure is 
+  1. Export and Convert .loc to .txt by using php script. ([ConvertLoc.bat](https://github.com/Nasz/CS2THMod/blob/main/ConvertLoc.bat))
+  2. Import .csv to [Google Sheet](https://docs.google.com/spreadsheets/d/1qjla-3vPIsEfzmQTx-EJy4Hd3hsC-I62QBGkgTM7Ufs/edit?usp=sharing) and translate together with our community.
+  3. Download .csv file from Google Sheet and convert to .txt by using php script. ([MakeLoc.bat](https://github.com/Nasz/CS2THMod/blob/main/Tools/MakeLoc.bat))
+  4. Convert .txt to .loc by using python tool. ([MakeLoc.bat](https://github.com/Nasz/CS2THMod/blob/main/MakeLoc.bat))
+  5. Public mod to [Paradox Mods](https://mods.paradoxplaza.com/mods/79578/Windows) by using Visual Studio.
 
 ## ดูแลโปรเจคโดย 
 
@@ -51,5 +50,5 @@ This mod procedure is
 
 #### Special Thank
 
-  + [BSTech](https://github.com/BSTech)
-  + [Den](https://github.com/minenkoden)
+  + [BSTech](https://github.com/BSTech) for python script.
+  + [Den](https://github.com/minenkoden) for injection script.

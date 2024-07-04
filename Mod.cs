@@ -27,8 +27,8 @@ namespace ThaiLocale
             if (GameManager.instance.modManager.TryGetExecutableAsset(this, out var asset))
                 log.Info($"Current mod asset at {asset.path}");
             log.Info($"Current active locale {_localizationManager.activeLocaleId}");
-            LogManagerLocales();
-            LogDbLocales();
+            //LogManagerLocales();
+           // LogDbLocales();
             LoadLocAsset(asset);
             LogManagerLocales();
             LogDbLocales();
@@ -47,7 +47,7 @@ namespace ThaiLocale
                 var thaiLocAsset = new LocaleAsset();
                 FirstLoad(thaiLocAsset, filePaths.NewLocalizationPath);
                 log.Info($"thaiLocAsset data - localeId: {thaiLocAsset.localeId}, systemLanguage: {thaiLocAsset.systemLanguage}, localizedName: {thaiLocAsset.localizedName}");
-                MakeReserveDBCopy(filePaths.StreamingAssetPath);
+                //MakeReserveDBCopy(filePaths.StreamingAssetPath);
                 var hash = AddFileToDB(filePaths.NewLocalizationPath);
                 thaiLocAsset.guid = hash;
                 thaiLocAsset.Save();
@@ -68,7 +68,7 @@ namespace ThaiLocale
         private FilePaths OverrideLocFile(ExecutableAsset asset)
         {
             string directoryPath = Path.GetDirectoryName(asset.path);
-            string localizedPath = Path.Combine(directoryPath, "Sources\\Locale", CURRENT_LOCALIZATION + ".loc");
+            string localizedPath = Path.Combine(directoryPath, "Sources\\Locale", CURRENT_LOCALIZATION + ".dat");
             var defaultLocAsset = AssetDatabase.global.GetAssets<LocaleAsset>().FirstOrDefault(f => f.localeId == _localizationManager.fallbackLocaleId);
             log.Info($"defaultLocAsset.path {defaultLocAsset.path}, defaultLocAsset.path.IndexOf(\"Data~\") {defaultLocAsset.path.IndexOf(LOC_FOLDER)}");
             var streamingAssetsPath = defaultLocAsset.path.Substring(0, defaultLocAsset.path.IndexOf(LOC_FOLDER));
@@ -106,11 +106,11 @@ namespace ThaiLocale
                 string text = binaryReader.ReadString();
                 var localizedName = binaryReader.ReadString();
                 int num = binaryReader.ReadInt32();
-#if DEBUG
+
                 log.Info($"SystemLang {m_SystemLanguage}");
                 log.Info($"localizedName {localizedName}");
                 log.Info($"num {num}");
-#endif
+
                 Dictionary<string, string> dictionary = new Dictionary<string, string>(num);
                 for (int i = 0; i < num; i++)
                 {
