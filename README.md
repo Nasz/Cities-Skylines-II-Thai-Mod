@@ -1,11 +1,11 @@
 # Cities: Skylines II Thai Mod
 
- Thai Localization Mod for Cities: Skyline II (ชื่อไทย ซิตีส์: สกายไลน์ II)
- ม็อดภาษาไทยสำหรับเกมซิตี้ส์: สกายไลน์ II
+ Thai Localization Mod for Cities: Skyline II
+ ม็อดภาษาไทยสำหรับเกมซิตี้สกายไลน์ II
 
  กดสมัครสมาชิกได้ที่ https://mods.paradoxplaza.com/mods/79562/Windows
  
- ภาษาไทยโดยกลุ่มผู้เล่นเกมดัดแปลงแล้วกว่า 75% ของตำแหน่งการแสดงผลในเกมทั้งหมด (ยังคงเป็นเวอร์ชันเบต้าเนื่องจากในบางจุดยังไม่ได้ตรวจสอบคำแปล)
+ ภาษาไทยโดยกลุ่มผู้เล่นเกมซิตี้สกายไลน์ II
 
  สามารถสนับสนุนเราโดยการเข้าร่วมแจ้งบัค แจ้งคำแปลสะกดผิด หรือร่วมทีมแปลกับเราได้ที่ discord.gg/RGzX9YWBYS
 
@@ -29,12 +29,11 @@
   5. Public mod to [Paradox Mods](https://mods.paradoxplaza.com/mods/79578/Windows) by using Visual Studio.
 
 ## ดูแลโปรเจคโดย 
-
-  + [Bammcool](https://steamcommunity.com/id/bammcool2546)
   + [N7C](https://steamcommunity.com/id/n7c_th)
 
 ## ร่วมแปลโดย
 
+  + [Bammcool](https://steamcommunity.com/id/bammcool2546)
   + [Bossthumb](#)
   + [Ca7amel](https://www.facebook.com/SugusPR/)
   + [Landkarte](#)
@@ -50,5 +49,5 @@
 
 #### Special Thank
 
-  + [BSTech](https://github.com/BSTech) for python script.
-  + [Den](https://github.com/minenkoden) for injection script.
+  + [BSTech](https://github.com/BSTech) for [python script](https://forum.paradoxplaza.com/forum/threads/cities-skylines-ii-en-us-loc-help-me-open-the-translation-tools-to-play-in-turkish.1603585/page-2#post-29220130).
+  + [Den](https://github.com/minenkoden) for [injection script](https://github.com/minenkoden/skylines2-mod-ukrainian-localization).
