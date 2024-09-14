@@ -3,7 +3,7 @@
  Thai Localization Mod for Cities: Skyline II
  ม็อดภาษาไทยสำหรับเกมซิตี้สกายไลน์ II
 
- กดสมัครสมาชิกได้ที่ https://mods.paradoxplaza.com/mods/79562/Windows
+ กดสมัครสมาชิกได้ที่ [https://mods.paradoxplaza.com/mods/79578/Windows](https://mods.paradoxplaza.com/mods/79578/Windows)
  
  ภาษาไทยโดยกลุ่มผู้เล่นเกมซิตี้สกายไลน์ II
 
