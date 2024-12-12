@@ -1,7 +1,3 @@
 @echo off
-copy "E:\SteamLibrary\steamapps\common\Cities Skylines II\Cities2_Data\StreamingAssets\Data~\en-US.loc" D:\AppPool\CS2THMod\Tools\en-US.loc
-copy "E:\SteamLibrary\steamapps\common\Cities Skylines II\Cities2_Data\StreamingAssets\Data~\zh-HANS.loc" D:\AppPool\CS2THMod\Tools\zh-HANS.loc
-copy "E:\SteamLibrary\steamapps\common\Cities Skylines II\Cities2_Data\StreamingAssets\Data~\ru-RU.loc" D:\AppPool\CS2THMod\Tools\ru-RU.loc
-copy "E:\SteamLibrary\steamapps\common\Cities Skylines II\Cities2_Data\StreamingAssets\Data~\th-TH.loc" D:\AppPool\CS2THMod\Tools\th-TH.loc
-php ./Tools/loc2txt.php
+xcopy "C:\Users\nac_n\AppData\LocalLow\Colossal Order\Cities Skylines II\ModsData\I18NEverywhere\*" "F:\AppPool\CS2THMod\Sources" /E
 php ./Tools/txt2csv.php

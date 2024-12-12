@@ -8,18 +8,18 @@
   <!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
   <!--LongDescription Value="Thai Localization Mod for Cities: Skylines II" /-->
   <LongDescription>
-# Thai Localization Mod for Cities: Skylines II
+# Thai Localization for Cities: Skylines II
 
-This Thai community translator version (Bata version).
-Using method to place new localization file th-TH.loc into your game.
+This mod made by Thailand Cities: Skylines Community.
+Adding new localization into your game.
 
 Feedback or Join us at https://discord.gg/RGzX9YWBYS
 
 https://www.facebook.com/groups/CitiesSkylinesThailand
 
-Manual Activate: Open game goto menu "Paradox Mods" > Select "Playsets" > Choose current "Activated" playset > Scroll to "Thai Localization" and toggle enabled in the rightside.
+Manual Activate: Launch game goto menu "Paradox Mods" > Select "Playsets" > Choose current "Activated" playset > Scroll to "Thai Localization" and toggle enabled in the rightside.
 
-## Translator
+## Team Translator
   * Bammcool
   * Bossthumb
   * Ca7amel
@@ -28,15 +28,15 @@ Manual Activate: Open game goto menu "Paradox Mods" > Select "Playsets" > Choose
   * Mazokie
   * Solutiongamer
 
-## Advice
+## Team Special
   * Bell
-  * Chamëleon TBN
   * PanlopPalms
   * Simscolony
 
 ## Special Thank
-  * BSTech for Loc converter tool.
-  * Den for injection code mod.
+  * Chamëleon TBN for always giving advice.
+  * Nullpinter's exporter tool.
+  * Den's example of code-mod.
   </LongDescription>
   <!--Thumbnail-->
   <Thumbnail Value="Properties/Thumbnail.png" />
@@ -53,16 +53,16 @@ Manual Activate: Open game goto menu "Paradox Mods" > Select "Playsets" > Choose
   <!--Link to the forum post where the mod can be discussed-->
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/cities-skylines-ii-thai-localization.1689978/" />
   <!--Version of the mod-->
-  <ModVersion Value="0.7.1" />
+  <ModVersion Value="0.7.5" />
   <!--Recommended version of the base game to use the mod-->
   <GameVersion Value="1.1.*" />
   <!--Dependency for the mod, can be set multiple times-->
   <Dependency Id="" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-* Hotfix support game version 1.1.6f1 (3 July 2024).
-* Add new 55 string.
-* Adjust some translation.
+* Hotfix support game version 1.2.0f1 (11 December 2024).
+* Add language for DLC Urban Promenades.
+* Add language for DLC Modern Architecture.
   </ChangeLog>
   <!--ChangeLog>
 	</ChangeLog-->
