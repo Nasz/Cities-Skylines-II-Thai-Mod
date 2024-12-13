@@ -21,17 +21,12 @@
 
 ![image](https://github.com/Nasz/CS2THMod/assets/384751/72c6572d-0b3a-4153-9113-01bd3e006b6d)
 
-## This mod procedure is 
-  1. Export and Convert .loc to .txt by using php script. ([ConvertLoc.bat](https://github.com/Nasz/CS2THMod/blob/main/ConvertLoc.bat))
-  2. Import .csv to [Google Sheet](https://docs.google.com/spreadsheets/d/1qjla-3vPIsEfzmQTx-EJy4Hd3hsC-I62QBGkgTM7Ufs/edit?usp=sharing) and translate together with our community.
-  3. Download .csv file from Google Sheet and convert to .txt by using php script. ([MakeLoc.bat](https://github.com/Nasz/CS2THMod/blob/main/Tools/MakeLoc.bat))
-  4. Convert .txt to .loc by using python tool. ([MakeLoc.bat](https://github.com/Nasz/CS2THMod/blob/main/MakeLoc.bat))
-  5. Public mod to [Paradox Mods](https://mods.paradoxplaza.com/mods/79578/Windows) by using Visual Studio.
+## This mod use "I18N Everywhere" for replace English language to Thai language.
 
 ## ดูแลโปรเจคโดย 
   + [N7C](https://steamcommunity.com/id/n7c_th)
 
-## ร่วมแปลโดย
+## ที่มแปล
 
   + [Bammcool](https://steamcommunity.com/id/bammcool2546)
   + [Bossthumb](#)
@@ -40,14 +35,13 @@
   + [Mazokie](https://steamcommunity.com/id/Mazokie/)
   + [Solutiongamer](https://www.facebook.com/Solutiongamer)
 
-#### ที่ปรึกษา
+#### ทีมคอมมู
 
   + [Bell](https://steamcommunity.com/id/bellraksit/)
-  + [Chamëleon TBN](https://steamcommunity.com/id/chameleon_tbn/)
   + [PanlopPalms](https://steamcommunity.com/id/armsplams)
   + [Simscolony](https://steamcommunity.com/id/animenagi)
 
 #### Special Thank
 
-  + [BSTech](https://github.com/BSTech) for [python script](https://forum.paradoxplaza.com/forum/threads/cities-skylines-ii-en-us-loc-help-me-open-the-translation-tools-to-play-in-turkish.1603585/page-2#post-29220130).
-  + [Den](https://github.com/minenkoden) for [injection script](https://github.com/minenkoden/skylines2-mod-ukrainian-localization).
+  + [Chamëleon TBN](https://steamcommunity.com/id/chameleon_tbn/)
+  + [nullpinter](https://github.com/baka-gourd)
