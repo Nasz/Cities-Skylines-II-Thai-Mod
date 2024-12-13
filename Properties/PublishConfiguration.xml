@@ -7,36 +7,38 @@
   <ShortDescription Value="Thai Localization Mod for Cities: Skylines II" />
   <!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
   <!--LongDescription Value="Thai Localization Mod for Cities: Skylines II" /-->
-  <LongDescription>
-# Thai Localization for Cities: Skylines II
+  <LongDescription># Thai Localization for Cities: Skylines II
 
 This mod made by Thailand Cities: Skylines Community.
-Adding new localization into your game.
+Localization by replace English language to Thai language.
 
 Feedback or Join us at https://discord.gg/RGzX9YWBYS
 
 https://www.facebook.com/groups/CitiesSkylinesThailand
 
-Manual Activate: Launch game goto menu "Paradox Mods" > Select "Playsets" > Choose current "Activated" playset > Scroll to "Thai Localization" and toggle enabled in the rightside.
+Manual Activate: Launch game goto menu "Paradox Mods"> Select "Playsets"> Choose current "Activated" playset > Scroll to "Thai Localization" and toggle enabled in the rightside.
 
 ## Team Translator
-  * Bammcool
-  * Bossthumb
-  * Ca7amel
-  * Landkarte
-  * N7C
-  * Mazokie
-  * Solutiongamer
+
+* Bammcool
+* Bossthumb
+* Ca7amel
+* Landkarte
+* N7C
+* Mazokie
+* Solutiongamer
 
 ## Team Special
-  * Bell
-  * PanlopPalms
-  * Simscolony
+
+* Bell
+* PanlopPalms
+* Simscolony
 
 ## Special Thank
-  * Chamëleon TBN for always giving advice.
-  * Nullpinter's exporter tool.
-  * Den's example of code-mod.
+
+* Chamëleon TBN for always giving advice.
+* Nullpinter's exporter tool.
+* Den's example of code-mod.
   </LongDescription>
   <!--Thumbnail-->
   <Thumbnail Value="Properties/Thumbnail.png" />
@@ -53,16 +55,15 @@ Manual Activate: Launch game goto menu "Paradox Mods" > Select "Playsets" > Choo
   <!--Link to the forum post where the mod can be discussed-->
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/cities-skylines-ii-thai-localization.1689978/" />
   <!--Version of the mod-->
-  <ModVersion Value="0.7.5" />
+  <ModVersion Value="0.7.6" />
   <!--Recommended version of the base game to use the mod-->
-  <GameVersion Value="1.1.*" />
+  <GameVersion Value="1.2.*" />
   <!--Dependency for the mod, can be set multiple times-->
-  <Dependency Id="" />
+  <Dependency Id="75426" DisplayName="I18n EveryWhere"/>
+  <Dependency Id="75804" DisplayName="Skyve"/>
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-* Hotfix support game version 1.2.0f1 (11 December 2024).
-* Add language for DLC Urban Promenades.
-* Add language for DLC Modern Architecture.
+* Hotfix: Change method from adding new localization to replace English language by using "I18n EveryWhere"
   </ChangeLog>
   <!--ChangeLog>
 	</ChangeLog-->
