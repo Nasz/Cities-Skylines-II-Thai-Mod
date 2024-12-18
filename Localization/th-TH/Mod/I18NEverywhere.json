@@ -22,6 +22,5 @@
   "Options.OPTION[I18NEverywhere.I18NEverywhere.I18NEverywhere.Setting.LoadLanguagePacks]": "โหลดแพ็กภาษา",
   "Options.OPTION_DESCRIPTION[I18NEverywhere.I18NEverywhere.I18NEverywhere.Setting.LoadLanguagePacks]": "โหลดแพ็กภาษา",
   "Menu.NOTIFICATION_TITLE[I18NEverywhere]": "แปลให้หมดทุกที่",
-  "Menu.NOTIFICATION_DESCRIPTION[I18NEverywhere.Detail]": "โหลดชุดภาษาท้องถิ่นแล้ว",
-  "Options.OPTION[I18NEverywhere.I18NEverywhere.I18NEverywhere.Setting.LanguagePacksInfos]": "หากคุณอ่านตรงนี้ได้ แสดงว่าตอนนี้คุณใช้งานชุดภาษาไทยอยู่\n รายการชุดภาษาด้านล่างนี้ อาจเขียนทับข้อความดั้งเดิมของชุดภาษาไทย ดังนั้นโปรดจัดลำดับการโหลดใน PDX Mods Playset ให้เหมาะสม ):\n--- รายการม็อดชุดภาษาที่คุณเปิดใช้งาน ---\n"
+  "Menu.NOTIFICATION_DESCRIPTION[I18NEverywhere.Detail]": "โหลดชุดภาษาท้องถิ่นแล้ว"
 }
