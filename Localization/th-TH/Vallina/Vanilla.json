@@ -1,0 +1,12 @@
+{
+  "Options.OPTION[PdxSdkPlatform0.PdxSdk]": "เวอร์ชัน PDX SDK",
+  "Options.OPTION_DESCRIPTION[PdxSdkPlatform0.PdxSdk]": "เวอร์ชันปัจจุบันของ PDX SDK",
+  "Options.OPTION[DiscordRichPresence0.Discord]": "ข้อความริชแสดงสถานะ Discord",
+  "Options.OPTION_DESCRIPTION[DiscordRichPresence0.Discord]": "เวอร์ชันปัจจุบันของข้อความริชแสดงสถานะ Discord",
+  "Options.OPTION[SteamworksPlatform0.Steamworks]": "เวอร์ชัน Steamworks .Net",
+  "Options.OPTION_DESCRIPTION[SteamworksPlatform0.Steamworks]": "เวอร์ชันปัจจุบันของ Steamworks .Net",
+  "Options.OPTION[SteamworksPlatform1.Steamworks]": "เวอร์ชัน Steamworks SDK",
+  "Options.OPTION_DESCRIPTION[SteamworksPlatform1.Steamworks]": "เวอร์ชันปัจจุบันของ Steamworks SDK",
+  "Options.OPTION[SteamworksPlatform2.Steamworks]": "เวอร์ชัน Steamworks API",
+  "Options.OPTION_DESCRIPTION[SteamworksPlatform2.Steamworks]": "เวอร์ชันปัจจุบันของไฟล์ DLL Steamworks API"
+}

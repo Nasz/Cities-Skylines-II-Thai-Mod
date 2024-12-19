@@ -7,7 +7,8 @@
   <ShortDescription Value="Thai Localization Mod for Cities: Skylines II" />
   <!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
   <!--LongDescription Value="Thai Localization Mod for Cities: Skylines II" /-->
-  <LongDescription># Thai Localization for Cities: Skylines II
+  <LongDescription>
+# Thai Localization for Cities: Skylines II
 
 This mod made by Thailand Cities: Skylines Community.
 Localization by replace English language to Thai language.
@@ -28,7 +29,7 @@ Manual Activate: Launch game goto menu "Paradox Mods"> Select "Playsets"> Choose
 * Mazokie
 * Solutiongamer
 
-## Team Special
+## Team Support
 
 * Bell
 * PanlopPalms
@@ -37,8 +38,8 @@ Manual Activate: Launch game goto menu "Paradox Mods"> Select "Playsets"> Choose
 ## Special Thank
 
 * Chamëleon TBN for always giving advice.
-* Nullpinter's exporter tool.
-* Den's example of code-mod.
+* Baka-gourd's exporter tool.
+* PanReshalo's example of code-mod.
   </LongDescription>
   <!--Thumbnail-->
   <Thumbnail Value="Properties/Thumbnail.png" />
@@ -59,11 +60,9 @@ Manual Activate: Launch game goto menu "Paradox Mods"> Select "Playsets"> Choose
   <!--Recommended version of the base game to use the mod-->
   <GameVersion Value="1.2.*" />
   <!--Dependency for the mod, can be set multiple times-->
-  <Dependency Id="75426" DisplayName="I18n EveryWhere"/>
-  <Dependency Id="75804" DisplayName="Skyve"/>
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-* Hotfix: Change method from adding new localization to replace English language by using "I18n EveryWhere"
+* Adjust some translation.
   </ChangeLog>
   <!--ChangeLog>
 	</ChangeLog-->

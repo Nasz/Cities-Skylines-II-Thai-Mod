@@ -1,0 +1,844 @@
+{
+    "TOP_MENU": {
+        "START": "En vedette",
+        "BROWSE_ALL": "Parcourir",
+        "INSTALLED": "Installé",
+        "INSTALLED_MODS": "Bibliothèque",
+        "IMPORTED_MODS": "Mods importés",
+        "PLAYSETS": "Playsets",
+        "PUBLISH": "Mes créations",
+        "LIBRARY": "Ma bibliothèque",
+        "MY_PAGE": "Moi"
+    },
+    "PLAYSET_SELECTOR": {
+        "CREATE_NEW_PLAYSET": "Nouveau playset",
+        "PLAYSET": "Playset actif",
+        "DROPDOWN_LABEL": "Sélectionner le playset actif",
+        "DEACTIVATED_PLAYSETS": "Aucun playset actif",
+        "DEACTIVATE_PLAYSET": "Aucun playset actif",
+        "ACTIVE_PLAYSET": "PLAYSET ACTIF : {{playsetName}}"
+    },
+    "FILTER": {
+        "HEADING": "Filtre",
+        "CLEAR_ALL": "Tout supprimer",
+        "TAGS": "Balises"
+    },
+    "LIST": {
+        "ENABLED": "Activé",
+        "DISABLED": "Désactivé",
+        "EMPTY_STATE": {
+            "TITLE": "Aucun mod installé",
+            "TEXT": "Les mods peuvent pimenter une partie ! Touchez le bouton ci-dessous pour parcourir les mods et revenez lorsque vous en aurez installé au moins un.",
+            "BUTTON": "PARCOURIR LES MODS"
+        },
+        "RESET_ACTIVATION_ORDER": "Réinitialiser l'ordre de chargement",
+        "BANNED_MOD": "Ce mod a été banni",
+        "REMOVED_MOD": "Ce mod a été retiré par son créateur",
+        "OFFLINE": "HORS-LIGNE",
+        "ADD_TO_PLAYSET": "Ajouter au playset actif",
+        "REMOVE_FROM_PLAYSET": "Supprimer du playset actif",
+        "SUBSCRIBERS": "{{formattedCount}} abonné",
+        "SUBSCRIBERS_plural": "{{formattedCount}} abonnés"
+    },
+    "SORT_BY_MENU": {
+        "AZ": "A..Z",
+        "ZA": "Z..A",
+        "OLDEST": "Plus ancien",
+        "MOST_RECENT": "Plus récent",
+        "MOST_SUBSCRIBED": "Le plus d'abonnés",
+        "HIGHEST_RATED": "Mieux noté",
+        "MOST_PLAYSETS": "Dans la plupart des playsets",
+        "LEAST_PLAYSETS": "Dans le moins de playsets",
+        "SORT_BY": "Classer selon",
+        "BEST": "Meilleurs",
+        "MOST_POPULAR": "Plus populaire",
+        "LAST_UPDATED": "Mis à jour en dernier",
+        "MOST_RECENT_INSTALLED": "Installation plus récente",
+        "OLDEST_INSTALLED": "Installation plus ancienne"
+    },
+    "SORT_BY_TIME_MENU": {
+        "SORT_BY": "Période",
+        "ALL_TIME": "Toujours",
+        "DAY": "24 heures",
+        "WEEK": "7 jours",
+        "MONTH": "30 jours",
+        "QUARTER": "3 mois",
+        "SIXMONTHS": "6 mois",
+        "YEAR": "1 an"
+    },
+    "ERROR": {
+        "PARADOX_SERVICES_DOWN": "Veuillez nous excuser, les services Paradox Mods n'ont pas pu répondre à la demande.",
+        "BUTTONS": {
+            "CLOSE": "Fermer"
+        },
+        "SET_USER_RATING": {
+            "TITLE": "Échec de l'évaluation utilisateur pour le mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à définir une nouvelle évaluation utilisateur pour ce mod."
+        },
+        "GET_USER_RATING": {
+            "TITLE": "Échec d'obtention d'une évaluation utilisateur pour le mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à obtenir une nouvelle évaluation utilisateur pour ce mod."
+        },
+        "LOAD_MORE": {
+            "TITLE": "Échec du chargement d'autres mods",
+            "MESSAGE": "Nous ne sommes pas parvenus à charger d'autres mods pendant votre navigation."
+        },
+        "SEARCH": {
+            "TITLE": "Échec de recherche de mods",
+            "MESSAGE": "Nous ne sommes pas parvenus à chercher d'autres mods."
+        },
+        "SUBSCRIBE": {
+            "TITLE": "Échec d'ajout de mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à ajouter le mod."
+        },
+        "UNSUBSCRIBE": {
+            "TITLE": "Échec de suppression de mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à supprimer le mod."
+        },
+        "MOD_DETAILS": {
+            "TITLE": "Échec de récupération des infos de mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer les infos du mod."
+        },
+        "USER_RATING": {
+            "TITLE": "Échec de récupération de l'évaluation utilisateur",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer votre évaluation utilisateur."
+        },
+        "MOD_RATING": {
+            "TITLE": "Échec de récupération de l'évaluation du mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer l'évaluation du mod."
+        },
+        "ENABLE": {
+            "TITLE": "Échec d'activation du mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à activer ce mod pour le moment."
+        },
+        "DISABLE": {
+            "TITLE": "Échec de désactivation du mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à désactiver ce mod pour le moment."
+        },
+        "ENABLE_PLAYSET_MODS": {
+            "TITLE": "Échec d'activation des mods du playset",
+            "MESSAGE": "Nous ne sommes pas parvenus à activer les mods de ce playset pour le moment."
+        },
+        "DISABLE_PLAYSET_MODS": {
+            "TITLE": "Échec de désactivation des mods du playset",
+            "MESSAGE": "Nous ne sommes pas parvenus à désactiver les mods de ce playset pour le moment."
+        },
+        "GETSUBSCRIBED": {
+            "TITLE": "Échec de récupération de vos mods ajoutés",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer vos mods ajoutés pour le moment."
+        },
+        "GET_FORUM_POSTS": {
+            "TITLE": "Échec de récupération du fil de discussion",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer le fil de discussion."
+        },
+        "SEND_FORUM_POST": {
+            "TITLE": "Échec de publication dans le fil de discussion",
+            "MESSAGE": "Nous ne sommes pas parvenus à ajouter une publication au fil de discussion."
+        },
+        "GET_CREATOR_PROFILE": {
+            "TITLE": "Échec de récupération du profil d'auteur",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer le profil d'auteur."
+        },
+        "GET_FOLLOWED_CREATORS": {
+            "TITLE": "Échec de récupération des créateurs suivis",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer les créateurs suivis."
+        },
+        "FOLLOW_CREATOR": {
+            "TITLE": "Échec du suivi de créateur",
+            "MESSAGE": "Nous ne sommes pas parvenus à suivre le créateur."
+        },
+        "UNFOLLOW_CREATOR": {
+            "TITLE": "Échec d'annulation de suivi de créateur",
+            "MESSAGE": "Nous ne sommes pas parvenus à annuler le suivi de créateur."
+        },
+        "GET_GAME_VERSION": {
+            "TITLE": "Échec de récupération de la version du jeu",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer la version du jeu."
+        },
+        "GET_ALL_DEPENDENCIES": {
+            "TITLE": "Échec de récupération des dépendances",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer les dépendances."
+        },
+        "REPORT_MOD": {
+            "TITLE": "Échec du signalement de mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à signaler le mod."
+        },
+        "REPORT_CREATOR": {
+            "TITLE": "Échec de signalement de créateur",
+            "MESSAGE": "Nous ne sommes pas parvenus à signaler le créateur."
+        },
+        "GET_GAME_DATA": {
+            "TITLE": "Échec de récupération des données de jeu",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer les données de jeu."
+        },
+        "SET_ACTIVATION_ORDER": {
+            "TITLE": "Échec de création d'un ordre de chargement",
+            "MESSAGE": "Nous ne sommes pas parvenus à changer l'ordre de chargement pour le moment."
+        },
+        "RESET_ACTIVATION_ORDER": {
+            "TITLE": "Échec de réinitialisation de l'ordre de chargement",
+            "MESSAGE": "Nous ne sommes pas parvenus à changer l'ordre de chargement pour le moment."
+        },
+        "SCREEN_KEYBOARD": {
+            "TITLE": "Échec d'ouverture du clavier virtuel",
+            "MESSAGE": "Nous ne sommes pas parvenus à ouvrir le clavier virtuel."
+        },
+        "PLAYSETS": {
+            "TITLE": "Échec de récupération des playsets",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer vos playsets."
+        },
+        "PLAYSET_DETAILS": {
+            "TITLE": "Échec de récupération des infos de playset",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer vos données de playset."
+        },
+        "PLAYSET_DELETE": {
+            "TITLE": "Échec de suppression du playset",
+            "MESSAGE": "Nous ne sommes pas parvenus à supprimer votre playset."
+        },
+        "PLAYSET_RENAME": {
+            "TITLE": "Le playset n'a pas été renommé",
+            "MESSAGE": "Nous ne sommes pas parvenus à renommer votre playset."
+        },
+        "PLAYSET_MODS": {
+            "TITLE": "Échec de récupération de mods de playset",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer vos mods."
+        },
+        "PLAYSET_HAS_ENABLED_MODS": {
+            "TITLE": "Échec de vérification des mods activés",
+            "MESSAGE": "Nous ne sommes pas parvenus à vérifier si votre playset dispose de mods actifs."
+        },
+        "CREATE_PLAYSET": {
+            "TITLE": "Échec de création d'un nouveau playset",
+            "MESSAGE": "Nous ne sommes pas parvenus à créer un nouveau playset."
+        },
+        "ACTIVATE_PLAYSET": {
+            "TITLE": "Échec d'activation de playset",
+            "MESSAGE": "Nous ne sommes pas parvenus à activer votre playset."
+        },
+        "DEACTIVATE_PLAYSET": {
+            "TITLE": "Échec de désactivation de playset",
+            "MESSAGE": "Nous ne sommes pas parvenus à désactiver votre playset."
+        },
+        "DEACTIVATED_PLAYSET": {
+            "TITLE": "Échec d'ajout de mod",
+            "MESSAGE": "Activez un playset avant d'ajouter un mod."
+        },
+        "ACTIVE_PLAYSET": {
+            "TITLE": "Échec de recherche de playset actif",
+            "MESSAGE": "Nous ne sommes pas parvenus à trouver de playset actif."
+        },
+        "GET_MODS_DEPENDANTS": {
+            "TITLE": "Échec de récupération des dépendances du mod",
+            "MESSAGE": "Nous ne sommes pas parvenus à récupérer les dépendances du mod cette fois."
+        },
+        "GENERIC": {
+            "NOTLOGGEDIN": {
+                "TITLE": "Vous n'êtes pas connecté.",
+                "MESSAGE": "Il semble que vous ne soyez pas connecté à votre compte Paradox. Merci de créer un compte et de vous connecter pour utiliser ce service."
+            },
+            "OFFLINE": {
+                "TITLE": "Vous êtes hors-ligne",
+                "MESSAGE": "Il semble que vous ne soyez pas en mesure de vous connecter à Internet pour le moment. Vous pouvez cependant toujours activer, désactiver et modifier l'ordre de chargement de vos mods installés."
+            },
+            "SYNC": {
+                "TITLE": "Échec de synchronisation de mod",
+                "MESSAGE": "Une erreur est survenue lors de la synchronisation des mods."
+            },
+            "DEFAULT": {
+                "TITLE": "Une erreur est survenue.",
+                "MESSAGE": "Une erreur est survenue lors de votre demande, veuillez fermer et réessayer."
+            }
+        },
+        "FROM_SERVER": {
+            "INTERNALERROR": {
+                "DISKFULLERROR": "L'opération n'a pu être terminée, le disque en plein.",
+                "THIRDPARTYEXCEPTION": "Une erreur est survenue dans une bibliothèque tierce que nous utilisons.",
+                "DBERROR": "Une erreur est survenue dans la base de données du serveur.",
+                "DISKPERMISSIONERROR": "Vous ne semblez pas avoir l'autorisation d'accéder à ce disque.",
+                "FILEIOERROR": "Une erreur est survenue lors de l'écriture ou de la lecture du disque.",
+                "REMOTELOGOUTFAILED": "Un problème est survenu lors de la déconnexion du serveur. Les sessions locale et du serveur peuvent être désynchronisées.",
+                "INTERNALERROR": "Une erreur inconnue est survenue."
+            },
+            "INVALIDNETWORKRESPONSE": {
+                "MALFORMEDJSON": "Les données de la réponse du serveur sont erronées et n'ont pu être analysées.",
+                "HTTPREQUESTERROR": "La demande n'a pu être envoyée au serveur en raison d'une déconnexion, d'une erreur DNS ou similaire.",
+                "NETWORKSENDERROR": "Une erreur inconnue est survenue lors de l'envoi de données au serveur.",
+                "TASKTIMEOUTERROR": "La demande envoyée au serveur a expiré.",
+                "UNEXPECTEDRESPONSEERROR": "La réponse du serveur était erronée ou ne contenait pas toutes les données requises.",
+                "NORESPONSEBODY": "La réponse du serveur ne contenait pas les données requises.",
+                "MODDOWNLOADFAILEDERROR": "Les métadonnées du mod étaient synchronisées, mais le téléchargement a échoué. Un nouveau téléchargement aura lieu lors de la prochaine synchronisation."
+            },
+            "NOTFOUND": {
+                "NOACCOUNT": "Compte utilisateur introuvable.",
+                "NODOCUMENT": "Document introuvable.",
+                "NOMERGETASK": "Tâche de fusion introuvable.",
+                "NOMOD": "Mod introuvable.",
+                "NOMODVERSION": "Version du mod demandée introuvable.",
+                "NOMODPLAYSET": "Impossible de trouver ou d'accéder au playset demandé.",
+                "NOPROFILE": "Profil introuvable.",
+                "NOACHIEVEMENT": "Succès introuvable.",
+                "NORESOURCE": "Ressource demandée introuvable."
+            },
+            "INVALIDSTATE": {
+                "NOTLOGGEDIN": "L'utilisateur n'est pas connecté.",
+                "MODDISABLED": "Le mod a été supprimé ou bloqué."
+            },
+            "MODS": {
+                "SYNCONGOING": "Une synchronisation est déjà en cours.",
+                "OPERATIONSONGOING": "Une autre opération est déjà en cours.",
+                "LOCALERROR": "Une erreur est survenue, veuillez réessayer ultérieurement."
+            },
+            "NOTAUTHORIZED": {
+                "EXPIREDREFRESHTOKEN": "L'utilisateur doit à nouveau se connecter avec ses identifiants.",
+                "EXPIREDSESSIONTOKEN": "L'utilisateur doit utiliser le jeton d'actualisation pour créer un nouveau jeton de session.",
+                "SESSIONTOOLOWTRUSTLEVEL": "Le niveau de sécurité de la session est insuffisant, connectez-vous à nouveau avec vos identifiants.",
+                "INVALIDAUTHENTICATION": "L'authentification n'est pas validée.",
+                "REJECTEDBYTHIRDPARTY": "L'authentification a été rejetée par un tiers, steam, psn, twitch etc.",
+                "FORBIDDENACCESS": "Tentative d'accès à des données interdites dans cette session.",
+                "AUTOMATICLOGINFAILURE": "La fonction Account.Startup() n'a pas été en mesure de connecter automatiquement l'utilisateur. Effectuez plutôt manuellement la fonction Account.Login(Credentials)."
+            },
+            "MODSUI": {
+                "DELETEACTIVEPLAYSET": "Il est impossible de supprimer le playset actuel.",
+                "REPORTMODBLOCKEDTIMELIMIT": "Vous avez déjà signalé ce mod, il est en attente d'évaluation par nos modérateurs.",
+                "TOOMANYPLAYSETS": "Vous ne pouvez pas avoir plus de 100 playsets."
+            },
+            "__DETAILS": {
+                "UNABLE_TO_ADD_FORUM_POST__MAKE_SURE_YOUR_ACCOUNT_IS_CONNECTED_TO_THE_FORUMS": "Publication sur le forum impossible, assurez-vous que votre compte est connecté aux forums"
+            }
+        },
+        "WIP": {
+            "CREATE": {
+                "TITLE": "Impossible de créer un mod personnalisé.",
+                "MESSAGE": "Nous ne sommes pas parvenus à créer votre mod personnalisé."
+            },
+            "LIST": {
+                "TITLE": "Échec de récupération des mods personnalisés.",
+                "MESSAGE": "Nous ne sommes pas parvenus à récupérer les données de votre playset."
+            },
+            "DELETE": {
+                "TITLE": "Échec de suppression du mod personnalisé.",
+                "MESSAGE": "Nous ne sommes pas parvenus à supprimer votre mod personnalisé."
+            },
+            "GET": {
+                "TITLE": "Échec de récupération du mod personnalisé.",
+                "MESSAGE": "Nous ne sommes pas parvenus à récupérer votre mod personnalisé."
+            },
+            "PUBLISH": {
+                "TITLE": "Échec de publication du mod personnalisé.",
+                "MESSAGE": "Nous ne sommes pas parvenus à publier votre mod personnalisé. Assurez-vous que l'intégralité du contenu et l'illustration sont bien là."
+            },
+            "NEW_VERSION": {
+                "TITLE": "Échec de publication d'une nouvelle version du mod personnalisé.",
+                "MESSAGE": "Nous ne sommes pas parvenus à publier une nouvelle version de votre mod personnalisé. Assurez-vous que l'intégralité du contenu et l'illustration sont bien là."
+            }
+        },
+        "INPUT": {
+            "EMPTY": "Veuillez remplir ce champ."
+        }
+    },
+    "PROGRESSBAR": {
+        "QUEUED": "EN FILE D'ATTENTE"
+    },
+    "AUTHOR_DETAILS": {
+        "PROFILE": {
+            "FOLLOWERS_COUNT": "{{formattedCount}} abonné",
+            "FOLLOWERS_COUNT_plural": "{{formattedCount}} abonnés",
+            "NO_BIO": "La bio du créateur semble vide",
+            "FOLLOW": "Suivre",
+            "UNFOLLOW": "Ne plus suivre",
+            "OPEN_PROFILE": "Ouvrir le profil de l'utilisateur {{username}}",
+            "CREATOR_BANNED": "Vous êtes exclu(e)",
+            "CREATOR_BANNED_REASON": "Raison de l’exclusion : ",
+            "CREATOR_BANNED_REASON_FALLBACK": "Non spécifiée"
+        },
+        "LINKS": {
+            "TITLE": "Liens"
+        }
+    },
+    "MOD_DETAILS": {
+        "HEADER": {
+            "BACK": "Retour",
+            "BY": "Par",
+            "MODID": "ID",
+            "SIZETEXT": "Taille",
+            "VERSION": "Version du mod",
+            "REQUIREDGAMEVERSION": "Version de jeu suggérée",
+            "SUBSCRIPTIONSTOTAL": "Abonnés",
+            "LIKESTOTAL": "Likes",
+            "AUTHOR": "Auteur",
+            "CREATIONDATE": "Créé",
+            "LATESTUPDATE": "Dernière mise à jour"
+        },
+        "AUTHOR": {
+            "TITLE": "Auteur du mod",
+            "ALL_MODS_BY_AUTHOR": "Tous les mods de cet auteur",
+            "MORE_FROM_THIS_CREATOR": "Plus de ce créateur",
+            "PROFILE": "Profil de l'utilisateur {{username}}"
+        },
+        "SUBSCRIBE_BUTTON": {
+            "SUBSCRIBE": "Ajouter au playset actif",
+            "SUBSCRIBED": "AJOUTÉ",
+            "UNSUBSCRIBE": "Supprimer du playset actif",
+            "INSTALLING": "Installation...",
+            "UNINSTALLING": "Désinstallation...",
+            "UNSUBSCRIBE_CONFIRMATION": {
+                "TITLE": "Confirmer la suppression du mod",
+                "TEXT": "Voulez-vous vraiment supprimer le mod \"{{name}}\" ({{size}}) du playset actif ?"
+            }
+        },
+        "REQUIREMENT": {
+            "TITLE": "Requis",
+            "VIEW_ALL": "Tout afficher",
+            "BACK_TO_MOD_DETAILS": "Retour aux infos du mod",
+            "REQUIRED_MODS": "{{modsCount}} mods requis",
+            "REQUIRED_DLC": "({{dlcCount}}) DLC requis",
+            "REQUIRED_MODS_MESSAGE": "Les mods suivants sont requis pour que ce mod fonctionne",
+            "REQUIRED_DLC_MESSAGE": "Les DLC suivants sont requis pour que ce mod fonctionne",
+            "MODS": {
+                "INSTALLED": "Ajouté",
+                "NOT_INSTALLED": "({{modSize}}) non ajouté"
+            },
+            "SUBSCRIBE": {
+                "MODAL": {
+                    "TITLE": "Confirmation d'abonnement aux mods nécessaires",
+                    "TEXT": "Vous êtes sur le point de vous abonner au mod « {{modDependencyName}} » requis pour que ce mod fonctionne.",
+                    "TEXT_plural": "Vous êtes sur le point de vous abonner aux mods {{numberOfDependencies}} (taille totale : {{totalSizeOfDependencies}}) requis pour que le mod « {{modName}} » fonctionne.",
+                    "AND_X_MORE": "Et {{moreCount}} de plus.",
+                    "CONFIRM_SUBSCRIBE": "S'abonner"
+                },
+                "SUBSCRIBE_TO_ALL": "S'abonner à tout"
+            }
+        },
+        "FORUM_LINKS": {
+            "TITLE": "Plus d'infos sur ce mod",
+            "TOP_THREAD": "Forums Paradox"
+        },
+        "FORUM_POSTS": {
+            "TITLE": "Discussion",
+            "OPEN_FULL_DISCUSSION": "Ouvrir la discussion complète",
+            "UNSUPPORTED_FORMATTING": "Le format de ce message n'est pas compatible et ne peut être affiché ici.",
+            "GO_TO_POST": "Rendez-vous sur le forum pour voir l'intégralité du post.",
+            "OPEN_IN_BROWSER": "Ouvrir dans le navigateur",
+            "COMMENT_TITLE": "Commenter le mod",
+            "REPLYING_TO": "Réponse à une publication de {{user}}",
+            "REMOVE_REPLY": "Annuler",
+            "SEND_COMMENT": "Publier",
+            "ADD_COMMENT": "Ajouter un commentaire",
+            "REFRESH": "Actualiser",
+            "LOAD_MORE": "Charger plus",
+            "NEW": "Nouveauté",
+            "YOU": "Vous",
+            "ORIGINAL_POSTER": "Publication originale",
+            "REGISTER_TITLE": "Vous devez avoir accès aux Forums Paradox",
+            "REGISTER_INFORMATION": "<0>Votre compte doit être lié aux Forums Paradox pour pouvoir publier des commentaires. Utilisez le bouton ci-dessous et connectez-vous avec votre Compte Paradox pour tout paramétrer.<\/0><1>Si vous avez déjà lié votre compte, veuillez patienter un instant puis réessayez.<\/1>",
+            "OPEN_REGISTER": "Lier votre compte"
+        },
+        "LINKS": {
+            "TITLE": "Plus d'infos sur ce mod"
+        },
+        "LINKS_MODAL": {
+            "TITLE": "Ouvrir dans le navigateur ?",
+            "TEXT": "Ouvrir ce lien dans un navigateur extérieur au jeu ?"
+        },
+        "CHANGELOG": {
+            "TITLE": "Journal",
+            "V": "v",
+            "RELEASED": "Publié",
+            "READ_MORE": "Poursuivre la lecture"
+        },
+        "DESCRIPTION": {
+            "TITLE": "Description",
+            "READ_MORE": "Poursuivre la lecture"
+        },
+        "INFO": {
+            "TITLE": "Infos du mod"
+        },
+        "BANNED": {
+            "TITLE": "Banni",
+            "INFO": "Ce mod a été banni de la bibliothèque car il violait les conditions d'utilisation."
+        },
+        "OUTDATED_TITLE": "Mod incompatible",
+        "OUTDATED_CONFIRM": "Installer malgré tout",
+        "OUTDATED": "Ce mod n'est pas compatible avec votre version du jeu, il pourrait ne pas fonctionner comme prévu.",
+        "MISSING_DEPENDENCY": "Il manque des dépendances à ce mod. Veuillez installer tous les mods requis.",
+        "NOT_PUBLISHED_DEPENDENCIES": "Certaines dépendances ne sont pas disponibles pour ce mod, qui pourrait par conséquent ne pas fonctionner correctement.",
+        "GALLERY": {
+            "NEXT": "Suivant",
+            "PREVIOUS": "Précéd.",
+            "MISSING_IMAGES": "Aucune galerie d'images de ce mod pour l'instant..."
+        },
+        "TAGS": {
+            "TITLE": "Balises"
+        }
+    },
+    "MY_DETAILS": {
+        "FOLLOWING": {
+            "TITLE": "Les créateurs que vous suivez",
+            "NO_SEARCH_RESULTS": "Aucun créateur suivi pour l'instant",
+            "ERROR": "Les créateurs que vous suivez sont inaccessibles",
+            "SHOW_ALL": "Tout afficher"
+        },
+        "PROFILE": {
+            "EMPTY": {
+                "MESSAGE": "Vous devez ajouter un nom d'utilisateur pour compléter votre profil",
+                "EDIT_PROFILE": "Modifier le profil"
+            },
+            "EDIT": "Éditer"
+        },
+        "MY_MODS": {
+            "TITLE": "Mes mods",
+            "EDIT": "Modifier les mods"
+        }
+    },
+    "PLAYSET_DETAILS": {
+        "HEADER": {
+            "CREATED_BY": "Créé par",
+            "MODS": "mods",
+            "TOTAL_SIZE": "taille totale",
+            "BACK": "Retour à tous les playsets",
+            "SUBTITLE": "{{modsCount}} mods, taille totale {{modsSize}}"
+        },
+        "MORE_BUTTON": {
+            "MORE": "Plus"
+        },
+        "ACTIVATE_BUTTON": {
+            "ACTIVATE": "Activer",
+            "ACTIVATED": "Activé"
+        },
+        "ACTION_MENU": {
+            "ENABLE_ALL_MODS": "Activer tous les mods",
+            "DISABLE_ALL_MODS": "Désactiver tous les mods"
+        },
+        "EMPTY_STATE": {
+            "TITLE": "Pas encore de mods",
+            "DESCRIPTION": "Tout l'intérêt des playsets est de jouer avec des mods. Pourquoi ne pas en ajouter tout de suite à ce nouveau playset ?",
+            "ACTIVATION_NEEDED": "Mais avant d'ajouter des mods, vous devez activer ce playset.",
+            "ADD_MODS": "Ajouter des mods"
+        },
+        "LIST": {
+            "AUTHOR": "<0>par <\/0><1\/>"
+        }
+    },
+    "CONSOLE_FOOTER": {
+        "SEARCH": "Rechercher",
+        "APPLY_FILTERS": "Appliquer les filtres",
+        "APPLY": "Appliquer",
+        "OPEN": "Ouvrir",
+        "ADD": "Ajouter",
+        "BACK": "Retour",
+        "ENABLE_DISABLE": "Activer\/désactiver",
+        "ENABLE": "Activer",
+        "DISABLE": "Désactiver",
+        "SUBSCRIBE": "Ajouter au playset",
+        "UNSUBSCRIBE": "Supprimer du playset",
+        "CLOSE": "Fermer",
+        "CHANGE_ORDER": "Changer l'ordre",
+        "RESET_LOAD_ORDER": "Réinitialiser l'ordre de chargement",
+        "SCROLL": "Naviguer",
+        "DELETE": "Supprimer",
+        "UNINSTALL": "Désinstaller",
+        "DETAILS": "Infos",
+        "ACTIVATE": "Activer",
+        "RENAME": "Renommer",
+        "CANCEL": "Annuler",
+        "CONFIRM": "Confirmer",
+        "CREATE": "Créer",
+        "TOGGLE_ACTION_MENU": "Afficher\/Masquer le menu actions",
+        "SCROLL_TO_TOP": "Faire défiler vers le haut",
+        "LIKE": "Like",
+        "REMOVE_LIKE": "Retirer le like",
+        "EXPAND": "Agrandir",
+        "COLLAPSE": "Réduire",
+        "OPEN_WEB_LINK": "Ouvrir dans le navigateur",
+        "SELECT": "Sélectionner",
+        "REPLY": "Répondre",
+        "SHOW_MORE_ACTIONS": "Afficher plus d'actions"
+    },
+    "CONSOLE_FILTER": {
+        "TITLE": "Filtrer les résultats",
+        "TAGS": "Balises",
+        "FILTER": "Filtre",
+        "FILTERED": "Filtrés"
+    },
+    "DEPENDENCIES_NOTIFICATION": {
+        "TITLE": "Vous allez ajouter le mod « {{modName}} »",
+        "INFORMATION": "<0>Il s'appuie sur {{numberOfDependencies}} autres mods (taille totale : {{totalSizeOfDependencies}}) pour fonctionner correctement.<\/0><1><\/1><2>{{countMore}}<\/2><3> Ajouter automatiquement ces mods requis ?<\/3>",
+        "SUBSCRIBE_TO_MODS": "AJOUTER LES MODS REQUIS",
+        "IGNORE_MODS": "IGNORER LES MODS REQUIS",
+        "NOT_PUBLISHED_DEPENDENCIES": "<0>Remarque : certaines dépendances ne sont pas disponibles pour ce mod, qui pourrait par conséquent ne pas fonctionner correctement.<\/0><1>Il est possible qu'une dépendance ait été bannie, supprimée ou retirée de la liste.<\/1>",
+        "AND_X_MORE": "Et {{moreCount}} de plus.",
+        "LOW_DISK_SPACE": "Avertissement, l'installation des dépendances pourrait dépasser votre espace disque actuel de {{exceededSize}} !"
+    },
+    "OUT_OF_SYNC": {
+        "PLAYSET_OUT_OF_SYNC": {
+            "TITLE": "Conflit de synchronisation du playset",
+            "INFORMATION": "Désynchronisation du playset local et serveur. Laquelle souhaitez-vous utiliser\/conserver ?",
+            "KEEP_CLOUD": "Conserver les fichiers sur le cloud",
+            "KEEP_LOCAL": "Conserver les fichiers locaux"
+        },
+        "CLOUD": {
+            "TITLE": "Télécharger les fichiers du cloud sur cet appareil",
+            "INFORMATION": "Les fichiers du serveur écraseront les fichiers locaux. Continuer ?",
+            "BACK": "Retour",
+            "DOWNLOAD": "Télécharger sur cet appareil"
+        },
+        "LOCAL": {
+            "TITLE": "Charger les fichiers locaux sur le serveur",
+            "INFORMATION": "Les fichiers locaux écraseront ceux sur le serveur. Continuer ?",
+            "BACK": "Retour",
+            "DOWNLOAD": "Charger sur le serveur"
+        }
+    },
+    "SYNC": {
+        "TITLE": "Recherche des dernières mises à jour pour vos mods...",
+        "INFORMATION": "Impossible de parcourir les mods pendant la mise à jour. La mise à jour se poursuivra même si vous fermez cette fenêtre.",
+        "MODS_DONE": "mods terminés",
+        "UPDATING_MOD": "Mise à jour des mods",
+        "STOP_AND_CONTINUE_NEXT_TIME": "Fermer cette fenêtre",
+        "WAITING_FOR_DOWNLOAD": "Le téléchargement va commencer...",
+        "CHECKING_MODS": "Vérification des mods...",
+        "DOWNLOADING": "Téléchargement",
+        "DONE": "Accès à la bibliothèque de mods",
+        "CLOSE": "Fermer",
+        "RESYNC": "Réessayer la synchronisation",
+        "UNHANDLED_ERROR": "La synchronisation de mods n'a pas pu être complétée. Essayez de retenter la synchronisation en sélectionnant « Réessayer la synchronisation ».",
+        "UNHANDLED_ERROR_NOTE": "Remarque : si cette erreur se reproduit plusieurs fois, cela peut être dû à un mod problématique. Visitez votre bibliothèque de mods et envisagez de supprimer tout mod récemment ajouté ou obsolète qui pourrait être à l'origine de l'erreur.",
+        "OUT_OF_SPACE": "Espace insuffisant sur le disque pour les dernières mises à jour du playset. Pour libérer de l'espace sur le disque, supprimez quelques mods.",
+        "INSTALLING": {
+            "PREPARING": "Préparation...",
+            "PATCHING": "Déplacement des fichiers...",
+            "APPLYING": "Application des modifications...",
+            "PERMISSIONS": "Mise à jour des autorisations...",
+            "CLEANUP": "Nettoyage...",
+            "": "Installation"
+        }
+    },
+    "OTHER": {
+        "DLCS": "DLC",
+        "MODS": "mods",
+        "NO": "Non",
+        "REQUIRED": "Requis"
+    },
+    "SCREEN_KEYBOARD": {
+        "TITLES": {
+            "SEARCH_MODS": "Rechercher des mods",
+            "REPORT_COMMENT": "Commentaire de signalement",
+            "CREATE_PLAYSET": "Créer un playset",
+            "RENAME_PLAYSET": "Renommer un playset",
+            "PUBLISH": {
+                "DISPLAY_NAME": "Définir le nom d'affichage",
+                "GAME_VERSION": "Définir la version de jeu recommandée",
+                "CHANGELOG": "Ajouter une entrée au journal",
+                "DESCRIPTION": "Définir la description"
+            }
+        }
+    },
+    "REPORT": {
+        "SECTION_TITLE": "Signaler comme inapproprié",
+        "INFORMATION_TEXT": "Si vous pensez que ce mod enfreint les conditions d'utilisation, merci de le signaler aux modérateurs.",
+        "BUTTON": "Envoyer un rapport",
+        "LABEL": "Signalement",
+        "LABEL_PROFILE": "Signaler le profil",
+        "BUTTON_DONE": "Signalement envoyé",
+        "SUBMIT": "Envoyer un rapport à l'équipe de modération",
+        "CREATOR_TITLE": "Signaler un créateur",
+        "INFORMATION": "Merci de remplir les informations ci-dessous, nous les communiquerons à notre équipe de modération pour analyse. Merci de nous aider à améliorer et sécuriser Paradox.",
+        "RECEIVER_INFORMATION": "Veuillez noter que votre signalement sera envoyé à l'équipe de modération de Paradox, et non au créateur du mod.",
+        "CAPTION": "Raison du signalement",
+        "COMMENT_TITLE": "Veuillez nous donner plus de détails :",
+        "COMMENT_PLACEHOLDER": "Veuillez saisir votre commentaire...",
+        "THANK_YOU": "Merci pour ce signalement.",
+        "THANK_YOU_MESSAGE": "Vous avez signalé ce mod à l'équipe d'analyse. Merci de nous aider à améliorer et sécuriser Paradox Mods.",
+        "THANK_YOU_MESSAGE_CREATOR": "Vous avez signalé ce créateur à l'équipe d'analyse. Merci de nous aider à améliorer et sécuriser Paradox Mods.",
+        "MISSING_REASON": "Merci de sélectionner une raison.",
+        "MISSING_DESCRIPTION": "Merci de nous donner une description de l'infraction.",
+        "CLOSE": "Fermer la fenêtre",
+        "COMMENT_INFORMATION": "Vous allez signaler ce mod pour son contenu inapproprié.",
+        "COMMENT_INFORMATION_CREATOR": "Vous allez signaler ce créateur pour son contenu inapproprié.",
+        "COMMENT_SUBINFORMATION": "Vous avez indiqué qu'il pourrait s'agir de :",
+        "PREVIEW_COMMENT": "Votre commentaire :",
+        "PREVIEW": "Aperçu",
+        "VERSION_PREFIX": "v",
+        "REASONS": {
+            "NUDITY": "Nudité",
+            "VIOLENCE": "Violence",
+            "HARASSMENT": "Harcèlement",
+            "SPAM": "Spam",
+            "COPYRIGHT": "Violation du copyright",
+            "HATE": "Propos haineux",
+            "DOESNOTWORK": "Le mod ne fonctionne pas correctement",
+            "OTHER": "Autre chose"
+        }
+    },
+    "SEARCH": {
+        "NO_SEARCH_RESULTS": "Aucun résultat de recherche",
+        "MODS_AVAILABLE": "{{modsAvailable}} mods disponibles"
+    },
+    "INSTALLED_MODS": {
+        "MODS_INSTALLED_SIMPLE": "{{modsAvailable}} mods installés",
+        "MODS_INSTALLED": "{{modsAvailable}} mod installé, {{modsInPlayset}} dans le playset actif",
+        "MODS_INSTALLED_plural": "{{modsAvailable}} mods installés, {{modsInPlayset}} dans le playset actif",
+        "DELETE": {
+            "TITLE": "Confirmer la suppression du mod de tous les playsets",
+            "TEXT": "Voulez-vous vraiment supprimer « {{name}} » ?",
+            "TEXT_plural": "Voulez-vous vraiment supprimer et désinstaller « {{name}} » de {{playsetCount}} playsets ?",
+            "AND_X_MORE": "Et {{moreCount}} de plus."
+        }
+    },
+    "XBOX_SEARCH": {
+        "CLEAR_SEARCH": "Supprimer la recherche"
+    },
+    "SEARCH_INPUT": {
+        "PLACEHOLDER": "Recherche de mods..."
+    },
+    "PLAYSETS": {
+        "TITLE": "Playsets",
+        "ACTIVE": "Actif",
+        "ACTIVATE_PLAYSET": "Utiliser ce playset",
+        "CREATE_NEW_PLAYSET": {
+            "TITLE": "Créer un nouveau playset",
+            "NAME": "Nom",
+            "CREATE": "Créer",
+            "CANCEL": "Annuler",
+            "KEYBOARD_TITLE": "Entrer un nouveau nom de playset",
+            "SUCCESS": "Le playset « {{name}} » a été créé."
+        },
+        "MODS_COUNT": "{{modsCount}} mods",
+        "UPDATED": "dernière mise à jour : {{updated}}",
+        "DELETE": {
+            "TITLE": "Confirmer la suppression du playset",
+            "TEXT": "Voulez-vous vraiment supprimer le playset « {{name}} » ?"
+        },
+        "RENAME": {
+            "TITLE": "Renommer un playset",
+            "TEXT": "Renommer « {{name}} »"
+        }
+    },
+    "PUBLISH": {
+        "INPUT_DETAILS": "Infos du mod",
+        "DISPLAY_NAME": "Nom d'affichage *",
+        "DISPLAY_NAME_ERROR": "Nom d'affichage requis",
+        "SUGGESTED_GAME_VERSION": "Version suggérée *",
+        "SUGGESTED_GAME_VERSION_ERROR": "Merci de suggérer une version du jeu",
+        "COVER_FILE_NAME": "Nom de fichier d'illustration *",
+        "COVER_FILE_NAME_ERROR": "Merci d'indiquer le nom de l'illustration",
+        "DESCRIPTION": "Description *",
+        "DESCRIPTION_ERROR": "Merci d'entrer une description",
+        "CHANGELOG": "Entrée de journal *",
+        "CHANGELOG_ERROR": "Merci de rédiger une entrée de journal",
+        "PUBLISH_NEW_VERSION": "Publier une nouvelle version",
+        "PUBLISH_NEW": "Publier",
+        "PUBLISHING_TITLE": "Mod en attente de publication",
+        "PUBLISHING": "Votre mod est en cours de publication. Le processus peut durer quelque temps."
+    },
+    "LIBRARY": {
+        "PLAYSETS_TITLE": "Mes playsets",
+        "CREATIONS_TITLE": "Mes créations",
+        "IMPORTED_TITLE": "Mes mods importés"
+    },
+    "CONFIRM_MODAL": {
+        "CONFIRM": "Oui",
+        "CONFIRM_REMOVE": "Oui, supprimer",
+        "CONFIRM_DISABLE": "Oui, désactiver",
+        "CANCEL": "Annuler",
+        "RENAME": "Renommer"
+    },
+    "ALERT_MODAL": {
+        "CONFIRM": "Fermer"
+    },
+    "TOASTS": {
+        "UNSUBSCRIBED_MOD": "Mod supprimé avec succès.",
+        "ENABLED_PLAYSET_MODS": "Activation des mods du playset",
+        "DISABLED_PLAYSET_MODS": "Désactivation des mods du playset",
+        "COMMENT_POSTED": "Votre commentaire a bien éte publié",
+        "COPY_TO_CLIPBOARD": "Copié dans le presse-papier",
+        "PLAYSET_CREATED_SUCCESSFUL": "Création de playset réussie.",
+        "PLAYSET_DELETED_SUCCESSFUL": "Suppression de playset réussie.",
+        "PLAYSET_RENAMED_SUCCESSFUL": "Playset renommé avec succès.",
+        "MOD_SUBSCRIBE_SUCCESSFUL": "Abonnement au mod réussi.",
+        "MOD_UNSUBSCRIBE_SUCCESSFUL": "Désabonnement du mod réussi.",
+        "ACTIVATION_ORDER_RESET_SUCCESSFUL": "Ordre de chargement réinitialisé avec succès.",
+        "RATING_LIKED_SUCCESSFUL": "Ajout de la mention J’aime au mod réussi.",
+        "RATING_UNLIKED_SUCCESSFUL": "Retrait de la mention J’aime au mod réussi."
+    },
+    "WIP_MOD": {
+        "CREATE_NEW": "Créer un nouveau mod",
+        "CREATE_NEW_TEXT": "Créer un nouveau brouillon de mod.",
+        "CREATE": "Créer",
+        "CANCEL": "Annuler",
+        "DELETE_TITLE": "Supprimer le brouillon",
+        "DELETE_TEXT": "Voulez-vous vraiment supprimer le mod « {{modName}} » ?",
+        "DRAFT_MODS": "{{modCount}} mods personnalisés"
+    },
+    "WARNING": {
+        "START_SCREEN": {
+            "XBOX": "<0>Important<\/0>Les mods modifient l'expérience du jeu et ne sont ni testés ni vérifiés par Paradox Interactive, le développeur ou Xbox. Tous les succès seront désactivés à l'activation d'un ou plusieurs mods. Les mods Paradox sont régis par l'accord utilisateur Paradox.",
+            "PLAYSTATION": "<0>Important<\/0>Les mods modifient l'expérience du jeu et ne sont ni testés ni vérifiés par Paradox Interactive, le développeur ou PlayStation. Tous les trophées seront désactivés à l'activation d'un ou plusieurs mods. Les mods Paradox sont régis par l'accord utilisateur Paradox.",
+            "DEFAULT": "<0>Important<\/0>Les mods modifient l'expérience du jeu et ne sont ni testés ni vérifiés par Paradox Interactive. Tous les succès seront désactivés à l'activation d'un ou plusieurs mods. Les mods Paradox sont régis par l'accord utilisateur Paradox."
+        },
+        "EXIT": {
+            "CLOSING": "Fermeture...",
+            "CLOSE_NOW": "Fermer maintenant",
+            "TITLE": "Important",
+            "XBOX": "Si au moins un mod est activé, la progression des succès sera désactivée, et ce jusqu'à ce que vous désactiviez les mods. Continuer ?",
+            "PLAYSTATION": "Si au moins un mod est activé, la progression des trophées sera désactivée, et ce jusqu'à ce que vous désactiviez les mods. Continuer ?",
+            "DEFAULT": "Si au moins un mod est activé, la progression des succès est désactivée, et ce jusqu'à ce que vous désactiviez les mods. Continuer ?",
+            "CONFIRM": "Oui, conserver les mods et revenir au menu principal",
+            "CANCEL": "Revenir aux mods Paradox"
+        }
+    },
+    "MOD_SPOTLIGHT": {
+        "VIEW_DETAILS": "Afficher les détails",
+        "READ_MORE": "Poursuivre la lecture"
+    },
+    "START": {
+        "FEATURED_MODS": {
+            "BROWSE_ALL": "Tout parcourir",
+            "LOAD_MORE": "CHARGER PLUS",
+            "MOST_POPULAR": "Mods les plus populaires",
+            "MOST_POPULAR_WEEKLY": "Mods les plus populaires ces 7 derniers jours"
+        }
+    },
+    "MOD_STATES": {
+        "BANNED": "Banni",
+        "PUBLISHED": "Publié",
+        "REMOVED": "Supprimé",
+        "PUBLISHING": "En cours de publication"
+    },
+    "EMPTY_STATE": {
+        "OFFLINE": {
+            "TITLE": "Vous êtes hors-ligne",
+            "DESCRIPTION": "Les mods peuvent pimenter une partie ! Mais pour ajouter des mods, une connexion au réseau est requise."
+        }
+    },
+    "PAGINATION": {
+        "PREVIOUS": "Précédent",
+        "NEXT": "Suivant"
+    },
+    "DEPENDANTS_MODAL": {
+        "TITLE_UNSUBSCRIBE": "Confirmer le désabonnement du mod avec dépendances",
+        "TITLE_DISABLE": "Confirmer la désactivation du mod avec dépendances",
+        "TEXT_UNSUBSCRIBE": "Les mods suivants dépendent du mod « {{name}} ». Voulez-vous vraiment vous en désabonner ?",
+        "TEXT_DISABLE": "Les mods suivants dépendent du mod « {{name}} ». Voulez-vous vraiment le désactiver ?",
+        "AND_X_MORE": "Et {{moreCount}} de plus."
+    },
+    "PLEASE_WAIT": {
+        "TITLE": "Veuillez patienter",
+        "TEXT": "Synchronisation du jeu en cours...",
+        "CLOSE": "Fermer les mods"
+    },
+    "DISKSPACE": {
+        "FREE": "Espace disque disponible : {{freeDiskSpace}}",
+        "WARNING": {
+            "TITLE": "Espace disque faible",
+            "TEXT": "Le mod peut dépasser l’espace disque disponible de {{exceededSize}}. Voulez-vous vraiment vous abonner ?"
+        }
+    },
+    "TUTORIAL": {
+        "TITLE": "Bienvenue sur Paradox Mods !",
+        "DESCRIPTION": "Les mods sont un moyen merveilleux de personnaliser et d’améliorer votre expérience de jeu, mais n’oubliez pas de les utiliser de manière réfléchie ! Les mods sont créés par notre incroyable communauté et ne sont pas officiellement testés ou vérifiés par Paradox. Par conséquent, <0>certains mods peuvent entraîner un comportement du jeu inattendu ou son mauvais fonctionnement<\/0>. Et n’oubliez pas que les succès sont désactivés lorsque les mods sont actifs.",
+        "NOTICE": "En utilisant Paradox Mods, vous acceptez l'accord utilisateur Paradox.",
+        "CONFIRM": "Commencer à explorer",
+        "DONT_SHOW_AGAIN": "Ne plus afficher ce message"
+    }
+}
