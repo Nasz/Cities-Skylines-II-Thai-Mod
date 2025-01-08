@@ -2,7 +2,7 @@
   <!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
   <ModId Value="79578" />
   <!--Name of the mod to display to players-->
-  <DisplayName Value="Thai Localization (Thailand) [BETA]" />
+  <DisplayName Value="Thai Localization (Thailand)" />
   <!--Short description of the mod-->
   <ShortDescription Value="Thai Localization Mod for Cities: Skylines II" />
   <!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
@@ -10,17 +10,21 @@
   <LongDescription>
 # Thai Localization for Cities: Skylines II
 
-This mod made by Thailand Cities: Skylines Community.
-Localization by replace English language to Thai language.
+This language pack presented by Cities: Skylines Thailand Community.
 
 Feedback or Join us at https://discord.gg/RGzX9YWBYS
 
 https://www.facebook.com/groups/CitiesSkylinesThailand
 
-Manual Activate: Launch game goto menu "Paradox Mods"> Select "Playsets"> Choose current "Activated" playset > Scroll to "Thai Localization" and toggle enabled in the rightside.
+Manual Activate: Launch game goto menu "Paradox Mods" > Select "Playsets" > Choose current "Activated" playset > Scroll to "Thai Localization" and toggle enabled in the rightside.
+
+Additional options: Thai language has been added to other mods via the I18N EveryWhere mod (If you have enabled it)
+
+List of supported mods:
+ - I18N EveryWhere
+ - Skyve
 
 ## Team Translator
-
 * Bammcool
 * Bossthumb
 * Ca7amel
@@ -30,16 +34,34 @@ Manual Activate: Launch game goto menu "Paradox Mods"> Select "Playsets"> Choose
 * Solutiongamer
 
 ## Team Support
-
 * Bell
 * PanlopPalms
 * Simscolony
 
 ## Special Thank
-
 * Chamëleon TBN for always giving advice.
 * Baka-gourd's exporter tool.
 * PanReshalo's example of code-mod.
+
+** ม็อดภาษาไทยสำหรับเกม ซิตี้: สกายไลน์** โดยชุมชนผู้เล่นเกมซิตี้สกายไลน์ประเทศไทย ม็อดนี้จะเพิ่มตัวเลือกภาษาไทยให้ตัวเกมของคุณ โดยคุณสามารถเปลี่ยนกลับไปใช้ภาษาอื่นของตัวเกมได้ทุกเมื่อหากต้องการ
+
+ในการติดตั้งครั้งแรก เมื่อทำการเพิ่มม็อดนี้ในเพลย์เช็ตและทำการเปิดการใช้งานเรียบร้อยแล้ว เกมจะแจ้งเตือนให้รีสตาร์ทเกมก่อน เมื่อเปิดเกมขึ้นมาใหม่อีกครั้ง (เฉพาะการติดตั้งครั้งแรก) เกมจะเปลี่ยนเป็นภาษาไทยให้คุณโดยอัตโนมัติ
+
+หากเกมของคุณยังไม่เปลี่ยนเป็นภาษาไทยหลังจากการเปิดใช้งานแล้ว โปรดเช็คดูว่าเพลย์เช็ตที่คุณใช้งานอยู่ในปัจจุบันเป็นเพลย์เช็ตที่แอคทีฟหรือไม่ หากยังไม่เป็นภาษาไทยอีก คุณสามารถเข้าไปเช็คการตั้งค่าที่เมนู OPTIONS คลิกที่แท็บ INTERFACE แล้วเลือก "ภาษาไทย" จากช่อง LANGUAGE
+
+ความคืบหน้าการทำให้เป็นภาษาท้องถิ่น (Localization) การแปลในส่วนเมนูและฟังก์ชันการเล่นหลักนับว่าแปลไปได้แล้วกว่า 90% เหลือเพียงรายละเอียดเล็ก ๆ น้อย ๆ บางส่วนที่ยังคงเป็นการแปลผ่านเครื่องมือช่วยแปลภาษา หากพบข้อผิดพลาดในการสะกดคำ หรือจุดที่ทำให้การอ่านที่ไม่ลื่นไหลโปรดแจ้งให้เราทราบโดยการตั้งกระทู้ไว้ในดิสคอร์ดของเรา
+
+ทางเลือกเพิ่มเติม: มีการเพิ่มภาษาไทยให้ม็อดอื่น ๆ ผ่านม็อด I18N EveryWhere (หากคุณได้เปิดใช้งานไว้)
+
+รายชื่อม็อดที่รองรับ:
+ - I18N EveryWhere
+ - Skyve
+
+มีคำถามเพิ่มเติมเกี่ยวกับการเล่นเกม คุณสามารถเข้าร่วมกับกลุ่มผู้เล่นชาวไทยได้ที่กลุ่มเฟซบุ๊ค Cities: Skylines Thailand โดยระบุภาคของเกมและปัญหาที่พบโดยละเอียด
+
+ผู้จัดทำขอขอบคุณ และขออภัยในข้อผิดพลาดที่อาจเกิดขึ้นได้ในขณะที่คุณใช้งานม็อดนี้ ไม่ว่าจะเนื่องมาจากการพิมพ์ การอัปเดตเวอร์ชันหรือแพทซ์ของตัวเกม หรือข้อผิดพลาดจากตัวม็อดเอง เราจะพยายามอย่างสุดความสามารถเพื่อแก้ไขข้อผิดพลาดดังกล่าว ได้โปรดอย่าลังเลที่จะแจ้งให้เราทราบ
+
+ขอให้สนุกกับการสร้างอภิมหานคร Cities: Skylines
   </LongDescription>
   <!--Thumbnail-->
   <Thumbnail Value="Properties/Thumbnail.png" />
@@ -56,7 +78,7 @@ Manual Activate: Launch game goto menu "Paradox Mods"> Select "Playsets"> Choose
   <!--Link to the forum post where the mod can be discussed-->
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/cities-skylines-ii-thai-localization.1689978/" />
   <!--Version of the mod-->
-  <ModVersion Value="0.7.7" />
+  <ModVersion Value="0.7.8" />
   <!--Recommended version of the base game to use the mod-->
   <GameVersion Value="1.2.*" />
   <!--Dependency for the mod, can be set multiple times-->
