@@ -1,0 +1,12 @@
+{
+    "Language": "Thai",
+    "Language Code": "th-TH",
+    "Language Name": "ภาษาไทย",
+    "Options.SECTION[AllAboard.AllAboard.Mod]": "ล้อจะหมุนแล้ว!",
+    "Options.OPTION[AllAboard.AllAboard.Mod.Setting.TrainMaxDwellDelaySlider]": "การหน่วงเวลาสูงสุดในการฝึกซ้อม (นาทีในเกม)",
+    "Options.OPTION_DESCRIPTION[AllAboard.AllAboard.Mod.Setting.TrainMaxDwellDelaySlider]": "จำนวนเวลาสูงสุด (ในเกม) ที่จะให้รถไฟ (รถไฟใต้ดิน รถราง) \"อยู่\" เกินเวลาออกเดินทางตามกำหนดการ",
+    "Options.OPTION[AllAboard.AllAboard.Mod.Setting.BusMaxDwellDelaySlider]": "ความล่าช้าสูงสุดของรถบัส (นาทีในเกม)",
+    "Options.OPTION_DESCRIPTION[AllAboard.AllAboard.Mod.Setting.BusMaxDwellDelaySlider]": "จำนวนเวลาสูงสุด (ในเกม) ที่ให้รถบัส \"อยู่\" เกินเวลาออกเดินทางตามกำหนด",
+    "Options.OPTION[AllAboard.AllAboard.Mod.Setting.ApplyButton]": "ปรับใช้",
+    "Options.OPTION_DESCRIPTION[AllAboard.AllAboard.Mod.Setting.ApplyButton]": "ปรับใช้การตั้งค่า"
+}

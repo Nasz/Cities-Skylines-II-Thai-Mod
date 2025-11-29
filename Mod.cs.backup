@@ -12,10 +12,6 @@ using System.Linq;
 
 namespace ThaiLocale
 {
-    /// <summary>
-    /// Thai Localization Mod for Cities: Skylines II
-    /// Loads Thai language file from StreamingAssets and registers it with the game
-    /// </summary>
     public class Mod : IMod
     {
         public static Mod Instance { get; private set; }
@@ -25,14 +21,6 @@ namespace ThaiLocale
         public static ILog log = LogManager.GetLogger($"{nameof(ThaiLocale)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
         private LocalizationManager _localizationManager;
 
-        /// <summary>
-        /// Called when the mod is loaded by the game
-        /// Workflow:
-        /// 1. Detect StreamingAssets path
-        /// 2. Copy locale file from mod cache to StreamingAssets (if needed)
-        /// 3. Load locale data from StreamingAssets file
-        /// 4. Register locale with LocalizationManager and set as active
-        /// </summary>
         public void OnLoad(UpdateSystem updateSystem)
         {
             Instance = this;
@@ -46,7 +34,7 @@ namespace ThaiLocale
                 
                 try
                 {
-                    // Step 1: Detect StreamingAssets path
+                    // 1. เช็คและวางไฟล์ใน StreamingAssets
                     string streamingAssetsPath = GetStreamingAssetsPath();
                     if (string.IsNullOrEmpty(streamingAssetsPath))
                     {
@@ -60,7 +48,7 @@ namespace ThaiLocale
                     log.Info($"Mod source: {modSourcePath}");
                     log.Info($"Target path: {targetLocPath}");
 
-                    // Step 2: Copy locale file to StreamingAssets if needed
+                    // 2. Copy ไฟล์ถ้ายังไม่มีหรือต่างกัน
                     if (File.Exists(modSourcePath))
                     {
                         bool needCopy = !File.Exists(targetLocPath) || !FilesAreEqual(modSourcePath, targetLocPath);
@@ -81,16 +69,17 @@ namespace ThaiLocale
                         return;
                     }
 
-                    // Step 3: Load locale data from StreamingAssets (in-memory)
+                    // 3. FirstLoad จาก StreamingAssets
                     var locale = new LocaleAsset();
                     locale.database = AssetDatabase.game;
                     FirstLoad(locale, targetLocPath);
                     log.Info($"Loaded locale - ID: {locale.localeId}, Language: {locale.systemLanguage}, Name: {locale.localizedName}");
 
-                    // Step 4: Register locale and set as active
+                    // 4. Register และ Active
                     _localizationManager.AddLocale(locale);
                     _localizationManager.AddSource(locale.localeId, locale);
                     _localizationManager.SetActiveLocale(locale.localeId);
+                    _localizationManager.ReloadActiveLocale();
                     
                     log.Info($"🎯 Active Locale: {_localizationManager.activeLocaleId}");
                 }
@@ -101,10 +90,7 @@ namespace ThaiLocale
             }
         }
 
-        /// <summary>
-        /// Downloads and updates locale file from GitHub
-        /// Called by UI when user wants to update locale from remote source
-        /// </summary>
+        // Called by UI to download and update locale from GitHub
         public bool CheckAndReplaceFromGitHub(string rawUrl)
         {
             try
@@ -124,10 +110,7 @@ namespace ThaiLocale
             }
         }
 
-        /// <summary>
-        /// Activates Thai locale from UI
-        /// Called by UI when user manually activates the locale
-        /// </summary>
+        // Called by UI to activate Thai locale
         public void ActivateFromUI()
         {
             try
@@ -154,6 +137,7 @@ namespace ThaiLocale
                 _localizationManager.AddLocale(locale);
                 _localizationManager.AddSource(locale.localeId, locale);
                 _localizationManager.SetActiveLocale(locale.localeId);
+                _localizationManager.ReloadActiveLocale();
                 
                 log.Info($"Activated Thai locale from UI: {_localizationManager.activeLocaleId}");
             }
@@ -163,15 +147,11 @@ namespace ThaiLocale
             }
         }
 
-        /// <summary>
-        /// Detects the StreamingAssets path by analyzing existing locale assets
-        /// Returns the full path to StreamingAssets folder
-        /// </summary>
         private string GetStreamingAssetsPath()
         {
             try
             {
-                // Method 1: Derive from existing locale asset path
+                // Try to derive StreamingAssets from a known default LocaleAsset path
                 var defaultLocAsset = AssetDatabase.global.GetAssets<LocaleAsset>().FirstOrDefault(l => l.localeId == _localizationManager.fallbackLocaleId);
                 if (defaultLocAsset != null)
                 {
@@ -210,10 +190,6 @@ namespace ThaiLocale
             }
         }
 
-        /// <summary>
-        /// Compares two files byte-by-byte to check if they are identical
-        /// Used to determine if locale file needs to be updated
-        /// </summary>
         private bool FilesAreEqual(string pathA, string pathB)
         {
             try
@@ -250,10 +226,6 @@ namespace ThaiLocale
             }
         }
 
-        /// <summary>
-        /// Loads locale data from .loc file into LocaleAsset
-        /// Reads binary format: version, language, localeId, localizedName, entries, and index counts
-        /// </summary>
         private void FirstLoad(LocaleAsset localeAsset, string filePath)
         {
             using (var input = File.OpenRead(filePath))
@@ -286,9 +258,6 @@ namespace ThaiLocale
             }
         }
 
-        /// <summary>
-        /// Called when the mod is unloaded
-        /// </summary>
         public void OnDispose()
         {
             log.Info(nameof(OnDispose));

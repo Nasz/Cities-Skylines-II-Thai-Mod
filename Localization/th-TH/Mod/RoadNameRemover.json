@@ -1,0 +1,19 @@
+{
+    "Language": "Thai",
+    "Language Code": "th-TH",
+    "Language Name": "ภาษาไทย",
+    "Options.SECTION[RoadNameRemover.RoadNameRemover.Mod]": "โปรแกรมลบชื่อถนน",
+    "Options.GROUP[RoadNameRemover.RoadNameRemover.Mod.Toggle]": "เปลี่ยนการตั้งค่าสำหรับม็อด Road Name Remover โปรดเปลี่ยนภาษาหลังจากเปลี่ยนตัวเลือกใดๆ เพื่อโหลดการเปลี่ยนแปลงใหม่",
+    "Options.OPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideStreetNames]": "ซ่อนชื่อถนน",
+    "Options.OPTION_DESCRIPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideStreetNames]": "ซ่อนชื่อถนน",
+    "Options.OPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideHighwayNames]": "ซ่อนชื่อทางหลวง",
+    "Options.OPTION_DESCRIPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideHighwayNames]": "ซ่อนชื่อทางหลวง",
+    "Options.OPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideAlleyNames]": "ซ่อนชื่อซอย",
+    "Options.OPTION_DESCRIPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideAlleyNames]": "ซ่อนชื่อซอย",
+    "Options.OPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideBridgeNames]": "ซ่อนชื่อสะพาน",
+    "Options.OPTION_DESCRIPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideBridgeNames]": "ซ่อนชื่อสะพาน",
+    "Options.OPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideDamNames]": "ซ่อนชื่อเขื่อน",
+    "Options.OPTION_DESCRIPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideDamNames]": "ซ่อนชื่อเขื่อน",
+    "Options.OPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideDistrictNames]": "ซ่อนชื่ออำเภอ",
+    "Options.OPTION_DESCRIPTION[RoadNameRemover.RoadNameRemover.Mod.Setting.HideDistrictNames]": "ซ่อนชื่อเขต"
+}

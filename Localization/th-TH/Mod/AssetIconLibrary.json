@@ -1,0 +1,20 @@
+{
+    "Language": "Thai",
+    "Language Code": "th-TH",
+    "Language Name": "ภาษาไทย",
+    "Options.SECTION[AssetIconLibrary.AssetIconLibrary.Mod]": "ห้องสมุดไอคอนสินทรัพย์",
+    "Options.TAB[AssetIconLibrary.AssetIconLibrary.Mod.Main]": "หลัก",
+    "Options.GROUP[AssetIconLibrary.AssetIconLibrary.Mod.Settings]": "การตั้งค่า",
+    "Options.GROUP[AssetIconLibrary.AssetIconLibrary.Mod.Custom]": "กำหนดเอง",
+    "Options.OPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.RestartRequired]": "⚠️ การเปลี่ยนแปลงการตั้งค่าเหล่านี้ต้องเริ่มเกมใหม่อีกครั้งเพื่อใช้การเปลี่ยนแปลงของคุณ",
+    "Options.OPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.OverwriteIcons]": "เขียนทับไอคอนที่มีอยู่",
+    "Options.OPTION_DESCRIPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.OverwriteIcons]": "ในขณะที่เปิดใช้งาน ไลบรารีไอคอนสินทรัพย์จะเขียนทับไอคอนสินทรัพย์ดั้งเดิม แม้ว่าสินทรัพย์จะมีไอคอนอยู่แล้วก็ตาม",
+    "Options.OPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.IconsStyle]": "สไตล์ไอคอน",
+    "Options.OPTION_DESCRIPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.IconsStyle]": "เปลี่ยนรูปแบบที่จะใช้สำหรับไอคอนสินทรัพย์ในกรณีที่เกี่ยวข้อง",
+    "Options.OPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.CustomIcons]": "ใช้ไอคอนแบบกำหนดเองสำหรับสินทรัพย์โดยการวางไฟล์รูปภาพพร้อมชื่อสินทรัพย์ไว้ภายในโฟลเดอร์ภาพขนาดย่อที่กำหนดเอง",
+    "Options.OPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.OpenCustomFolders]": "เปิดโฟลเดอร์ภาพขนาดย่อที่กำหนดเอง",
+    "Options.OPTION_DESCRIPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.OpenCustomFolders]": "เพิ่มรูปขนาดย่อส่วนบุคคลที่กำหนดเองเพื่อใช้กับไอคอนธรรมดาหรือไอคอน 'คลังไอคอนสินทรัพย์'",
+    "Options.OPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.ColoredPropless]": "มีสีและไม่มีอุปกรณ์ประกอบฉาก",
+    "Options.OPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.White]": "ขาวและไม่มีอุปกรณ์ประกอบฉาก",
+    "Options.OPTION[AssetIconLibrary.AssetIconLibrary.Mod.Setting.Colored]": "สีสันพร้อมอุปกรณ์ประกอบฉาก"
+}

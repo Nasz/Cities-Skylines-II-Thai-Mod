@@ -1,0 +1,15 @@
+{
+    "Language": "Thai",
+    "Language Code": "th-TH",
+    "Language Name": "ภาษาไทย",
+    "Options.SECTION[RegionFlagIcons.RegionFlagIcons.Mod]": "ไอคอนธงประจำภูมิภาค",
+    "Options.TAB[RegionFlagIcons.RegionFlagIcons.Mod.Main]": "หลัก",
+    "Options.GROUP[RegionFlagIcons.RegionFlagIcons.Mod.Group]": "การตั้งค่า",
+    "Options.OPTION[RegionFlagIcons.RegionFlagIcons.Mod.Setting.NorthAmericanFlagStyle]": "สไตล์ธงอเมริกาเหนือ",
+    "Options.OPTION_DESCRIPTION[RegionFlagIcons.RegionFlagIcons.Mod.Setting.NorthAmericanFlagStyle]": "เปลี่ยนไอคอนที่ใช้สำหรับธงอเมริกาเหนือ",
+    "Options.RegionFlagIcons.RegionFlagIcons.Mod.FLAGSTYLE_NA[USA]": "สหรัฐอเมริกา",
+    "Options.RegionFlagIcons.RegionFlagIcons.Mod.FLAGSTYLE_NA[Canada]": "แคนาดา",
+    "Options.OPTION[RegionFlagIcons.RegionFlagIcons.Mod.Setting.ApplyChanges]": "เริ่มเกมใหม่อีกครั้งเพื่อใช้การเปลี่ยนแปลง",
+    "Options.OPTION_DESCRIPTION[RegionFlagIcons.RegionFlagIcons.Mod.Setting.ApplyChanges]": "คลิกเพื่อปิดเกม หลังจากรีสตาร์ท การเปลี่ยนแปลงจะมีผล หากคุณไม่ต้องการรีสตาร์ททันที การเปลี่ยนแปลงจะมีผลเมื่อเริ่มเกมในครั้งต่อไป",
+    "Options.WARNING[RegionFlagIcons.RegionFlagIcons.Mod.Setting.ApplyChanges]": "เกมจะปิดแล้วเหรอ?"
+}

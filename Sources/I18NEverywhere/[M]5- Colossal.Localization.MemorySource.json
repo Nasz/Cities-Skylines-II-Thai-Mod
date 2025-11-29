@@ -1,0 +1,18 @@
+{
+  "Compass.TooltipTitle": "Compass",
+  "Compass.TooltipDescription": "Click to open options",
+  "Compass.TitleBarLabel": "Compass Settings",
+  "Compass.CardinalDirectionModeLabel": "Cardinal Direction Mode",
+  "Compass.OnLabel": "On",
+  "Compass.OffLabel": "Off",
+  "Compass.SetLabel": "Set",
+  "Compass.ResetLabel": "Reset",
+  "Compass.RelativeNorthLabel": "Relative North",
+  "Compass.HeadingLabel": "Heading",
+  "Compass.ResetToRelativeNorthLabel": "Reset to Relative North",
+  "Compass.ResetToNorthLabel": "Reset to North",
+  "Options.SECTION[Compass.Compass.Mod]": "Compass",
+  "Options.OPTION[Compass.Compass.Mod.Setting.ResetModSettings]": "Reset All Settings",
+  "Options.OPTION_DESCRIPTION[Compass.Compass.Mod.Setting.ResetModSettings]": "Reset Mod Settings to Default Values",
+  "Options.WARNING[Compass.Compass.Mod.Setting.ResetModSettings]": "Are you sure you want to reset all mod settings?"
+}

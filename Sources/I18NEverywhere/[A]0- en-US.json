@@ -1,0 +1,18 @@
+{
+  "Assets.NAME[CCP6 Commercial Low]": "Dragon Gate Low Density Business",
+  "Assets.DESCRIPTION[CCP6 Commercial Low]": "Create a bustling shopping district infused with Chinese iconography. This zone provides your city with low density businesses. ",
+  "Assets.NAME[CCP6_ServiceBuilding01]": "Small Chinese Gate",
+  "Assets.DESCRIPTION[CCP6_ServiceBuilding01]": "The traditional Chinese arch is an iconic architecture in China, and a symbolic building of Chinatowns outside of China.",
+  "Assets.NAME[CCP6_ServiceBuilding02]": "Large Chinese Gate",
+  "Assets.DESCRIPTION[CCP6_ServiceBuilding02]": "The traditional Chinese arch is an iconic architecture in China, and a symbolic building of Chinatowns outside of China.",
+  "Assets.NAME[CCP6_ServiceBuilding03]": "Traditional Chinese Temple",
+  "Assets.DESCRIPTION[CCP6_ServiceBuilding03]": "Recently renovated, this traditional Chinese temple is not only a place of worship, it also attracts tourists from all around the world.",
+  "Assets.NAME[CCP6_ServiceBuilding04]": "Chinese High School",
+  "Assets.DESCRIPTION[CCP6_ServiceBuilding04]": "A school for teenagers in the historical building. Provides the second level of education.\r\nCan be upgraded with an extension wing.",
+  "Assets.UPGRADE_NAME[CCP6_ServiceBuilding04_Ext01]": "Extension Wing",
+  "Assets.UPGRADE_DESCRIPTION[CCP6_ServiceBuilding04_Ext01]": "Two extension buildings on both sides offer more space for more students",
+  "Assets.NAME[CCP6_CommercialHighSignature01]": "Grand Dynasty Hotel",
+  "Assets.DESCRIPTION[CCP6_CommercialHighSignature01]": "A large hotel building combining Chinese and Western styles offers plenty of accommodations for tourists and business travelers.",
+  "Assets.NAME[DragonGatePack]": "Dragon Gate",
+  "Assets.NAME[DragonGate]": "Dragon Gate"
+}

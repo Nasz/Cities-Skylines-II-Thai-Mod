@@ -1,0 +1,21 @@
+{
+    "Language": "Thai",
+    "Language Code": "th-TH",
+    "Language Name": "ภาษาไทย",
+    "Compass.TooltipTitle": "เข็มทิศ",
+    "Compass.TooltipDescription": "คลิกเพื่อเปิดตัวเลือก",
+    "Compass.TitleBarLabel": "การตั้งค่าเข็มทิศ",
+    "Compass.CardinalDirectionModeLabel": "โหมดแสดงทิศทางหลัก",
+    "Compass.OnLabel": "เปิด",
+    "Compass.OffLabel": "ปิด",
+    "Compass.SetLabel": "กำหนด",
+    "Compass.ResetLabel": "เริ่มต้นใหม่",
+    "Compass.RelativeNorthLabel": "ทิศเหนือสัมพัทธ์",
+    "Compass.HeadingLabel": "มุ่งหน้า",
+    "Compass.ResetToRelativeNorthLabel": "เริ่มต้นใหม่เป็นทิศเหนือสัมพัทธ์",
+    "Compass.ResetToNorthLabel": "เริ่มต้นใหม่เป็นทิศเหนือ",
+    "Options.SECTION[Compass.Compass.Mod]": "เข็มทิศ",
+    "Options.OPTION[Compass.Compass.Mod.Setting.ResetModSettings]": "เริ่มต้นการตั้งค่าใหม่ทั้งหมด",
+    "Options.OPTION_DESCRIPTION[Compass.Compass.Mod.Setting.ResetModSettings]": "เริ่มต้นการตั้งค่าใหม่",
+    "Options.WARNING[Compass.Compass.Mod.Setting.ResetModSettings]": "คุณต้องการเริ่มต้นการตั้งค่าม็อดใหม่ทั้งหมดใช่หรือไม่?"
+}

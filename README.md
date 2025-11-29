@@ -1,15 +1,30 @@
 # Cities: Skylines II Thai Mod
 
- Thai Localization Mod for Cities: Skyline II
- ม็อดภาษาไทยสำหรับเกมซิตี้สกายไลน์ II
+Thai Localization Mod for Cities: Skylines II  
+ม็อดภาษาไทยสำหรับเกมซิตี้สกายไลน์ II
 
- กดสมัครสมาชิกได้ที่ [https://mods.paradoxplaza.com/mods/79578/Windows](https://mods.paradoxplaza.com/mods/79578/Windows)
- 
- ภาษาไทยโดยกลุ่มผู้เล่นเกมซิตี้สกายไลน์ II
+กดสมัครสมาชิกได้ที่ [Paradox Mods](https://mods.paradoxplaza.com/mods/79578/Windows)
 
- สามารถสนับสนุนเราโดยการเข้าร่วมแจ้งบัค แจ้งคำแปลสะกดผิด หรือร่วมทีมแปลกับเราได้ที่ discord.gg/RGzX9YWBYS
+ภาษาไทยโดยกลุ่มผู้เล่นเกมซิตี้สกายไลน์ II
 
- กรณีที่สมัครสมาชิกแล้วเกมยังไม่เป็นภาษาไทย เบื้องต้นให้เช็คโดยการ เปิดเกม แล้วไปที่ Options เลือกไปที่หัวข้อ Interface แล้วเปลี่ยนดรอปดาวในตัวเลือกด้านขวาให้เป็น "ภาษาไทย"
+## การติดตั้งและใช้งาน
+
+1. **สมัครสมาชิก Mod** ที่ [Paradox Mods](https://mods.paradoxplaza.com/mods/79578/Windows)
+2. **เปิดเกม** Cities: Skylines II
+3. **เปลี่ยนภาษา** ไปที่ Options → Interface → Language → เลือก "ภาษาไทย"
+4. **รีสตาร์ทเกม** เพื่อให้ภาษาไทยมีผลทั้งหมด
+
+### หมายเหตุ
+- Mod จะคัดลอกไฟล์ภาษาไทยไปยัง StreamingAssets โดยอัตโนมัติ
+- ภาษาไทยจะถูกโหลดทุกครั้งที่เปิดเกม
+- หากมีการอัพเดทภาษาใหม่ Mod จะอัพเดทไฟล์ให้อัตโนมัติ
+
+## การสนับสนุนโปรเจค
+
+สามารถสนับสนุนเราได้โดย:
+- แจ้งบัคหรือคำแปลที่ผิดพลาด
+- ร่วมทีมแปลกับเรา
+- เข้าร่วม Discord: [discord.gg/RGzX9YWBYS](https://discord.gg/RGzX9YWBYS)
 
  [![Discord](https://img.shields.io/discord/1092697599447932928?label=Discord)](https://discord.gg/HSYPKfdJfr "Cities: Skylines Thai Localization Community")
 
@@ -21,7 +36,7 @@
 
 ![image](https://github.com/Nasz/CS2THMod/assets/384751/72c6572d-0b3a-4153-9113-01bd3e006b6d)
 
-## This mod use "I18N Everywhere" for replace English language to Thai language.
+## ม็อดนี้ใช้ "I18N Everywhere" เพื่อเพิ่มภาษาไทยให้กับม็อดอื่น ๆ
 
 ## ดูแลโปรเจคโดย 
   + [N7C](https://steamcommunity.com/id/n7c_th)
@@ -41,7 +56,7 @@
   + [PanlopPalms](https://steamcommunity.com/id/armsplams)
   + [Simscolony](https://steamcommunity.com/id/animenagi)
 
-#### Special Thank
+#### Special Thanks
 
   + [Chamëleon TBN](https://steamcommunity.com/id/chameleon_tbn/)
   + [nullpinter](https://github.com/baka-gourd)

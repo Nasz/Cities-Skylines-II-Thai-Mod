@@ -1,0 +1,12 @@
+{
+    "Language": "Thai",
+    "Language Code": "th-TH",
+    "Language Name": "ภาษาไทย",
+    "Options.SECTION[ZoneColorChanger.ZoneColorChanger.Mod]": "เปลี่ยนสีโซน",
+    "Options.TAB[ZoneColorChanger.ZoneColorChanger.Mod.MainSection]": "หลัก",
+    "Options.GROUP[ZoneColorChanger.ZoneColorChanger.Mod.OptionsGroup]": "การตั้งค่า",
+    "Options.OPTION[ZoneColorChanger.ZoneColorChanger.Mod.Setting.RecolorIcons]": "เปลี่ยนสีไอคอนของโซน",
+    "Options.OPTION_DESCRIPTION[ZoneColorChanger.ZoneColorChanger.Mod.Setting.RecolorIcons]": "เมื่อเปิดใช้งานแล้ว ไอคอนของโซนต่าง ๆ จะได้รับการอัปเดตให้ตรงกับสีที่เลือก การเปลี่ยนแปลงจะมีผลเมื่อเปิดแถบเครื่องมือการจัดโซนถูกเปิดครั้งถัดไป การปิดใช้งานตัวเลือกนี้ต้องรีสตาร์ทจึงจะเห็นผล",
+    "Options.OPTION[ZoneColorChanger.ZoneColorChanger.Mod.Setting.GroupThemes]": "ธีมกลุ่มของประเภทโซน",
+    "Options.OPTION_DESCRIPTION[ZoneColorChanger.ZoneColorChanger.Mod.Setting.GroupThemes]": "เมื่อเปิดใช้งาน โซนที่มีธีมต่างๆ หลายธีม (EU, NA เป็นต้น) จะถูกจัดกลุ่มเป็นตัวเลือกเดียว"
+}

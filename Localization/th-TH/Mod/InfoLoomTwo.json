@@ -1,0 +1,13 @@
+{
+    "Language": "Thai",
+    "Language Code": "th-TH",
+    "Language Name": "ภาษาไทย",
+    "Options.SECTION[InfoLoomTwo.InfoLoomTwo.Mod]": "กวาดข้อมูล",
+    "Options.TAB[InfoLoomTwo.InfoLoomTwo.Mod.Main]": "หลัก",
+    "Options.GROUP[InfoLoomTwo.InfoLoomTwo.Mod.Commercial Tax]": "ภาษีการค้า",
+    "Options.OPTION[InfoLoomTwo.InfoLoomTwo.Mod.Setting.TaxRateEffect]": "ผลกระทบจากอัตราภาษี",
+    "Options.OPTION_DESCRIPTION[InfoLoomTwo.InfoLoomTwo.Mod.Setting.TaxRateEffect]": "ค่าฐานที่ควบคุมความเข้มแข็งของผลกระทบอัตราภาษี",
+    "Options.OPTION[InfoLoomTwo.InfoLoomTwo.Mod.Setting.CommercialTaxLEffect]": "อัตราภาษี",
+    "Options.OPTION_DESCRIPTION[InfoLoomTwo.InfoLoomTwo.Mod.Setting.CommercialTaxLEffect]": "อัตราภาษีรวมปัจจุบันเพื่อกำหนดความแข็งแกร่งของภาษีการค้าเมื่อจัดเก็บภาษีบริษัทผลิตภัณฑ์เชิงพาณิชย์",
+    "Options.GROUP[InfoLoomTwo.InfoLoomTwo.Mod.Other]": "อื่น"
+}

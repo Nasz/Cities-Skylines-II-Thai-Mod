@@ -1,13 +1,13 @@
 ﻿<Publish>
-  <!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
-  <ModId Value="79578" />
-  <!--Name of the mod to display to players-->
-  <DisplayName Value="Thai Localization (Thailand)" />
-  <!--Short description of the mod-->
-  <ShortDescription Value="Thai Localization Mod for Cities: Skylines II" />
-  <!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
-  <!--LongDescription Value="Thai Localization Mod for Cities: Skylines II" /-->
-  <LongDescription>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="79578" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Thai Localization (Thailand)" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Thai Localization Mod for Cities: Skylines II" />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="Thai Localization Mod for Cities: Skylines II" /-->
+	<LongDescription>
 # Thai Localization for Cities: Skylines II
 
 This language pack presented by Cities: Skylines Thailand Community.
@@ -16,7 +16,14 @@ Feedback or Join us at https://discord.gg/RGzX9YWBYS
 
 https://www.facebook.com/groups/CitiesSkylinesThailand
 
-Manual Activate: Launch game goto menu "Paradox Mods" > Select "Playsets" > Choose current "Activated" playset > Scroll to "Thai Localization" and toggle enabled in the rightside.
+Manual Activate: Launch game goto menu "Paradox Mods"> Select "Playsets"> Choose current "Activated" playset > Scroll to "Thai Localization" and toggle enabled in the rightside.
+
+CCP Supported:
+- Modern Architecture
+- Urban Promenades
+- Leisure Venues
+- Mediterranean Heritage
+- Dragon Gate
 
 Additional options: Thai language has been added to other mods via the I18N EveryWhere mod (If you have enabled it)
 
@@ -51,6 +58,13 @@ List of supported mods:
 
 ความคืบหน้าการทำให้เป็นภาษาท้องถิ่น (Localization) การแปลในส่วนเมนูและฟังก์ชันการเล่นหลักนับว่าแปลไปได้แล้วกว่า 90% เหลือเพียงรายละเอียดเล็ก ๆ น้อย ๆ บางส่วนที่ยังคงเป็นการแปลผ่านเครื่องมือช่วยแปลภาษา หากพบข้อผิดพลาดในการสะกดคำ หรือจุดที่ทำให้การอ่านที่ไม่ลื่นไหลโปรดแจ้งให้เราทราบโดยการตั้งกระทู้ไว้ในดิสคอร์ดของเรา
 
+แพ็คเนื้อหาที่รองรับ:
+- Modern Architecture
+- Urban Promenades
+- Leisure Venues
+- Mediterranean Heritage
+- Dragon Gate
+
 ทางเลือกเพิ่มเติม: มีการเพิ่มภาษาไทยให้ม็อดอื่น ๆ ผ่านม็อด I18N EveryWhere (หากคุณได้เปิดใช้งานไว้)
 
 รายชื่อม็อดที่รองรับ:
@@ -62,33 +76,33 @@ List of supported mods:
 ผู้จัดทำขอขอบคุณ และขออภัยในข้อผิดพลาดที่อาจเกิดขึ้นได้ในขณะที่คุณใช้งานม็อดนี้ ไม่ว่าจะเนื่องมาจากการพิมพ์ การอัปเดตเวอร์ชันหรือแพทซ์ของตัวเกม หรือข้อผิดพลาดจากตัวม็อดเอง เราจะพยายามอย่างสุดความสามารถเพื่อแก้ไขข้อผิดพลาดดังกล่าว ได้โปรดอย่าลังเลที่จะแจ้งให้เราทราบ
 
 ขอให้สนุกกับการสร้างอภิมหานคร Cities: Skylines
-  </LongDescription>
-  <!--Thumbnail-->
-  <Thumbnail Value="Properties/Thumbnail.png" />
-  <!--Screenshot, can be set multiple times-->
-  <Screenshot Value="Properties/Screenshot/MainMenu.png" />
-  <Screenshot Value="Properties/Screenshot/Interface.png" />
-  <Screenshot Value="Properties/Screenshot/Infoview.jpg" />
-  <Screenshot Value="Properties/Screenshot/Economics.jpg" />
-  <Screenshot Value="Properties/Screenshot/Loan.jpg" />
-  <Screenshot Value="Properties/Screenshot/Progression.jpg" />
-  <Screenshot Value="Properties/Screenshot/Milestone.jpg" />
-  <!--Tag, can be set multiple times-->
-  <Tag Value="Code Mod" />
-  <!--Link to the forum post where the mod can be discussed-->
-  <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/cities-skylines-ii-thai-localization.1689978/" />
-  <!--Version of the mod-->
-  <ModVersion Value="0.7.8" />
-  <!--Recommended version of the base game to use the mod-->
-  <GameVersion Value="1.2.*" />
-  <!--Dependency for the mod, can be set multiple times-->
-  <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-  <ChangeLog>
-* Adjust some translation.
-  </ChangeLog>
-  <!--ChangeLog>
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/Screenshot/MainMenu.png" />
+	<Screenshot Value="Properties/Screenshot/Interface.png" />
+	<Screenshot Value="Properties/Screenshot/Infoview.jpg" />
+	<Screenshot Value="Properties/Screenshot/Economics.jpg" />
+	<Screenshot Value="Properties/Screenshot/Loan.jpg" />
+	<Screenshot Value="Properties/Screenshot/Progression.jpg" />
+	<Screenshot Value="Properties/Screenshot/Milestone.jpg" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="0.9" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog>
+* 95% Thai translation version.
+	</ChangeLog>
+	<!--ChangeLog>
 	</ChangeLog-->
-  <!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
-  <ExternalLink Type="discord" Url="https://discord.gg/RGzX9YWBYS"/>
-  <ExternalLink Type="github" Url="https://github.com/Nasz/CS2THMod/" />
+	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
+	<ExternalLink Type="discord" Url="https://discord.gg/RGzX9YWBYS"/>
+	<ExternalLink Type="github" Url="https://github.com/Nasz/CS2THMod/" />
 </Publish>
