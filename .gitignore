@@ -82,3 +82,8 @@ Properties/*.txt
 # Other Temp
 /Source/*
 .codegpt
+
+# Ignore PowerShell scripts (sensitive or private helpers)
+*.ps1
+# ignore Tools
+/Tools/
