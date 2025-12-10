@@ -46,7 +46,29 @@ namespace ThaiLocale
                 
                 try
                 {
-                    // Step 1: Detect StreamingAssets path
+                    // Step 1: Check if Thai locale already exists in the system
+                    var existingLocales = _localizationManager.GetSupportedLocales();
+                    bool thaiLocaleExists = existingLocales.Any(l => l == CURRENT_LOCALIZATION);
+                    
+                    if (thaiLocaleExists)
+                    {
+                        log.Info($"Thai locale already registered in LocalizationManager");
+                        
+                        // Debug: Show where the existing locale is from
+                        var existingLocale = AssetDatabase.global.GetAssets<LocaleAsset>()
+                            .FirstOrDefault(l => l.localeId == CURRENT_LOCALIZATION);
+                        if (existingLocale != null)
+                        {
+                            log.Info($"📍 Using existing th-TH.loc from: {existingLocale.path}");
+                            log.Info($"   State: {existingLocale.state}, Transient: {existingLocale.transient}, Valid: {existingLocale.isValid}");
+                        }
+                        
+                        _localizationManager.SetActiveLocale(CURRENT_LOCALIZATION);
+                        log.Info($"🎯 Active Locale: {_localizationManager.activeLocaleId}");
+                        return;
+                    }
+
+                    // Step 2: Detect StreamingAssets path
                     string streamingAssetsPath = GetStreamingAssetsPath();
                     if (string.IsNullOrEmpty(streamingAssetsPath))
                     {
@@ -60,7 +82,7 @@ namespace ThaiLocale
                     log.Info($"Mod source: {modSourcePath}");
                     log.Info($"Target path: {targetLocPath}");
 
-                    // Step 2: Copy locale file to StreamingAssets if needed
+                    // Step 3: Copy locale file to StreamingAssets if needed
                     if (File.Exists(modSourcePath))
                     {
                         bool needCopy = !File.Exists(targetLocPath) || !FilesAreEqual(modSourcePath, targetLocPath);
@@ -81,13 +103,14 @@ namespace ThaiLocale
                         return;
                     }
 
-                    // Step 3: Load locale data from StreamingAssets (in-memory)
+                    // Step 4: Load locale data from StreamingAssets (in-memory)
                     var locale = new LocaleAsset();
                     locale.database = AssetDatabase.game;
                     FirstLoad(locale, targetLocPath);
                     log.Info($"Loaded locale - ID: {locale.localeId}, Language: {locale.systemLanguage}, Name: {locale.localizedName}");
+                    log.Info($"📍 Created new th-TH.loc from: {targetLocPath}");
 
-                    // Step 4: Register locale and set as active
+                    // Step 5: Register locale and set as active
                     _localizationManager.AddLocale(locale);
                     _localizationManager.AddSource(locale.localeId, locale);
                     _localizationManager.SetActiveLocale(locale.localeId);

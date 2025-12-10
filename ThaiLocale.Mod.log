@@ -1,15 +1,9 @@
-[2025-11-29 07:40:17,744] [INFO]  OnLoad called in phase Invalid at 11/29/2025 07:40:17
-[2025-11-29 07:40:17,745] [INFO]  Current mod asset at: C:/Users/nac_n/AppData/LocalLow/Colossal Order/Cities Skylines II/.cache/Mods/mods_subscribed/79578_19/ThaiLocale.dll
-[2025-11-29 07:40:17,745] [INFO]  Current active locale: pt-BR
-[2025-11-29 07:40:17,746] [INFO]  Mod source: C:\Users\nac_n\AppData\LocalLow\Colossal Order\Cities Skylines II\.cache\Mods\mods_subscribed\79578_19\Content\th-TH.loc
-[2025-11-29 07:40:17,747] [INFO]  Target path: G:/SteamLibrary/steamapps/common/Cities Skylines II/Cities2_Data\StreamingAssets\th-TH.loc
-[2025-11-29 07:40:17,752] [INFO]  Locale file already up-to-date in StreamingAssets
-[2025-11-29 07:40:17,753] [INFO]  Attempting to add file to AssetDatabase: G:/SteamLibrary/steamapps/common/Cities Skylines II/Cities2_Data\StreamingAssets\th-TH.loc
-[2025-11-29 07:40:17,754] [INFO]  Created AssetDataPath: G:/SteamLibrary/steamapps/common/Cities Skylines II/Cities2_Data\StreamingAssets\th-TH.loc (None)
-[2025-11-29 07:40:17,754] [INFO]  AddEntry method found with 3 parameters
-[2025-11-29 07:40:17,755] [INFO]  AddEntry returned: 1590e90420f23ea63e33a812e9b06a1e [G:/SteamLibrary/steamapps/common/Cities%20Skylines%20II/Cities2_Data/StreamingAssets/th-TH.loc]
-[2025-11-29 07:40:17,755] [INFO]  Successfully added entry to AssetDatabase
-[2025-11-29 07:40:17,765] [INFO]  Created LocaleAsset from database entry: th-TH
-[2025-11-29 07:40:17,766] [INFO]  Successfully created locale from AssetDatabase: 
-[2025-11-29 07:40:17,777] [INFO]  🎯 Active Locale: th-TH
-[2025-11-29 07:40:41,635] [INFO]  OnDispose
+[2025-12-10 14:59:36,700] [INFO]  OnLoad called in phase Invalid at 12/10/2025 14:59:36
+[2025-12-10 14:59:36,700] [INFO]  Current mod asset at: C:/Users/nac_n/AppData/LocalLow/Colossal Order/Cities Skylines II/.cache/Mods/mods_subscribed/79578_21/ThaiLocale.dll
+[2025-12-10 14:59:36,701] [INFO]  Current active locale: en-US
+[2025-12-10 14:59:36,702] [INFO]  Mod source: C:\Users\nac_n\AppData\LocalLow\Colossal Order\Cities Skylines II\.cache\Mods\mods_subscribed\79578_21\Content\th-TH.loc
+[2025-12-10 14:59:36,702] [INFO]  Target path: G:/SteamLibrary/steamapps/common/Cities Skylines II/Cities2_Data\StreamingAssets\th-TH.loc
+[2025-12-10 14:59:36,706] [INFO]  Locale file already up-to-date in StreamingAssets
+[2025-12-10 14:59:36,718] [INFO]  Loaded locale - ID: th-TH, Language: Thai, Name: ภาษาไทย
+[2025-12-10 14:59:36,731] [INFO]  🎯 Active Locale: th-TH
+[2025-12-10 15:00:11,195] [INFO]  OnDispose
