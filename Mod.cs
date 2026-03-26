@@ -9,6 +9,7 @@ using UnityEngine;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using Object = UnityEngine.Object;
 
 namespace ThaiLocale
 {
@@ -22,7 +23,9 @@ namespace ThaiLocale
         const string LOC_FILE = "Locale.cok";
         const string DATA_FOLDER = "Cities2_Data";
         const string CURRENT_LOCALIZATION = "th-TH";
+        internal const string ActiveLocaleId = CURRENT_LOCALIZATION;
         public static ILog log = LogManager.GetLogger($"{nameof(ThaiLocale)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
+        private const string WATCHER_OBJECT_NAME = "ThaiLocaleActivationWatcher";
         private LocalizationManager _localizationManager;
 
         /// <summary>
@@ -46,76 +49,9 @@ namespace ThaiLocale
                 
                 try
                 {
-                    // Step 1: Check if Thai locale already exists in the system
-                    var existingLocales = _localizationManager.GetSupportedLocales();
-                    bool thaiLocaleExists = existingLocales.Any(l => l == CURRENT_LOCALIZATION);
-                    
-                    if (thaiLocaleExists)
-                    {
-                        log.Info($"Thai locale already registered in LocalizationManager");
-                        
-                        // Debug: Show where the existing locale is from
-                        var existingLocale = AssetDatabase.global.GetAssets<LocaleAsset>()
-                            .FirstOrDefault(l => l.localeId == CURRENT_LOCALIZATION);
-                        if (existingLocale != null)
-                        {
-                            log.Info($"📍 Using existing th-TH.loc from: {existingLocale.path}");
-                            log.Info($"   State: {existingLocale.state}, Transient: {existingLocale.transient}, Valid: {existingLocale.isValid}");
-                        }
-                        
-                        _localizationManager.SetActiveLocale(CURRENT_LOCALIZATION);
-                        log.Info($"🎯 Active Locale: {_localizationManager.activeLocaleId}");
-                        return;
-                    }
-
-                    // Step 2: Detect StreamingAssets path
-                    string streamingAssetsPath = GetStreamingAssetsPath();
-                    if (string.IsNullOrEmpty(streamingAssetsPath))
-                    {
-                        log.Error("Cannot determine StreamingAssets path");
-                        return;
-                    }
-
-                    string targetLocPath = Path.Combine(streamingAssetsPath, CURRENT_LOCALIZATION + ".loc");
-                    string modSourcePath = Path.Combine(Path.GetDirectoryName(asset.path), "Content", CURRENT_LOCALIZATION + ".loc");
-                    
-                    log.Info($"Mod source: {modSourcePath}");
-                    log.Info($"Target path: {targetLocPath}");
-
-                    // Step 3: Copy locale file to StreamingAssets if needed
-                    if (File.Exists(modSourcePath))
-                    {
-                        bool needCopy = !File.Exists(targetLocPath) || !FilesAreEqual(modSourcePath, targetLocPath);
-                        if (needCopy)
-                        {
-                            Directory.CreateDirectory(Path.GetDirectoryName(targetLocPath));
-                            File.Copy(modSourcePath, targetLocPath, true);
-                            log.Info($"Copied locale file to StreamingAssets");
-                        }
-                        else
-                        {
-                            log.Info("Locale file already up-to-date in StreamingAssets");
-                        }
-                    }
-                    else
-                    {
-                        log.Error($"Mod source file not found: {modSourcePath}");
-                        return;
-                    }
-
-                    // Step 4: Load locale data from StreamingAssets (in-memory)
-                    var locale = new LocaleAsset();
-                    locale.database = AssetDatabase.game;
-                    FirstLoad(locale, targetLocPath);
-                    log.Info($"Loaded locale - ID: {locale.localeId}, Language: {locale.systemLanguage}, Name: {locale.localizedName}");
-                    log.Info($"📍 Created new th-TH.loc from: {targetLocPath}");
-
-                    // Step 5: Register locale and set as active
-                    _localizationManager.AddLocale(locale);
-                    _localizationManager.AddSource(locale.localeId, locale);
-                    _localizationManager.SetActiveLocale(locale.localeId);
-                    
-                    log.Info($"🎯 Active Locale: {_localizationManager.activeLocaleId}");
+                    EnsureThaiLocaleAvailable(asset.path);
+                    ActivateThaiLocale();
+                    EnsureActivationWatcher();
                 }
                 catch (Exception ex)
                 {
@@ -155,35 +91,143 @@ namespace ThaiLocale
         {
             try
             {
-                string streamingAssetsPath = GetStreamingAssetsPath();
-                if (string.IsNullOrEmpty(streamingAssetsPath))
-                {
-                    log.Error("Cannot determine StreamingAssets path");
-                    return;
-                }
-
-                string targetLocPath = Path.Combine(streamingAssetsPath, CURRENT_LOCALIZATION + ".loc");
-                if (!File.Exists(targetLocPath))
-                {
-                    log.Error($"Locale file not found: {targetLocPath}");
-                    return;
-                }
-
-                // Load and activate
-                var locale = new LocaleAsset();
-                locale.database = AssetDatabase.game;
-                FirstLoad(locale, targetLocPath);
-                
-                _localizationManager.AddLocale(locale);
-                _localizationManager.AddSource(locale.localeId, locale);
-                _localizationManager.SetActiveLocale(locale.localeId);
-                
+                EnsureThaiLocaleAvailable(null);
+                ActivateThaiLocale();
+                EnsureActivationWatcher();
                 log.Info($"Activated Thai locale from UI: {_localizationManager.activeLocaleId}");
             }
             catch (Exception ex)
             {
                 log.Error($"ActivateFromUI failed: {ex}");
             }
+        }
+
+        private void EnsureThaiLocaleAvailable(string executableAssetPath)
+        {
+            var existingLocale = AssetDatabase.global.GetAssets<LocaleAsset>()
+                .FirstOrDefault(l => l.localeId == CURRENT_LOCALIZATION);
+            if (existingLocale != null)
+            {
+                log.Info("Thai locale already registered in LocalizationManager");
+                log.Info($"📍 Existing th-TH.loc from: {existingLocale.path}");
+                log.Info($"   State: {existingLocale.state}, Transient: {existingLocale.transient}, Valid: {existingLocale.isValid}");
+            }
+
+            string streamingAssetsPath = GetStreamingAssetsPath();
+            if (string.IsNullOrEmpty(streamingAssetsPath))
+            {
+                log.Error("Cannot determine StreamingAssets path");
+                return;
+            }
+
+            string targetLocPath = Path.Combine(streamingAssetsPath, CURRENT_LOCALIZATION + ".loc");
+            string modSourcePath = ResolveModSourcePath(executableAssetPath);
+            log.Info($"Mod source: {modSourcePath ?? "(unresolved)"}");
+            log.Info($"Target path: {targetLocPath}");
+
+            if (!string.IsNullOrEmpty(modSourcePath) && File.Exists(modSourcePath))
+            {
+                bool needCopy = !File.Exists(targetLocPath) || !FilesAreEqual(modSourcePath, targetLocPath);
+                if (needCopy)
+                {
+                    Directory.CreateDirectory(Path.GetDirectoryName(targetLocPath));
+                    File.Copy(modSourcePath, targetLocPath, true);
+                    log.Info("Copied locale file to StreamingAssets");
+                }
+                else
+                {
+                    log.Info("Locale file already up-to-date in StreamingAssets");
+                }
+            }
+
+            if (_localizationManager.GetSupportedLocales().Any(l => l == CURRENT_LOCALIZATION))
+            {
+                return;
+            }
+
+            if (!File.Exists(targetLocPath))
+            {
+                log.Error($"Locale file not found: {targetLocPath}");
+                return;
+            }
+
+            var locale = new LocaleAsset();
+            locale.database = AssetDatabase.game;
+            FirstLoad(locale, targetLocPath);
+            log.Info($"Loaded locale - ID: {locale.localeId}, Language: {locale.systemLanguage}, Name: {locale.localizedName}");
+            log.Info($"📍 Registered new th-TH.loc from: {targetLocPath}");
+
+            _localizationManager.AddLocale(locale);
+            _localizationManager.AddSource(locale.localeId, locale);
+        }
+
+        private string ResolveModSourcePath(string executableAssetPath)
+        {
+            if (!string.IsNullOrEmpty(executableAssetPath))
+            {
+                var sourcePath = Path.Combine(Path.GetDirectoryName(executableAssetPath), "Content", CURRENT_LOCALIZATION + ".loc");
+                if (File.Exists(sourcePath))
+                {
+                    return sourcePath;
+                }
+            }
+
+            var knownLocale = AssetDatabase.global.GetAssets<LocaleAsset>()
+                .FirstOrDefault(l => l.localeId == CURRENT_LOCALIZATION && !string.IsNullOrEmpty(l.path));
+            if (knownLocale != null)
+            {
+                var candidate = knownLocale.path;
+                if (File.Exists(candidate))
+                {
+                    return candidate;
+                }
+            }
+
+            return null;
+        }
+
+        internal void ActivateThaiLocale()
+        {
+            if (_localizationManager == null)
+            {
+                _localizationManager = GameManager.instance.localizationManager;
+            }
+
+            if (_localizationManager == null)
+            {
+                log.Error("LocalizationManager is not available");
+                return;
+            }
+
+            if (!_localizationManager.GetSupportedLocales().Any(l => l == CURRENT_LOCALIZATION))
+            {
+                log.Error("Thai locale is not registered yet");
+                return;
+            }
+
+            if (_localizationManager.activeLocaleId != CURRENT_LOCALIZATION)
+            {
+                log.Info($"Switching active locale from {_localizationManager.activeLocaleId} to {CURRENT_LOCALIZATION}");
+            }
+
+            _localizationManager.SetActiveLocale(CURRENT_LOCALIZATION);
+            _localizationManager.ReloadActiveLocale();
+            log.Info($"🎯 Active Locale: {_localizationManager.activeLocaleId}");
+        }
+
+        private void EnsureActivationWatcher()
+        {
+            var existing = Object.FindObjectOfType<ThaiLocaleActivationWatcher>();
+            if (existing != null)
+            {
+                existing.Initialize(this);
+                return;
+            }
+
+            var watcherObject = new GameObject(WATCHER_OBJECT_NAME);
+            Object.DontDestroyOnLoad(watcherObject);
+            watcherObject.hideFlags = HideFlags.HideAndDontSave;
+            watcherObject.AddComponent<ThaiLocaleActivationWatcher>().Initialize(this);
         }
 
         /// <summary>
@@ -315,6 +359,46 @@ namespace ThaiLocale
         public void OnDispose()
         {
             log.Info(nameof(OnDispose));
+        }
+    }
+
+    internal sealed class ThaiLocaleActivationWatcher : MonoBehaviour
+    {
+        private Mod _mod;
+        private float _nextRetryAt;
+        private float _stopRetryAt;
+
+        internal void Initialize(Mod mod)
+        {
+            _mod = mod;
+            _nextRetryAt = 0f;
+            _stopRetryAt = Time.unscaledTime + 20f;
+        }
+
+        private void Update()
+        {
+            if (_mod == null)
+            {
+                return;
+            }
+
+            if (Time.unscaledTime > _stopRetryAt)
+            {
+                enabled = false;
+                return;
+            }
+
+            if (Time.unscaledTime < _nextRetryAt)
+            {
+                return;
+            }
+
+            _nextRetryAt = Time.unscaledTime + 1.5f;
+            if (GameManager.instance?.localizationManager?.activeLocaleId != Mod.ActiveLocaleId)
+            {
+                Mod.log.Info("Detected locale change away from th-TH during startup. Re-applying Thai locale.");
+                _mod.ActivateThaiLocale();
+            }
         }
     }
 }
