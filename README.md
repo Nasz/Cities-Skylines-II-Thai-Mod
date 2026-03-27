@@ -9,10 +9,10 @@ Thai Localization Mod for Cities: Skylines II
 
 ## การติดตั้งและใช้งาน
 
-1. **สมัครสมาชิก Mod** ที่ [Paradox Mods](https://mods.paradoxplaza.com/mods/79578/Windows)
-2. **เปิดเกม** Cities: Skylines II
-3. **เปลี่ยนภาษา** ไปที่ Options → Interface → Language → เลือก "ภาษาไทย"
-4. **รีสตาร์ทเกม** เพื่อให้ภาษาไทยมีผลทั้งหมด
+1. เปิดเกม Cities: Skylines II แล้วเข้าไปที่ [Paradox Mods](https://mods.paradoxplaza.com/mods/79578/Windows)
+2. ค้นหา Thai Localization แล้วกด**เพิ่ม Mod ลงใน Playset** 
+3. ไปที่แท็บ Playset เพื่อเช็คให้ชัวร์ว่าม็อด Activate หรือยัง
+4. **ออกเกมเข้าใหม่อีกครั้ง** 
 
 ### หมายเหตุ
 - Mod จะคัดลอกไฟล์ภาษาไทยไปยัง StreamingAssets โดยอัตโนมัติ
