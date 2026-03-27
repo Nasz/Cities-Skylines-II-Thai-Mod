@@ -92,13 +92,13 @@ List of supported mods:
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="" />
 	<!--Version of the mod-->
-	<ModVersion Value="0.9.3" />
+	<ModVersion Value="1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.5.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
-* Support patch 1.5.3f1.
+* Support patch 1.5.6f1.
   </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->
