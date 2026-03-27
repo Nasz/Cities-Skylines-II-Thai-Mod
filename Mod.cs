@@ -145,9 +145,27 @@ namespace ThaiLocale
                 return;
             }
 
+            if (existingLocale != null && !existingLocale.transient && existingLocale.isValid)
+            {
+                log.Info("Registering existing non-transient Thai locale asset with LocalizationManager");
+                _localizationManager.AddLocale(existingLocale);
+                _localizationManager.AddSource(existingLocale.localeId, existingLocale);
+                return;
+            }
+
             if (!File.Exists(targetLocPath))
             {
                 log.Error($"Locale file not found: {targetLocPath}");
+                return;
+            }
+
+            var streamingAssetLocale = AssetDatabase.global.GetAssets<LocaleAsset>()
+                .FirstOrDefault(l => string.Equals(l.path, targetLocPath, StringComparison.OrdinalIgnoreCase));
+            if (streamingAssetLocale != null && !streamingAssetLocale.transient && streamingAssetLocale.isValid)
+            {
+                log.Info("Registering StreamingAssets Thai locale asset with LocalizationManager");
+                _localizationManager.AddLocale(streamingAssetLocale);
+                _localizationManager.AddSource(streamingAssetLocale.localeId, streamingAssetLocale);
                 return;
             }
 
@@ -155,10 +173,10 @@ namespace ThaiLocale
             locale.database = AssetDatabase.game;
             FirstLoad(locale, targetLocPath);
             log.Info($"Loaded locale - ID: {locale.localeId}, Language: {locale.systemLanguage}, Name: {locale.localizedName}");
-            log.Info($"📍 Registered new th-TH.loc from: {targetLocPath}");
+            log.Info($"📍 Loaded transient th-TH.loc from: {targetLocPath}");
 
             _localizationManager.AddLocale(locale);
-            _localizationManager.AddSource(locale.localeId, locale);
+            log.Info("Skipped AddSource for transient locale asset to avoid invalid guid reloads");
         }
 
         private string ResolveModSourcePath(string executableAssetPath)
@@ -211,7 +229,6 @@ namespace ThaiLocale
             }
 
             _localizationManager.SetActiveLocale(CURRENT_LOCALIZATION);
-            _localizationManager.ReloadActiveLocale();
             log.Info($"🎯 Active Locale: {_localizationManager.activeLocaleId}");
         }
 
